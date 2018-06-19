@@ -1,0 +1,9 @@
+/* navbar */
+/* PK: min-height = logo height + 20px */ 
+.navbar {
+  min-height: 100px;
+}
+/* PK: height = logo height + 20px */ 
+.navbar-brand {
+  height: 100px;
+}
