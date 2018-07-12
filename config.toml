@@ -40,14 +40,19 @@ paginate = 10
     weight = 30
 
 [[menu.main]]
+    name = "Wiki"
+    url  = "/wiki/"
+    weight = 40
+
+[[menu.main]]
     name = "Ressources"
     url  = "/ressources/"
-    weight = 40
+    weight = 50
 
 #[[menu.main]]
 #    name = "Events"
 #    url  = "/calendar/"
-#    weight = 50
+#    weight = 60
 
 # Top bar social links menu
 
