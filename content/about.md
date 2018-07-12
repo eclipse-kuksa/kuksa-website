@@ -22,8 +22,8 @@ We have to use HTML tags instead:
 -->
 
 <p style="text-align:center;">
-	<a href="/img/EKuksa.png">
-		<img src="/img/EKuksa.png"
+	<a href="../img/EKuksa.png">
+		<img src="../img/EKuksa.png"
 			alt="KUKSA architecture" width="60%">
 	</a>
 </p>
