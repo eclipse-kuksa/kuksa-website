@@ -10,7 +10,7 @@ defaultContentLanguage = "en"
 # Enable Google Analytics by entering your tracking code
 # googleAnalytics = "UA-XXXXX-X"
 googleAnalytics = ""
-
+relativeURLs = true
 # Define the number of posts per page
 paginate = 10
 
