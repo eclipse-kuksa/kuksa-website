@@ -1,5 +1,5 @@
 #baseurl = "http://localhost/"
-baseurl = ""
+baseurl = "https://www.eclipse.org/kuksa/"
 title = "Eclipse KUKSA"
 theme = "hugo-universal-theme"
 #themesDir = "../.."
