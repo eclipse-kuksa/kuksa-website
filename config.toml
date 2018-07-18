@@ -1,5 +1,4 @@
-baseurl = "http://localhost/kuksa/"
-#baseurl = "https://www.eclipse.org/kuksa/"
+baseurl = "http://localhost/"
 title = "Eclipse KUKSA"
 theme = "hugo-universal-theme"
 #themesDir = "../.."
@@ -11,7 +10,7 @@ defaultContentLanguage = "en"
 # Enable Google Analytics by entering your tracking code
 # googleAnalytics = "UA-XXXXX-X"
 googleAnalytics = ""
-#relativeURLs = true -- Doesn't work. Do not change
+
 # Define the number of posts per page
 paginate = 10
 
@@ -21,12 +20,12 @@ paginate = 10
 
 [[menu.main]]
     name = "Home"
-    url  = "/../"
+    url  = "/"
     weight = 10
 
 [[menu.main]]
     name = "About"
-    url  = "/../about/"
+    url  = "/about/"
     weight = 15
 
 [[menu.main]]
@@ -40,19 +39,14 @@ paginate = 10
     weight = 30
 
 [[menu.main]]
-    name = "Wiki"
-    url  = "/wiki/"
-    weight = 40
-
-[[menu.main]]
     name = "Ressources"
     url  = "/ressources/"
-    weight = 50
+    weight = 40
 
 #[[menu.main]]
 #    name = "Events"
 #    url  = "/calendar/"
-#    weight = 60
+#    weight = 50
 
 # Top bar social links menu
 
@@ -159,9 +153,9 @@ paginate = 10
     subtitle = ""
 
 [params.recent_posts]
-    enable = false
-    #title = "Our latest news"
-    #subtitle = "Ecipse Kuksa was present at EclipseCon France 2018 and involved in (a) the research communitie's pitch session, (b) a regular 35 min talk, (c ) the research booth, and (d) an interview to be published at youtube."
+    enable = true
+    title = "Our latest news"
+    subtitle = "Ecipse Kuksa was present at EclipseCon France 2018 and involved in (a) the research communitie's pitch session, (b) a regular 35 min talk, (c ) the research booth, and (d) an interview to be published at youtube."
 
 [params.about]
     enable = true
