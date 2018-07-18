@@ -1,4 +1,9 @@
+<<<<<<< staging
 baseurl = "http://localhost/"
+=======
+#baseurl = "http://localhost/"
+baseurl = ""
+>>>>>>> 8e15a25 Fixing the menu issue
 title = "Eclipse KUKSA"
 theme = "hugo-universal-theme"
 #themesDir = "../.."
