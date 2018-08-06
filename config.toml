@@ -103,7 +103,7 @@ paginate = 10
     # Enable the contact form by entering your Formspree.io email
     email = ""
 
-    about_us = "<p>Eclipse Kuksa has its origins in the APPSTACLE project that is part of the european ITEA3 programme</p>"
+    about_us = "<p>Eclipse Kuksa has its origins in the APPSTACLE project that is part of the European ITEA3 programme</p>"
     copyright = "Copyright © 2018 The Eclipse Foundation. All Rights Reserved."
 
     # Format dates with Go's time formatting

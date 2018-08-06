@@ -19,23 +19,10 @@ This ecosystem will provide a comprehensive environment across various framework
 
 Essential to this environment will be the capabilities for collecting, storing, and analysing vehicle data in the cloud as well as the transmission of diverse information such as cloud calculation results (e.g. improved routing), software maintenance updates or even complete new applications. While many IoT solutions exist in the Eclipse IoT ecosystem, Eclipse Kuksa combines the necessary existing technologies and fills the gaps for the specific requirements of the connected embedded real-time nature of the automotive domain.
 </p>
-<h2>Test 1</h2>
-![KUKSA architecture](img/EKuksa.png){width: 60%}
-![](/img/EKuksa.png)
 
-<h2>Test 2</h2>
 <p style="text-align:center;">
-	<a href="img/EKuksa.png">
-		<img src="img/EKuksa.png"
+	<a href="EKuksa.png">
+		<img src="EKuksa.png"
 			alt="KUKSA architecture" width="60%">
 	</a>
 </p>
-<h2>Test 3</h2>
-<p style="text-align:center;">
-	<a href="{{ .Site.BaseURL}}img/EKuksa.png">
-		<img src="{{ .Site.BaseURL}}img/EKuksa.png"
-			alt="KUKSA architecture" width="60%">
-	</a>
-</p>
-
-
