@@ -156,7 +156,7 @@ paginate = 10
 [params.recent_posts]
     enable = true
     title = "Our latest news"
-    subtitle = "Ecipse Kuksa was present at EclipseCon France 2018 and involved in (a) the research communitie's pitch session, (b) a regular 35 min talk, (c ) the research booth, and (d) an interview to be published at youtube."
+    subtitle = ""
 
 [params.about]
     enable = true
