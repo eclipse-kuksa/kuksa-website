@@ -141,22 +141,22 @@ paginate = 10
 
 [params.carousel]
     enable = true
-    # All carousel items are defined in their own files. You can find example items
+    # All carroussel items are defined in their own files. You can find example items
     # at 'exampleSite/data/carousel'.
-    # For more informtion take a look at the README.
+    # For more information take a look at the README.
 
 [params.clients]
     enable = true
     # All clients are defined in their own files. You can find example items
     # at 'exampleSite/data/clients'.
-    # For more informtion take a look at the README.
+    # For more information take a look at the README.
     title = "Our Partners"
     subtitle = ""
 
 [params.recent_posts]
     enable = true
     title = "Our latest news"
-    subtitle = "Ecipse Kuksa was present at EclipseCon France 2018 and involved in (a) the research communitie's pitch session, (b) a regular 35 min talk, (c ) the research booth, and (d) an interview to be published at youtube."
+    subtitle = ""
 
 [params.about]
     enable = true
