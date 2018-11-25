@@ -19,6 +19,7 @@ draft: false
 * Rover Docs: https://app4mc-rover.github.io/rover-docs/
 * Rover API: https://app4mc-rover.github.io/rover-app/
 * Rover Telemetry UI https://github.com/app4mc-rover/rover-telemetry-ui
+* Eclipse Kuksa Wiki: https://wiki.eclipse.org/Kuksa
 
 # Builds
 
