@@ -16,6 +16,7 @@ googleAnalytics = ""
 # Define the number of posts per page
 paginate = 10
 # Adding this COMMENT for testing
+# Adding this COMMENT2 for testing
 
 [menu]
 
