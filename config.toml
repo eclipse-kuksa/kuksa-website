@@ -15,6 +15,7 @@ googleAnalytics = ""
 
 # Define the number of posts per page
 paginate = 10
+# Adding this comment for testing
 
 [menu]
 
@@ -44,7 +45,7 @@ paginate = 10
     name = "Ressources"
     url  = "/ressources/"
     weight = 40
-    
+
 [[menu.main]]
     name = "PMI Community"
     url  = "https://projects.eclipse.org/projects/iot.kuksa"
