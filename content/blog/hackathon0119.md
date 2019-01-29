@@ -1,0 +1,14 @@
+---
+title: "Hackathon0119"
+date: 2019-01-29T15:20:00+01:00
+draft: false
+banner: "img/banners/banner-9.jpg"
+---
+
+## Hackathon 2019
+
+The Eclipse Kuksa team met once again for a Hackathon in January 2019 to address Eclipse Kuksa issues and open tasks of our roadmap. 
+
+{{< tweet 1085893342448312320 >}}
+{{< tweet 1085894117723463680 >}}
+{{< tweet 1085894859389652995 >}}
