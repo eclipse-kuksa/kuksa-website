@@ -1,5 +1,5 @@
 +++
-title = "EclipseCon France 2018 - Robert Höttger interview"
+title = "EclipseCon France 2018 interview"
 date = "2018-09-18T13:07:31+02:00"
 tags = ["ecf18"]
 categories = ["dissemination"]

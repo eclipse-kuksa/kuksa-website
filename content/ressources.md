@@ -13,7 +13,7 @@ draft: false
 * Eclipse Kuksa Integration: https://github.com/eclipse/kuksa.integration
 * Eclipse Kuksa Website: https://github.com/eclipse/kuksa.website
 
-# Documentations
+# Documentation
 
 * Eclipse Che Kuksa IDE: https://gitlab-pages.idial.institute/pedro.cuadrachamorro/kuksa-ide/
 * Rover Docs: https://app4mc-rover.github.io/rover-docs/
