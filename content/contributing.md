@@ -85,6 +85,9 @@ All files contributed require headers - this will ensure the license and copyrig
 If a file has relevant functionality add the official EPL-2.0 header as described here
 https://www.eclipse.org/legal/epl-2.0/faq.php#h.q72cnghf29k0
 
+We recommend to use the releng copyright tool at:
+https://wiki.eclipse.org/Development_Resources/How_to_Use_Eclipse_Copyright_Tool
+
 
 ```
 /*********************************************************************
