@@ -13,6 +13,7 @@ In the project we agreed upon the following approach to add contributions to the
 1. Meet the Definition of Done (DoD)
 2. A review took place for the code
 3. The new feature was at least once tested manually, deployed to a running test instance
+4. Clearly outline third party dependencies
 
 ### Definition of Done
 First, we have DoD for solved issues. Please check if you met all the items in the following list:
@@ -72,12 +73,20 @@ and
 tested-by:email@domain.com
 ```
 
+### Third party dependencies
+
+If you use third party content (import / include ...), you are required to list each third party content explicitly with its version number in the documentation or your pull-request comment.
+Please note that GPL software cannot be approved for Eclipse Kuksa.
+
 ### Licensing and file header
 
 All files contributed require headers - this will ensure the license and copyright clearing at the end. Also, all contributions must have the same license as the original source.
 
 If a file has relevant functionality add the official EPL-2.0 header as described here
 https://www.eclipse.org/legal/epl-2.0/faq.php#h.q72cnghf29k0
+
+We recommend to use the releng copyright tool at:
+https://wiki.eclipse.org/Development_Resources/How_to_Use_Eclipse_Copyright_Tool
 
 
 ```
