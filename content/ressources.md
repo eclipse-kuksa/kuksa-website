@@ -4,6 +4,10 @@ date: 2018-06-29T09:46:31+02:00
 draft: false
 ---
 
+# Getting Started
+
+A brief documentation link collection can be found [here](https://github.com/eclipse/kuksa.integration#getting-started-with-eclipse-kuksa).
+
 # GitHub Repositories
 
 * Eclipse Kuksa IDE: https://github.com/eclipse/kuksa.ide
