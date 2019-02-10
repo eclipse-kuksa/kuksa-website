@@ -1,5 +1,5 @@
 ---
-title: "Ressources"
+title: "Resources"
 date: 2018-06-29T09:46:31+02:00
 draft: false
 ---
