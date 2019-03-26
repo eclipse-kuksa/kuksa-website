@@ -157,7 +157,7 @@ paginate = 10
 
 [params.carousel]
     enable = true
-    # All carroussel items are defined in their own files. You can find example items
+    # All carrousel items are defined in their own files. You can find example items
     # at 'exampleSite/data/carousel'.
     # For more information take a look at the README.
 
