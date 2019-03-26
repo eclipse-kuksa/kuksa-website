@@ -10,7 +10,7 @@ The Turkish consortium  composed an article which is published in the monthly pu
  
 Check it out page 6-7, of the following pdf file: <a href = "https://www.otokar.com.tr/assets/pdf/otokar-hatti.pdf">Otokar Hatti</a>.
 
-The article is in Turkish demonstrating 
+The article is in Turkish 
  
 - Erdem Ergen
   KoçSistem
