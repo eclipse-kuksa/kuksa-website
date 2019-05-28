@@ -34,4 +34,5 @@ A brief documentation link collection can be found [here](https://github.com/ecl
 * Available at: https://itea3.org/project/appstacle.html
 
 # Videos
-* <a href="https://www.youtube.com/watch?v=tD8pt7WMbuQ&t=3s">Automotive meets IoT: Innovating your future vehicle </a> Sebastian Schildt
+* <a href="https://www.youtube.com/watch?v=tD8pt7WMbuQ&t=3s">Automotive meets IoT: Innovating your future vehicle </a> Sebastian Schildt, Bosch
+* <a href="https://youtu.be/FuIaJ2tlnRE">Bridging Eclipse SUMO with Eclipse Kuksa</a> Philipp Heisig, Fachhochschule Dortmund
