@@ -10,12 +10,22 @@ A brief documentation link collection can be found [here](https://github.com/ecl
 
 # GitHub Repositories
 
+The code is provided in the following Github repositories. Please note that
+issues are tracked and discussed in the repository of the respective sub-project. 
+
 * Eclipse Kuksa IDE: https://github.com/eclipse/kuksa.ide
+  Browser-based IDE used by developers to create applications for the Eclipse Kuksa in-vehicle 
+  platform.
 * Eclipse Kuksa Apps: https://github.com/eclipse/kuksa.apps
+  Contains applications to showcase use-cases of Eclipse Kuksa
 * Eclipse Kuksa Cloud: https://github.com/eclipse/kuksa.cloud
+  The cloud-backend of Eclipse Kuksa, including the App Store
 * Eclipse Kuksa In-Vehicle: https://github.com/eclipse/kuksa.invehicle
+  The in-vehicle platform of Eclipse Kuksa
 * Eclipse Kuksa Integration: https://github.com/eclipse/kuksa.integration
+  Integration tests for Eclipse Kuksa
 * Eclipse Kuksa Website: https://github.com/eclipse/kuksa.website
+  The sources of the Eclipse Kuksa website
 
 # Documentation
 
@@ -24,14 +34,23 @@ A brief documentation link collection can be found [here](https://github.com/ecl
 * Rover API: https://app4mc-rover.github.io/rover-app/
 * Rover Telemetry UI https://github.com/app4mc-rover/rover-telemetry-ui
 * Eclipse Kuksa Wiki: https://wiki.eclipse.org/Kuksa
+* Entry in Eclipse Foundation Project List: https://projects.eclipse.org/projects/iot.kuksa
+
+## Mailing list
+
+Contact the project developers via the project's "dev" list.
+
+* https://dev.eclipse.org/mailman/listinfo/kuksa-dev
 
 # Builds
 
-* Website Jenkins: https://jenkins.eclipse.org/kuksa/
+* Jenkins Website: https://jenkins.eclipse.org/kuksa/
 
 # APPSTACLE Deliverables and more
 
-* Available at: https://itea3.org/project/appstacle.html
+Eclipse Kuksa was created as part of the APPSTACLE project. More information
+regarding the project and the deliverables is available at
+https://itea3.org/project/appstacle.html .
 
 # Videos
 * <a href="https://www.youtube.com/watch?v=tD8pt7WMbuQ&t=3s">Automotive meets IoT: Innovating your future vehicle </a> Sebastian Schildt, Bosch
