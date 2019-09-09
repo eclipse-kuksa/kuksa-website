@@ -51,8 +51,8 @@ First, we have DoD for solved issues. Please check if you met all the items in t
   * Please write brief and useful commit messages: Separate the subject from body with a blank line because the subject line
     is shown in the git history and should summarize the commit body. Use the body to explain what and why vs. how.
     https://chris.beams.io/posts/git-commit/#seven-rules has more tips and details.
-  * Before you push your commits to a repository, squash your commits into one or more logical units of work.
-    No dozens of hourly/daily commits in your pull request, please. In the ideal case, a feature is contained in one commit.
+  * Before you push your commits to a repository, you can squash your commits into one or more logical units of work, e.g. if
+    you want to add a new feature solely in a single commit.
     * The [Pro Git book](https://git-scm.com/book/en/v2/) has a great section on [Rewriting 
     History](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History) and a section 
     on [Squashing](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History#_squashing).
