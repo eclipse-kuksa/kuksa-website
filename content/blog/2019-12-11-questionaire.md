@@ -6,8 +6,8 @@ categories = ["Dissemination"]
 banner = "img/banners/2019-12-11-banner-kdq.png"
 +++
 
-# Help us elaborating Eclipse Kuksa...
+# Help us with your feedback to further develop Eclipse Kuksa ..
 
-... and take some time as a developer to give us some feedback according to our ecosystem: In-Vehicle, Cloud, and IDE via https://forms.gle/XbhaugGQexb4pexi9 
+... take a few moments as a developer to give us feedback from our ecosystem: In-Vehicle, Cloud, and IDE via https://forms.gle/XbhaugGQexb4pexi9 
 
 Thank you!
