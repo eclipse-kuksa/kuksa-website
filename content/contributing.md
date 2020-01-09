@@ -4,12 +4,17 @@ date: 2019-01-29T09:46:31+02:00
 draft: false
 ---
 
+**Get in touch** ! There is the 
+### [kuksa-dev mailing list](https://accounts.eclipse.org/mailing-list/kuksa-dev) and a 
+### **bi-weekly** [Zoom meeting](https://eclipse.zoom.us/j/537310990) every Thursday on even calendar weeks from 1-2pm (CET/CEST).
+
+-----------
+-----------
+
+
 # HowTo contribute to Eclipse Kuksa
 Great that you are interested in contributing to Eclipse Kuksa. 
 We really looking forward to receive your contribution!
-
-Get in touch! There is the [kuksa-dev mailing list](https://accounts.eclipse.org/mailing-list/kuksa-dev)
-and a weekly [Zoom meeting](https://eclipse.zoom.us/j/537310990), every Thursday 1-2pm (CET/CEST).
 
 In the project we agreed upon the following approach to add contributions to the project.
 
