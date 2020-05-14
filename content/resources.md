@@ -8,13 +8,15 @@ draft: false
 
 A brief documentation link collection can be found [here](https://github.com/eclipse/kuksa.integration#getting-started-with-eclipse-kuksa).
 
+The *Eclipse PMI Community* website can be found [here](https://projects.eclipse.org/projects/iot.kuksa). You will find  information about Eclipse Kuksa's idea, who is involved, developer resources, releases, and contact information there.
+
 # GitHub Repositories
 
 The code is provided in the following Github repositories. Please note that
-issues are tracked and discussed in the repository of the respective sub-project. 
+issues are tracked and discussed in the repository of the respective sub-project.
 
 * Eclipse Kuksa IDE: https://github.com/eclipse/kuksa.ide
-  Browser-based IDE used by developers to create applications for the Eclipse Kuksa in-vehicle 
+  Browser-based IDE used by developers to create applications for the Eclipse Kuksa in-vehicle
   platform.
 * Eclipse Kuksa Apps: https://github.com/eclipse/kuksa.apps
   Contains applications to showcase use-cases of Eclipse Kuksa
@@ -26,6 +28,7 @@ issues are tracked and discussed in the repository of the respective sub-project
   Integration tests for Eclipse Kuksa
 * Eclipse Kuksa Website: https://github.com/eclipse/kuksa.website
   The sources of the Eclipse Kuksa website
+* Eclipse Kuksa VAL: https://github.com/eclipse/kuksa.val Vehicle Abstraction Layer
 
 # Documentation
 
