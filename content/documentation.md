@@ -205,8 +205,9 @@ Update the fields
 <p style="text-align:center;">
  <a href="/kuksa/docimgs/bt_setup.png">
    <img src="/kuksa/docimgs/bt_setup.png" width="60%" alt="Bluetooth connection setup"/>
- </a><br/>
+ </a>
 </p>
+
 Now, build image with Kuksa layers:
 ```
     source meta-agl/scripts/aglsetup.sh -m raspberrypi3 agl-demo agl-netboot agl-appfw-smack ; bitbake agl-demo-platform
