@@ -494,40 +494,13 @@ The overall details on how to build and run W3C as well as details of W3C VIS Se
 
 # 3. Eclipse Kuksa Cloud Platform
 
+The Eclipse Kuksa project consists of a cloud backend. This backend provides services that interact with the vehicles and thus enable the owners to manage their vehicles and provide interfaces to third-party services.
+
 ## 3.1 Getting started with the cloud platform
 
-The [Eclipse Kuksa Cloud Repo](https://github.com/eclipse/kuksa.cloud/tree/master/deployment) contains various scripts and components setup and deploy an Eclipse Kuksa cloud. The scripts assume a running Kubernetes cluster, which can be configured using `kubectl`. More information regarding the parameters of the scripts can be found within the respective script file of the [link](https://github.com/eclipse/kuksa.cloud/tree/master/deployment).
+The [Eclipse Kuksa Cloud Repository](https://github.com/eclipse/kuksa.cloud/tree/master) contains the source code for some of the services and descriptors to set up an instance of the cloud backend. The two services developed within the Kuksa Cloud repository are an [app store](https://github.com/eclipse/kuksa.cloud/tree/master/kuksa-appstore) and a [Hono-InfluxDB-Connector](https://github.com/eclipse/kuksa.cloud/tree/master/utils/hono-influxdb-connector) which writes data from Eclipse Hono to an InfluxDB. Please refer to the Readme files in the linked directories for more details on how to use and extend the two services. There is also an example application to showcase the integration with a third-party service. The particular example is part of a use case where the owner gets an e-mail once the car senses an error which it would signal with a [malfunction indication light (MIL)](https://github.com/eclipse/kuksa.cloud/tree/master/examples/malfunction-indicator-light).
 
-## 3.2 Structure
-
-The deployment scripts are divided into the following parts:
-
-1. Azure for Azure-specific configuration that provides the basis of Kubernetes.
-2. Eclipse HawkBit enables the deployment of the corresponding software update components, in particular the update server. Note that this step requires the installation of the command line tool kompose. Installation instructions can be found at http://kompose.io/
-3. Eclipse Hono enables the deployment of a messaging infrastructure.
-4. Kubernetes provides functions for the Kubernetes deployment of the Kuksa cloud.
-5. Utils scripts that are included by other parts of the deployment infrastructure (e.g. handling static IP-addresses for the services). It is possible to set static IP-addresses and DNS entries for deployed services. For more details on that configuration see the Readme.md file in the utils directory.
-
-## 3.3 Required System Configuration
-
-*    Java 8
-*    Maven
-*    Spring-Boot and other dependencies(data-jpa, feign client,pagination)
-*    Vaadin
-*    Swagger (for Rest API documentation)
-
-## 3.4 Prerequisites
-
-Just run AppStoreApplication.java class.Spring boot has an embedded Tomcat instance. Spring boot uses *Tomcat7* by default, if you change Tomcat version, you have to define these configuration in *pom.xml*. But you have a few options to have embedded web server deployment instead of Tomcat like Jetty(HTTP (Web) server and Java Servlet container) or Java EE Application Server. You have to configure these replacements from default to new ones in *pom.xml*.
-For detail information, follow the [link](https://github.com/eclipse/kuksa.cloud/tree/master/kuksa-appstore).
-
-## 3.2 Configuring the Cloud platform
-
-- The Microsoft Azure Deployment contains the IP adresses and DNS names. This [link](https://github.com/eclipse/kuksa.cloud/tree/master/deployment/azure) explains the deployment of Azure.
-- Similarly, the [Eclipse hawkBit Deployment](https://github.com/eclipse/kuksa.cloud/tree/master/deployment/eclipse-hawkbit) repo link consists of neccessary deployment steps.  
-- Deployment of Eclipse hawkBit can be found from the repo link [here](https://github.com/eclipse/kuksa.cloud/tree/master/deployment/eclipse-hawkbit).
-- Eclipse Hono Deployment is available from this [link](https://github.com/eclipse/kuksa.cloud/tree/master/deployment/eclipse-hono).
-- Kubernetes-specific functionality details can be accessed from the repo link [here](https://github.com/eclipse/kuksa.cloud/tree/master/deployment/kubernetes).
+In addition, the Kuksa Cloud Repository provides scripts and resources to enable developers and operators to setup their own instance of the Kuksa cloud on a running Kubernetes instance. This is also important because the Kuksa Clouds makes use of a number of Open Source projects like Eclipse Hono, Eclipse hawkBit or Keycloak instead of solving the same challenges with custom solutions. More information on the deployment is located in the [deployment] (https://github.com/eclipse/kuksa.cloud/tree/master/deployment) folder. The recomended way for the deployment is to use the [Helm chart] (https://github.com/eclipse/kuksa.cloud/tree/master/deployment/helm). As mentioned above, the deployment of the Kuksa cloud requires [Kubernetes] (kubernetes.io) which is either available through many cloud providers or needs to be setup before.
 
 <!-- WHAT IS THIS?
 **Property:**
