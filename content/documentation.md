@@ -5,7 +5,9 @@ tags = ["Eclipse Kuksa Documentation"]
 toc = true
 +++
 
-This documentation covers 1. the Eclipse Kuksa IDE, 2. the Eclipse Kukse In-Vehicle Platform, and 3. the Eclipse Kuksa Cloud Platform.
+Eclipse Kuksa builds a platform to connect vehicles to the cloud and enable the development of specific applications of connected driving. This documentation covers the core pillars as follows: 1. the Eclipse Kuksa IDE, 2. the Eclipse Kukse In-Vehicle Platform, and 3. the Eclipse Kuksa Cloud Platform.
+
+This documentation intends to give a high-level overview of the Eclipse Kuksa components. For more detailed information and documentation on the different aspects, we recommend consulting the respective repositories and their Readme files. The development around Eclipse Kuksa divides into seven repositories. An overview of these repositories and what they focus on is available on the Kuksa Website under [Resources](https://www.eclipse.org/kuksa/resources/).
 
 # 1. Eclipse Kuksa IDE
 
@@ -504,105 +506,6 @@ The [Eclipse Kuksa Cloud Repository](https://github.com/eclipse/kuksa.cloud/tree
 In addition, the Kuksa Cloud Repository provides scripts and resources to enable developers and operators to setup their own instance of the Kuksa cloud on a running Kubernetes instance. This is also important because the Kuksa Clouds makes use of a number of Open Source projects like Eclipse Hono, Eclipse hawkBit or Keycloak instead of solving the same challenges with custom solutions. More information on the deployment is located in the [deployment] (https://github.com/eclipse/kuksa.cloud/tree/master/deployment) folder. The recomended way for the deployment is to use the [Helm chart] (https://github.com/eclipse/kuksa.cloud/tree/master/deployment/helm). As mentioned above, the deployment of the Kuksa cloud requires [Kubernetes] (kubernetes.io) which is either available through many cloud providers or needs to be setup before.
 
 <!-- WHAT IS THIS?
-**Property:**
-1. **Stores and manages the software and data artifacts related to the apps that are installed on the in-vehicle platform**
-    * Initiates and controls the communication with the app provider backends
-    * Interacts with potential payment providers, depending on the payment methods applied (Credit/Debit Card, SMS)
-    * Stores the data related to registered users (vehicle owners and app developers)
-    * Central hub for the interaction with app developers
-    * Provides app data to the in-vehicle platforms via the device management back-end
-    * Scan app software and data artifacts regarding vulnerabilities and malware
-    * Question: Should in-app transactions be possible?
-2. **Process**
-    * User input via the Marketplace Frontend
-    * Vehicle owner core data (Name, Address, Supported payment methods, User vehicle mappings (1 User, N Vehicles))
-    * App developer core data (Name, Company, Address, Supported payment methods, Apps provided)
-    * Transactional data regarding buying and returning apps (Transaction ID, Transaction status, Payment method applied, Vehicle Identification Number, Version of the app transferred
-
-   **Provide**
-    * Software and data artifacts that are provided by the app developers
-    * Software (Compiled source code)
-    * Data (Licenses, Documentation, Version history, Supported in-vehicle software platforms, Supported in-vehicle hardware platforms)
-    * API/Frontend for app developer interaction (Transferring software and data artifacts to the backend, Receiving account and app related information, e.g. number of downloads or total revenue per app)
-3. **Input**
-    * Marketplace frontend (see informations listed above)
-    * Payment provider backends (Handling of payment transactions)
-    * App developer backends (Receiving data and software artifacts) Output
-    * Marketplace frontend (Deliver data requested by the frontend, e.g., results for search queries)
-    * In-vehicle platforms, via Device Management component (Software and dataartifcats regarding specific apps)
-    * App developer backends (Transaction and evaluation data)
-    * Identity Management (Requests for user authentication and authorisation)
-4. **There should be only a single instance within the cloud backend**
-5. **Deployment configuration regarding micro services**
-        * External IP addresses
-        * Ports
-        * Connection to other services, e.g, Identity Management
-
-### *Marketplace Frontend*
-
-**Property:**
-1. **Provides visual interface that enable the interaction with the Marketplace Backend**
-    * Vehicle owners can search and order apps as well as initiate their transfer to the in-vehicle platform
-    * Allows app developers to access app storage and monitoring data
-    * Allows vechicle owners and app developers to edit their core data / profiles
-2. **Process**
-    * Core data (vehicle owner and app developer) entered via the visual interface
-    * Query database regarding apps available for the specific in-vehicle platform
-    * Software and data artifacts send by the app developers
-    * Data referring to payment transaction, e.g., data exchange with payment providers
-
-   **Provide**
-    * Visual interface depicts information regarding
-        * Vehicle owner and app developer core data
-        * App transactions
-        * App search query results
-3. **Input**
-    * Vehicle owner
-        * Enter and update core data
-        * Fill out order forms
-        * Search apps via query masks
-    * App developer
-        * Enter and update core data
-        * Upload apps
-        * Retrieve monitoring data
-
-   **Output**
-    * Vehicle owner
-        * Display core data
-        * Display app search queries
-    * App developer
-        * Display core data
-        * Display monitoring data
-4. **There exists only a single services within the backend**
-    * There might be several container instances behind this service
-5. **Deployment configuration regarding micro services**
-      * External IP addresses
-      * Ports
-      * Connection to other services, e.g, Marketplace Backend
-
-In addition, the Eclipse Kuksa Appstore contains:
-
-### *Build Eclipse Kuksa App store*
-
-* Purpose:
-    * Build a Docker image for the Eclipse Kuksa Appstore and push it to a Docker registry
-* Options:
-    * DOCKER_REGISTRY_SERVER: Address of the Docker registry server, e.g. running on Microsoft Azure.
-    * DOCKER_REGISTRY_USERNAME: Username to sign in to the Docker registry.
-    * DOCKER_REGISTRY_PASSWORD: Password to sign in to the Docker registry.
-    * DOCKER_REGISTRY_EMAIL: Email to sign in to the Docker registry.
-* Stages:
-    * Clone the Kuksa Git repository
-    * Build with Maven
-    * Build Docker image
-    * Push Docker image to Docker registry
-    * Final cleanup
-    * Remove the clones Git repository
-
-### *Deploy Eclipse Kuksa Appstore*
-
-The pre-requisites and deployment workaround for Kuksa app store are available [here](https://github.com/eclipse/kuksa.cloud/tree/master/kuksa-appstore).
-
 
 **Kuksa documentation version**
 
