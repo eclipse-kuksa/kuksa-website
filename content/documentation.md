@@ -99,7 +99,7 @@ To set up Eclipse Che Kuksa, the following steps are necessary. If one wants to 
 
 - Create a new workspace with Automotive Grade Linux (AGL) as selected stack
 - Go to "Profile" → "Preferences" → "Remote Targets" and add a new Remote Target with the device IP and the according User, e.g. "root". Then select the Target.
-- Go to Profile → Preferences → Yocto Settings and add a new SDK with a Name, e.g. "agl-rover", a Version, e.g. "1.0.0" and a link to an appropriate AGL SDK, e.g. the AGL [Rover](https://github.com/app4mc-rover) SDK from "https://owncloud.idial.institute/s/3rjXHYTRS5HNGYN", as Download Link. Then select the added Yocto SDK. To avoid connection trouble, open the Terminal and ssh into the appropriate Device: `ssh < User >@< IP >`.
+- Go to Profile → Preferences → Yocto Settings and add a new SDK with a Name, e.g. "agl-rover", a Version, e.g. "1.0.0" and a link to an appropriate AGL SDK, e.g. the AGL [Rover](https://github.com/app4mc-rover) SDK from "https://owncloud.idial.institute/s/YiS5wceBmSj4gyr", as Download Link. Then select the added Yocto SDK. To avoid connection trouble, open the Terminal and ssh into the appropriate Device: `ssh < User >@< IP >`.
 
 ### 1.3.3 Model-driven Development of AGL Applications and Services
 
