@@ -38,25 +38,19 @@ paginate = 10
     weight = 20
 
 [[menu.main]]
-    name = "Forum"
-    url  = "https://www.eclipse.org/forums/index.php/f/386/"
-    weight = 30
-
-[[menu.main]]
     name = "Resources"
     url  = "/resources/"
     weight = 40
-
-[[menu.main]]
-    name = "PMI Community"
-    url  = "https://projects.eclipse.org/projects/iot.kuksa"
-    weight = 45
 
 [[menu.main]]
     name = "Contributing"
     url  = "/contributing/"
     weight = 40
 
+[[menu.main]]
+    name = "Documentation"
+    url = "/documentation/"
+    weight = 17
 
 #[[menu.main]]
 #    name = "Events"
