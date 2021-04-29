@@ -15,20 +15,23 @@ The *Eclipse PMI Community* website can be found [here](https://projects.eclipse
 The code is provided in the following Github repositories. Please note that
 issues are tracked and discussed in the repository of the respective sub-project.
 
-* Eclipse Kuksa IDE: https://github.com/eclipse/kuksa.ide
+* Eclipse Kuksa.IDE: https://github.com/eclipse/kuksa.ide
   Browser-based IDE used by developers to create applications for the Eclipse Kuksa in-vehicle
   platform.
-* Eclipse Kuksa Apps: https://github.com/eclipse/kuksa.apps
+* Eclipse Kuksa.Apps: https://github.com/eclipse/kuksa.apps
   Contains applications to showcase use-cases of Eclipse Kuksa
-* Eclipse Kuksa Cloud: https://github.com/eclipse/kuksa.cloud
+* Eclipse Kuksa.Cloud: https://github.com/eclipse/kuksa.cloud
   The cloud-backend of Eclipse Kuksa, including the App Store
-* Eclipse Kuksa In-Vehicle: https://github.com/eclipse/kuksa.invehicle
+* Eclipse Kuksa.In-Vehicle: https://github.com/eclipse/kuksa.invehicle
   The in-vehicle platform of Eclipse Kuksa
-* Eclipse Kuksa Integration: https://github.com/eclipse/kuksa.integration
+* Eclipse Kuksa.Integration: https://github.com/eclipse/kuksa.integration
   Integration tests for Eclipse Kuksa
-* Eclipse Kuksa Website: https://github.com/eclipse/kuksa.website
+* Eclipse Kuksa.VAL: https://github.com/eclipse/kuksa.val Vehicle Abstraction Layer
+* Eclipse Kuksa.Hardware: https://github.com/eclipse/kuksa.hardware
+Hardware schematics and manufacturinng files for Kuksa compliant hardware dongles.
+* Eclipse Kuksa.Website: https://github.com/eclipse/kuksa.website
   The sources of the Eclipse Kuksa website
-* Eclipse Kuksa VAL: https://github.com/eclipse/kuksa.val Vehicle Abstraction Layer
+
 
 # Documentation
 
