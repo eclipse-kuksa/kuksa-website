@@ -71,11 +71,11 @@ paginate = 10
 #    url = "http://facebook.com"
 #    pre = "<i class='fa fa-2x fa-facebook'></i>"
 
-[[menu.topbar]]
-    weight = 3
-    name = "Twitter"
-    url = "http://twitter.com/Appstacle"
-    pre = "<i class='fa fa-2x fa-twitter'></i>"
+#[[menu.topbar]]
+#    weight = 3
+#    name = "Twitter"
+#    url = "http://twitter.com/Appstacle"
+#    pre = "<i class='fa fa-2x fa-twitter'></i>"
 
 [[menu.topbar]]
     weight = 4
