@@ -42,10 +42,10 @@ paginate = 10
     url  = "/resources/"
     weight = 40
 
-[[menu.main]]
-    name = "Contributing"
-    url  = "/contributing/"
-    weight = 40
+#[[menu.main]]
+#    name = "Contributing"
+#    url  = "/contributing/"
+#    weight = 40
 
 [[menu.main]]
     name = "Documentation"
