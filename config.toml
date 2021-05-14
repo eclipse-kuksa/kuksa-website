@@ -117,8 +117,8 @@ paginate = 10
 
 	# logo = "img/kuksa-logo-h-209x79.png"
     # logo_small = "img/kuksa-logo-h-209x79.png"
-	logo = "img/kuksa-incubation-logo-h-428x128.png"
-	logo_small = "img/kuksa-incubation-logo-h-428x128.png"
+	logo = "img/kuksa-logo-h.png"
+	logo_small = "img/kuksa-logo-h-209x79.png"
    #address = """<p><strong>Universal Ltd.</strong>
    #     <br>13/25 New Avenue
    #     <br>Newtown upon River
