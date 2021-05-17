@@ -42,15 +42,15 @@ paginate = 10
     url  = "/resources/"
     weight = 40
 
-[[menu.main]]
-    name = "Contributing"
-    url  = "/contributing/"
-    weight = 40
+#[[menu.main]]
+#    name = "Contributing"
+#    url  = "/contributing/"
+#    weight = 40
 
-[[menu.main]]
-    name = "Documentation"
-    url = "/documentation/"
-    weight = 17
+#[[menu.main]]
+#    name = "Documentation"
+#    url = "/documentation/"
+#    weight = 17
 
 #[[menu.main]]
 #    name = "Events"
@@ -71,11 +71,11 @@ paginate = 10
 #    url = "http://facebook.com"
 #    pre = "<i class='fa fa-2x fa-facebook'></i>"
 
-[[menu.topbar]]
-    weight = 3
-    name = "Twitter"
-    url = "http://twitter.com/Appstacle"
-    pre = "<i class='fa fa-2x fa-twitter'></i>"
+#[[menu.topbar]]
+#    weight = 3
+#    name = "Twitter"
+#    url = "http://twitter.com/Appstacle"
+#    pre = "<i class='fa fa-2x fa-twitter'></i>"
 
 [[menu.topbar]]
     weight = 4
@@ -117,8 +117,8 @@ paginate = 10
 
 	# logo = "img/kuksa-logo-h-209x79.png"
     # logo_small = "img/kuksa-logo-h-209x79.png"
-	logo = "img/kuksa-incubation-logo-h-428x128.png"
-	logo_small = "img/kuksa-incubation-logo-h-428x128.png"
+	logo = "img/kuksa-logo-h.png"
+	logo_small = "img/kuksa-logo-h-209x79.png"
    #address = """<p><strong>Universal Ltd.</strong>
    #     <br>13/25 New Avenue
    #     <br>Newtown upon River
