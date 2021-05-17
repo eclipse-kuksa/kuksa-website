@@ -170,4 +170,4 @@ paginate = 10
 
 [params.about]
     enable = true
-    title = "ITEA3 Project"
+    title = "About Eclipse KUKSA"
