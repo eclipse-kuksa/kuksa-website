@@ -31,7 +31,7 @@ issues are tracked and discussed in the repository of the respective sub-project
 | KUKSA.website            | https://github.com/eclipse/kuksa.website  | The sources for the website you are reading now |
 
 
-## Dormant/archived projects
+## Dormant projects
 This repositories contain components that have been developed in the past, but are currently not actively maintained or whose functionality has been integrated into active components.
 
 
