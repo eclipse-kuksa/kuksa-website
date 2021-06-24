@@ -18,7 +18,7 @@ With this shift to more computational power and faster innovation cycles, value 
 {{< emph >}} Linux, Windows and OS X probably share a lot more code between each other than vehicles from any two OEMs. {{< /emph >}}
 
 
-Establishing shared standards and softere infrastructure for vehicle software ecosystems ranging from the vehicle itself  to the cloud increases development speed, saves cost and helps establishing markets and open platforms to various automotive players from OEMs to suppliers to third party service providers without compromising safety or security.
+Establishing shared standards and software infrastructure for vehicle software ecosystems ranging from the vehicle itself  to the cloud increases development speed, saves cost and helps establishing markets and open platforms to various automotive players from OEMs to suppliers to third party service providers without compromising safety or security.
 
 The open Eclipse KUKSA project aims to provide such shared building blocks for connected car ecosystems that can be shared across the industry, providing performance, quality and scalability for base services that can act a solid foundation for a variety of competing products and services. In that sense KUKSA components encourage cooperation on the plumbing, enabling competition and faster innovation cycles on the customer-value creating procelain.
 
