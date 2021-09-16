@@ -7,7 +7,7 @@ draft: false
 # Get in touch
 
 ### Zoom Meeting
-There is the  **bi-weekly** [Zoom meeting](https://eclipse.zoom.us/j/537310990) every Thursday on even calendar weeks from 1-2pm (CET/CEST).
+There is the  **bi-weekly** [Zoom meeting](https://eclipse.zoom.us/j/537310990) every Thursday on odd calendar weeks from 1-2pm (CET/CEST).
 
 ### Chat
 You can find us on Chat in [Gitter Channel](https://gitter.im/kuksa-val/community), or if you are a Matrix user using the [Gitter-Matrix bridge](https://matrix.to/#/#kuksa-val_community:gitter.im).
