@@ -7,7 +7,7 @@ draft: false
 # Get in touch
 
 ### Bi-weekly Meeting
-There is the  **bi-weekly** [KUKSA dev/user call on Teams](https://teams.microsoft.com/l/meetup-join/19%3ameeting_NzdkNjI0M2EtY2ZiMi00NWVmLTkwYWMtMzA5YjFkOGRiNTRh%40thread.v2/0?context=%7b%22Tid%22%3a%220ae51e19-07c8-4e4b-bb6d-648ee58410f4%22%2c%22Oid%22%3a%226f423f08-93f7-4d3a-9de7-0d9848db0f8a%22%7d) every Thursday on odd calendar weeks from 1-2pm (CET/CEST). 
+There is the  **bi-weekly** [KUKSA dev/user call on Zoom](https://eclipse.zoom.us/j/87644929505?pwd=cTRpYklVaS9xYjlhMXRtbS9IN0FCQT09) every Thursday on odd calendar weeks from 1-2pm (CET/CEST). 
 
 
 ### Chat
