@@ -2,8 +2,6 @@
 title: "About"
 date: 2021-02-20T10:08:18+01:00
 draft: false
-type: about
-banner: "/img/nothing.png"
 summary: "A modern car contains more than 200 millions lines of code, many of them running on powerful vehicle computers. With this shift to more computational power and faster innovation cycles, value creation for a vehicle - that is a mobility service provider -  shifts to software. Today these systems are still developed in silos by each car manufacturer or OEM in-house. However, maintaining 100s of millions of lines of code in separate silos for separate product lines is neither time- nor cost effective. The open Eclipse KUKSA project aims to provide shared building blocks for connected car ecosystems usbale across the industry, providing performance, quality and scalability."
 ---
 
