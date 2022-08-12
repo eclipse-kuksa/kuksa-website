@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
 
-  {{ partial "head.html" . }}
+  <head>
+    {{ partial "headers.html" . }}
+    {{ partial "custom_headers.html" . }}
+  </head>
 
   <body>
 
     <div id="all">
+
+        {{ partial "top.html" . }}
 
         {{ partial "nav.html" . }}
 
@@ -18,7 +23,7 @@
 
                     <div class="col-md-9" id="blog-listing-medium">
 
-                        {{ $paginator := .Paginate (where .Data.Pages "Type" "blog") }}
+                        {{ $paginator := .Paginate (where .Data.Pages "Type" "in" .Site.Params.mainSections) }}
                         {{ range $paginator.Pages }}
                         <section class="post">
                             <div class="row">
@@ -37,25 +42,35 @@
                                     <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
                                     <div class="clearfix">
                                         <p class="author-category">
-                                          {{ if isset .Params "author" }}
-                                          {{ i18n "authorBy" }} <a href="#">{{ .Params.author }}</a>
+                                          {{ if isset .Params "authors" }}
+					  {{ i18n "authorBy" }} {{ range $index, $author := .Params.authors }}{{ if $index }}, {{ end }}<a href="{{ (printf "%s/%s" ("authors" | relLangURL) ($author | urlize)) }}">{{ $author }}</a>{{ end }}
                                           {{ end }}
                                           {{ if isset .Params "categories" }}
                                           {{ if gt (len .Params.categories) 0 }}
-                                          in <a href="{{ "categories/" | relURL }}{{ index .Params.categories 0 | urlize | lower }}">{{ index .Params.categories 0 }}</a>
+                                          in 
+                                          {{ range $index, $category := .Params.categories }}{{ if $index }}, {{ end }}
+                                              <a href="{{ "categories/" | relLangURL }}{{ . | urlize | lower }}">{{ $category }}</a>{{ end }}
                                           {{ end }}
                                           {{ end }}
 
                                         </p>
                                         {{ if isset .Params "date" }}
+
+                                        {{ $createdAt := .Date.Format .Site.Params.date_format }}
+                                        {{ range $index, $month := slice "January" "February" "March" "April" "May" "June" "July" "August" "September" "October" "November" "December" }}
+                                            {{ $createdAt = replace $createdAt $month (i18n $month) }}
+                                        {{ end }}
+
                                         <p class="date-comments">
-                                            <a href="{{ .Permalink }}"><i class="far fa-calendar"></i> {{ .Date.Format .Site.Params.date_format }}</a>
+                                            <a href="{{ .Permalink }}"><i class="far fa-calendar"></i> {{ $createdAt }}</a>
                                         </p>
                                         {{ end }}
                                     </div>
+                                    {{ if not .Site.Params.recent_posts.hide_summary }}
                                     <p class="intro">{{ .Summary }}</p>
                                     <p class="read-more"><a href="{{ .Permalink }}" class="btn btn-template-main">{{ i18n "continueReading" }}</a>
                                     </p>
+                                    {{ end }}
                                 </div>
                             </div>
                         </section>

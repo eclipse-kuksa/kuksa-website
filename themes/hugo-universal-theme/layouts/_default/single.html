@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
 
-  {{ partial "head.html" . }}
+  <head>
+    {{ partial "headers.html" . }}
+    {{ partial "custom_headers.html" . }}
+  </head>
 
   <body>
 
     <div id="all">
+
+        {{ partial "top.html" . }}
 
         {{ partial "nav.html" . }}
 
@@ -22,9 +27,17 @@
 
                         {{ if or .Params.author .Params.date }}
                           <p class="text-muted text-uppercase mb-small text-right">
-                            {{ if .Params.author }}{{ i18n "authorBy" }} <a href="#">{{ .Params.author }}</a>{{ end }}
+                            {{ if isset .Params "authors" }}
+			      {{ i18n "authorBy" }} {{ range $index, $author := .Params.authors }}{{ if $index }}, {{ end }}<a href="{{ (printf "%s/%s" ("authors" | relLangURL) ($author | urlize)) }}">{{ $author }}</a>{{ end }}
+                            {{ end }}
                             {{ if and .Params.author .Params.date }} | {{ end }}
-                            {{ if .Params.date }}{{ .Date.Format .Site.Params.date_format }}{{ end }}
+                            {{ if .Params.date }}
+                              {{ $createdAt := .Date.Format .Site.Params.date_format }}
+                              {{ range $index, $month := slice "January" "February" "March" "April" "May" "June" "July" "August" "September" "October" "November" "December" }}
+                                  {{ $createdAt = replace $createdAt $month (i18n $month) }}
+                              {{ end }}
+                              {{ $createdAt }}
+                            {{ end }}
                           </p>
                         {{ end }}
 

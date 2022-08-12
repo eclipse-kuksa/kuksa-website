@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
 
-  {{ partial "head.html" . }}
+  <head>
+    {{ partial "headers.html" . }}
+    {{ partial "custom_headers.html" . }}
+  </head>
 
   <body>
 
     <div id="all">
+        {{ partial "top.html" . }}
 
         {{ partial "nav.html" . }}
 
