@@ -13,7 +13,8 @@ In the driver authentication scenario presented in our video, the authorization 
 
 To learn more about this use case, you can view the video on YouTube. And, watch this space for a link to the platform download!
  
-<a class="eclipsefdn-video" href="https://youtu.be/eZHSCXSc2wc"></a>
+ {{< youtube eZHSCXSc2wc >}}
+
 
 - Erdem Ergen
   KoçSistem
