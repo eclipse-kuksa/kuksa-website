@@ -41,13 +41,13 @@
   translation: "Categorias"
 
 - id: searchTitle
-  translation: "Buscar"
+  translation: "Procurar"
 
 - id: tagsTitle
   translation: "Etiquetas"
 
 - id: continueReading
-  translation: "Continuar lendo"
+  translation: "Continuar a ler"
 
 - id: readMore
   translation: "Leia mais"
