@@ -8,7 +8,10 @@
 
 .navbar-brand img {
   height: 100%;
+}
 
+#heading-breadcrumbs {
+  background: url('../img/texture-bw.png') center center repeat;
 }
 /* PK: height = logo height + 20px */ 
 /*.navbar-brand {
