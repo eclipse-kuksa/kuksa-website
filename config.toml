@@ -38,6 +38,11 @@ paginate = 10
     weight = 20
 
 [[menu.main]]
+    name = "Talks & Videos"
+    url  = "/publications/"
+    weight = 30
+
+[[menu.main]]
     name = "Resources"
     url  = "/resources/"
     weight = 40

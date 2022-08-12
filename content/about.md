@@ -27,14 +27,5 @@ To learn more about KUKSA components and activites head over to [our resources p
 
 
 
-![KUKSA architecture](./EKuksa.png)
+<!-- ![KUKSA architecture](./EKuksa.png) -->
 
-
-<!--
-<p style="text-align:center;">
-	<a href="EKuksa.png">
-		<img src="EKuksa.png"
-			alt="KUKSA architecture" width="60%">
-	</a>
-</p>
--->
