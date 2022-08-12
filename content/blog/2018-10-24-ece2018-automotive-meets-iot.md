@@ -10,5 +10,4 @@ Sebastian Schildt (Robert Bosch GmbH) made a very interesting and well received 
 
 Check it out!
 
-
-<a class="eclipsefdn-video" href="https://www.youtube.com/watch?v=tD8pt7WMbuQ&t=3s"></a>
+{{< youtube tD8pt7WMbuQ >}}
