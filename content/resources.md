@@ -47,14 +47,3 @@ This repositories contain components that have been developed in the past, but a
 | KUKSA.In-Vehicle         | https://github.com/eclipse/kuksa.invehicle | The in-vehicle platform of Eclipse Kuksa. The KUKSA hardware has been moved to [KUKSA.hardware](https://github.com/eclipse/kuksa.hardware), the VISS dataserver for accessing in-vehicle data is further developed in [KUKSA.val](https://github.com/eclipse/kuksa.val ). For a modern integrated SDV distribution check [Eclipse LEDA](https://eclipse-leda.github.io/leda/) | 
 
 
-
-
-# Talks & Videos
-
-* 04/2022 [KUKSA CANOPi Hardware for SDV development](https://www.youtube.com/watch?v=y6zAF-tSS2Q)
-* 06/2021 [Eclipse KUKSA.val for SCR Anti-Tampering Monitoring in Heavy Vehicles](https://www.youtube.com/watch?v=20U8bWwWfgw), ([Slides](https://events.eclipse.org/2021/saam-mobility/presentations/D2-02-Presentation.pdf)) at Eclipse SAAM 2021 by Sebastian Schildt, Bosch
-* 08/2020 [Eclipse Kuksa.val DBC Feeder Demo](https://www.youtube.com/watch?v=nTzmDDy3iwQ)
-* 05/2019 [Bridging Eclipse SUMO with Eclipse Kuksa](https://youtu.be/FuIaJ2tlnRE) by Philipp Heisig, Fachhochschule Dortmund
-* 03/2019 [Appstacle Use Case: Remote Driver Authentication](https://youtu.be/eZHSCXSc2wc). KUKSA PoC by OTOKAR and Netaş
-* 11/2018 [Automotive meets IoT: Innovating your future vehicle](https://www.youtube.com/watch?v=tD8pt7WMbuQ) by Sebastian Schildt, Bosch
-* 05/2018 [APPSTACLE interview](https://www.youtube.com/watch?v=qCyBjZnGK2E) with Robert Höttger Fachhochschule Dortmund - University of Applied Science and Art at Eclipsecon France
