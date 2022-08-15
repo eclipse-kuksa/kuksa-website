@@ -28,7 +28,7 @@ paginate = 10
     weight = 10
 
 [[menu.main]]
-    name = "About"
+    name = "Vision"
     url  = "/about/"
     weight = 15
 
@@ -38,7 +38,7 @@ paginate = 10
     weight = 20
 
 [[menu.main]]
-    name = "Talks & Videos"
+    name = "Videos & Publications"
     url  = "/publications/"
     weight = 30
 

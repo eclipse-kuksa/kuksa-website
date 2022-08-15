@@ -17,6 +17,7 @@ draft: false
 * 05/2018 [APPSTACLE interview](https://www.youtube.com/watch?v=qCyBjZnGK2E) with Robert Höttger Fachhochschule Dortmund - University of Applied Science and Art at Eclipsecon France
 
 # Publications
+* ITEA4 Eureka Cluster on Software Innovation,  ITEA Success story APPSTACLE Vehicle connectivity for novel applications, 2022 https://itea4.org/project/success-story/appstacle-succes-story-1.html
 * D. Grewe, M. Wagner, U. Ambalavanan, L. Liu, N. Nayak and S. Schildt, "On the Design of an Information-Centric Networking Extension for IoT APIs," 2021 IEEE 94th Vehicular Technology Conference (VTC2021-Fall), 2021, https://ieeexplore.ieee.org/abstract/document/9625470
 * Junhyung Ki, Sebastian Schildt, Andreas Hastall Sven Erik Jeroschewski, Robert Hottger, Eclipse KUKSA.val for SCR Anti-Tampering Monitoring in Heavy Vehicles, 2nd Eclipse Research International Conference on Security, Artificial Intelligence, Architecture and Modelling for Next Generation Mobility, 2021, http://ceur-ws.org/Vol-3028/D2-02-ESAAMM_2021_paper_3.pdf 
 * Hirvonsalo, Harri & Seppänen, Pertti (2021) On deployment of Eclipse Kuksa as a framework for an intelligent moving test platform for research of autonomous vehicles. In: Pasi Kuvaja et al. (eds.) CEUR workshop proceedings Vol. 3028, Proceedings of the 2nd Eclipse Research International Conference on Security, Artificial Intelligence, Architecture and Modelling for Next Generation Mobility (pp. 38-50), http://ceur-ws.org/Vol-3028/D2-03-ESAAMM_2021_paper_8.pdf
