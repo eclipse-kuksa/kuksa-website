@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Implementation on Eclipse KUKSA</title>
+    <link>http://localhost/kuksa.website/tags/implementation/</link>
+    <description>Recent content in Implementation on Eclipse KUKSA</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 05 Jun 2018 21:49:20 +0200</lastBuildDate><atom:link href="http://localhost/kuksa.website/tags/implementation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Initial Contributions</title>
+      <link>http://localhost/kuksa.website/blog/2018/06/05/2018-06-05-initialcontribution/</link>
+      <pubDate>Tue, 05 Jun 2018 21:49:20 +0200</pubDate>
+      
+      <guid>http://localhost/kuksa.website/blog/2018/06/05/2018-06-05-initialcontribution/</guid>
+      <description>Eclipse Kuksa&amp;rsquo;s initial contribution was successfully submitted to the GitHub repositories. We are working on a roadmap to present planned activities for upcoming contributions. Apart from the three major Kuksa parts, i.e.,
+kuksa.invehicle kuksa.cloud kuksa.ide additional repositories will cover specific use-cases, builds, tests, and other features within:
+kuksa.apps kuksa.integration </description>
+    </item>
+    
+  </channel>
+</rss>
