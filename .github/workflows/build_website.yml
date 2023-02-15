@@ -23,7 +23,7 @@ jobs:
         # if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/master' }}
         uses: JamesIves/github-pages-deploy-action@4.1.4
         with:
-          branch: built_website # The branch the action should deploy to.
+          branch: staging # The branch the action should deploy to.
           folder: public # The folder the action should deploy.
           commit-message: Auto-deploy docs built from commit ${{ github.sha }}
       - name: Deploy website
