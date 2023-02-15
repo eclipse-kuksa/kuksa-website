@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>SUMO on Eclipse KUKSA</title>
-    <link>http://localhost/kuksa.website/tags/sumo/</link>
+    <link>http://eclipse.github.io/kuksa.website/tags/sumo/</link>
     <description>Recent content in SUMO on Eclipse KUKSA</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost/kuksa.website/tags/sumo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="http://eclipse.github.io/kuksa.website/tags/sumo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>When Eclipse Kuksa meets Eclipse SUMO [VIDEO]</title>
-      <link>http://localhost/kuksa.website/blog/2019/05/28/2019-05-28-when-kuksa-meets-sumo/</link>
+      <link>http://eclipse.github.io/kuksa.website/blog/2019/05/28/2019-05-28-when-kuksa-meets-sumo/</link>
       <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost/kuksa.website/blog/2019/05/28/2019-05-28-when-kuksa-meets-sumo/</guid>
+      <guid>http://eclipse.github.io/kuksa.website/blog/2019/05/28/2019-05-28-when-kuksa-meets-sumo/</guid>
       <description>This video features an approach for connecting the Eclipse SUMO track simulation with the open source connected vehicle ecosystem Eclipse Kuksa. More precisely, Eclipse SUMO is used to simulate traffic scenarios including microscopic properties like the position or emission. The generated data of each vehicle is then be sent to the message gateway of the Kuksa IoT Cloud platform and delegated to an according example service that consumes the data.</description>
     </item>
     
