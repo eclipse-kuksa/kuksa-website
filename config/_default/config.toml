@@ -1,6 +1,3 @@
-baseurl = "http://localhost/kuksa.website/"
-#baseurl = "http://localhost/"
-#baseurl = ""
 title = "Eclipse KUKSA"
 theme = "hugo-universal-theme"
 #themesDir = "../.."
