@@ -18,15 +18,7 @@ jobs:
       - name: Generate website
         run: |
           hugo -s .
-      - name: Deploy github pages website
-        # Only deploy docs if this was a push to master
-        # if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/master' }}
-        uses: JamesIves/github-pages-deploy-action@4.1.4
-        with:
-          branch: staging # The branch the action should deploy to.
-          folder: public # The folder the action should deploy.
-          commit-message: Auto-deploy docs built from commit ${{ github.sha }}
-      - name: Deploy website
+      - name: Deploy
         # Only deploy docs if this was a push to master
         if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/master' }}
         uses: JamesIves/github-pages-deploy-action@4.1.4
