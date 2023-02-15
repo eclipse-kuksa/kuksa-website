@@ -21,6 +21,6 @@ jobs:
       - name: Deploy github pages website
         uses: JamesIves/github-pages-deploy-action@4.1.4
         with:
-          branch: staging # The branch the action should deploy to.
+          branch: preview # The branch the action should deploy to.
           folder: public # The folder the action should deploy.
           commit-message: Auto-deploy docs built from commit ${{ github.sha }}
