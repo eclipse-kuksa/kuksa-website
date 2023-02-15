@@ -1,4 +1,4 @@
-baseurl = "http://localhost/kuksa/"
+baseurl = "http://localhost/kuksa-website/"
 #baseurl = "http://localhost/"
 #baseurl = ""
 title = "Eclipse KUKSA"
