@@ -2,37 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://eclipse.github.io/kuksa.website/blog/</loc>
+    <lastmod>2023-02-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://eclipse.github.io/kuksa.website/tags/can/</loc>
+    <lastmod>2023-02-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://eclipse.github.io/kuksa.website/categories/</loc>
+    <lastmod>2023-02-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://eclipse.github.io/kuksa.website/</loc>
+    <lastmod>2023-02-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://eclipse.github.io/kuksa.website/categories/implementation/</loc>
+    <lastmod>2023-02-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://eclipse.github.io/kuksa.website/blog/2023/02/17/2023-02-17-fosdem2023/</loc>
+    <lastmod>2023-02-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://eclipse.github.io/kuksa.website/tags/kuksa.val/</loc>
+    <lastmod>2023-02-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://eclipse.github.io/kuksa.website/tags/obd/</loc>
+    <lastmod>2023-02-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://eclipse.github.io/kuksa.website/tags/open-hardware/</loc>
+    <lastmod>2023-02-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://eclipse.github.io/kuksa.website/tags/</loc>
+    <lastmod>2023-02-17T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://eclipse.github.io/kuksa.website/publications/</loc>
     <lastmod>2022-08-12T09:46:31+02:00</lastmod>
   </url><url>
-    <loc>http://eclipse.github.io/kuksa.website/blog/</loc>
-    <lastmod>2022-03-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://eclipse.github.io/kuksa.website/tags/can/</loc>
-    <lastmod>2022-03-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://eclipse.github.io/kuksa.website/categories/</loc>
-    <lastmod>2022-03-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://eclipse.github.io/kuksa.website/</loc>
-    <lastmod>2022-03-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://eclipse.github.io/kuksa.website/categories/implementation/</loc>
-    <lastmod>2022-03-24T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://eclipse.github.io/kuksa.website/blog/2022/03/24/2022-03-24-canopi/</loc>
-    <lastmod>2022-03-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://eclipse.github.io/kuksa.website/tags/kuksa.val/</loc>
-    <lastmod>2022-03-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://eclipse.github.io/kuksa.website/tags/obd/</loc>
-    <lastmod>2022-03-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://eclipse.github.io/kuksa.website/tags/open-hardware/</loc>
-    <lastmod>2022-03-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://eclipse.github.io/kuksa.website/tags/</loc>
     <lastmod>2022-03-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://eclipse.github.io/kuksa.website/categories/dissemination/</loc>
