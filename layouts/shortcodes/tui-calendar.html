@@ -1,0 +1,78 @@
+{{ $src := .Get "src" }}
+<link rel="stylesheet" href="https://uicdn.toast.com/calendar/latest/toastui-calendar.min.css" />
+<div>
+    <button onclick="prevWeek()">Prev Week</button>
+    <button onclick="nextWeek()">Next Week</button>
+    <button onclick="thisWeek()">This Week</button>
+</div>
+<div id="calendar" style="height: 600px;"></div>
+<script src="https://uicdn.toast.com/calendar/latest/toastui-calendar.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/later/1.2.0/later.min.js"></script>
+<script>
+    var calendar = new tui.Calendar('#calendar', {
+        isReadOnly: true,
+        week: {
+            taskView: false,
+            eventView: ['time'],
+            hourStart: 11,
+            hourEnd: 16
+        },
+        template: {
+            timegridDisplayPrimayTime: function (time) {
+                return moment(time).format('HH:mm');
+            }
+        },
+        // Add a click event listener to the calendar
+        usageStatistics: false,
+        disableClick: false,
+    });
+
+    // Recurring event rule
+    var textSched = 'at 11:00 am on Thursday every 2 weeks';
+    var schedule = later.parse.text(textSched);
+
+    // Create recurring events based on the rule
+    var start = new Date();
+    var end = new Date();
+    end.setHours(end.getHours() + 1); // 1 hour duration
+    var occurrences = later.schedule(schedule).next(1000); // Get next 10 occurrences
+    var recurringEvents = occurrences.map((date, i) => {
+        var end = new Date(date);
+        end.setHours(date.getHours() + 1)
+        return {
+
+            id: '1' + i,
+            calendarId: '1',
+            title: 'KUKSA Developer Meeting',
+            category: 'time',
+            dueDateClass: '',
+            start: date,
+            end: end
+        };
+    });
+    calendar.createEvents(recurringEvents);
+
+    calendar.on("clickEvent", function (event) {
+        var date = event.event.start.d.toDate();
+        // Format the date as dd-mm-yyyy and convert it to a string
+        const formattedDate = date.toLocaleDateString('en-GB', { day: '2-digit', month: '2-digit', year: 'numeric' }).replace(/\//g, '-');
+        var url = "https://github.com/eclipse/kuksa.val/wiki/" + formattedDate + "-Community-developer-meeting";
+        var win = window.open(url, '_blank');
+        win.focus();
+    });
+
+    function prevWeek() {
+        calendar.prev();
+    }
+
+    function nextWeek() {
+        calendar.next();
+    }
+
+    function thisWeek() {
+        var currentDate = new Date();
+        var start = new Date(currentDate.getFullYear(), currentDate.getMonth(), currentDate.getDate() - currentDate.getDay() + 1);
+        var end = new Date(currentDate.getFullYear(), currentDate.getMonth(), currentDate.getDate() - currentDate.getDay() + 8);
+        calendar.setDate(start, end);
+    }
+</script>
