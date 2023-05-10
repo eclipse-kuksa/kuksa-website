@@ -1,17 +1,18 @@
 {{ $src := .Get "src" }}
 <link rel="stylesheet" href="https://uicdn.toast.com/calendar/latest/toastui-calendar.min.css" />
 <div>
-    <button onclick="prevWeek()">Prev Week</button>
-    <button onclick="nextWeek()">Next Week</button>
-    <button onclick="thisWeek()">This Week</button>
+    <button onclick="prevMonth()">Prev Month</button>
+    <button onclick="nextMonth()">Next Month</button>
+    <button onclick="thisMonth()">This Month</button>
 </div>
 <div id="calendar" style="height: 600px;"></div>
 <script src="https://uicdn.toast.com/calendar/latest/toastui-calendar.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/later/1.2.0/later.min.js"></script>
 <script>
     var calendar = new tui.Calendar('#calendar', {
+        defaultView: 'month',
         isReadOnly: true,
-        week: {
+        month: {
             taskView: false,
             eventView: ['time'],
             hourStart: 11,
@@ -20,7 +21,7 @@
         template: {
             timegridDisplayPrimayTime: function (time) {
                 return moment(time).format('HH:mm');
-            }
+            },
         },
         // Add a click event listener to the calendar
         usageStatistics: false,
@@ -61,18 +62,20 @@
         win.focus();
     });
 
-    function prevWeek() {
+    function prevMonth() {
         calendar.prev();
     }
 
-    function nextWeek() {
+    function nextMonth() {
         calendar.next();
     }
 
-    function thisWeek() {
+    function thisMonth() 
+    {
         var currentDate = new Date();
         var start = new Date(currentDate.getFullYear(), currentDate.getMonth(), currentDate.getDate() - currentDate.getDay() + 1);
         var end = new Date(currentDate.getFullYear(), currentDate.getMonth(), currentDate.getDate() - currentDate.getDay() + 8);
         calendar.setDate(start, end);
     }
+
 </script>
