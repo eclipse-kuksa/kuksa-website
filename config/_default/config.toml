@@ -30,6 +30,11 @@ paginate = 10
     weight = 15
 
 [[menu.main]]
+    name = "Quickstart"
+    url = "/quickstart"
+    weight = 16
+
+[[menu.main]]
     name = "Blog"
     url  = "/blog/"
     weight = 20
@@ -135,4 +140,9 @@ paginate = 10
     enable = true
     title = "About Eclipse KUKSA"
 
+[[module.imports]]
+path = "github.com/eclipse/kuksa.val"
 
+  [[module.imports.mounts]]
+  source = "doc/quickstart.md"
+  target = "content/quickstart.md"
