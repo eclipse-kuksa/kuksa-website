@@ -208,5 +208,8 @@
   </url><url>
     <loc>http://eclipse.github.io/kuksa.website/blog/2017/10/26/2017-10-26-oulanka/</loc>
     <lastmod>2017-10-26T13:39:46+02:00</lastmod>
+  </url><url>
+    <loc>http://eclipse.github.io/kuksa.website/quickstart/</loc>
+    <priority>0</priority>
   </url>
 </urlset>

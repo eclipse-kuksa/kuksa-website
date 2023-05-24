@@ -314,5 +314,19 @@ Presentation is available here.</description>
       <description>At the project meeting in Oulanka, Finnland, the APPSTACLE consortium collected and coordinated a variety of topics to work on in the upcoming time. Use-case scenarios, in-vehicle development activities, network protocols, cloud infrastructure, security demands, dissemination and exploitation and other topics were in focus for the project partners. The various discussions, cooperations, ideas, and further activities were defined in order to set the basis to reach the goals of APPSTACLE and form Eclipse Kuksa, i.</description>
     </item>
     
+    <item>
+      <title></title>
+      <link>http://eclipse.github.io/kuksa.website/quickstart/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://eclipse.github.io/kuksa.website/quickstart/</guid>
+      <description>KUKSA.val Quickstart The quickest possible way to get KUKSA.val up and running
+Starting broker First we want to run KUKSA.val databroker
+docker run -it --rm --net=host ghcr.io/eclipse/kuksa.val/databroker:master Reading and Writing VSS data via CLI You can interact with the VSS datapoints using the cli clients. The first option is databroker-cli.
+This is, how you start it:
+docker run -it --rm --net=host ghcr.io/eclipse/kuksa.val/databroker-cli:master Here is how you can use it:
+client&amp;gt; get Vehicle.</description>
+    </item>
+    
   </channel>
 </rss>
