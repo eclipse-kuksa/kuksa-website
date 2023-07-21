@@ -6,6 +6,7 @@ draft: false
 
 # Videos & Demos
 
+- 07/2023 [Evolving VSS Usage in AGL](https://www.youtube.com/watch?v=YL3pYKsNzZQ) by Scott Murray, Konsulko Group at AGL All Member Meeting
 - 03/2023 [Vehicle Signaling Specification and KUKSA.val in AGL](https://www.youtube.com/watch?v=RhSocQDu_DY) by Scott Murray, Konsulko Group at AGL All Member Meeting
 - 03/2023 [Introduction to COVESA Vehicle Signal Specification (VSS)](https://www.youtube.com/watch?v=aZImZiq0mgw) by Erik Jaegervall, Bosch at VSS introduction session of COVESA
 - 04/2022 [KUKSA CANOPi Hardware for SDV development](https://www.youtube.com/watch?v=y6zAF-tSS2Q)
