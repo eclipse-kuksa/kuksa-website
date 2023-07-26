@@ -36,7 +36,7 @@
 
 
 
-<link href="/kuksa.website/css/custom.css?1684925707" rel="stylesheet">
+<link href="/kuksa.website/css/custom.css?1690363897" rel="stylesheet">
 
 
 
@@ -243,13 +243,14 @@
                         <div>
                           <h1 id="kuksaval-quickstart">KUKSA.val Quickstart</h1>
 <p>The quickest possible way to get KUKSA.val up and running</p>
+<p><em>Note: The examples in this document do not use TLS or access control.</em></p>
 <h2 id="starting-broker">Starting broker</h2>
 <p>First we want to run KUKSA.val databroker</p>
-<pre tabindex="0"><code>docker run -it --rm --net=host ghcr.io/eclipse/kuksa.val/databroker:master 
+<pre tabindex="0"><code>docker run -it --rm --net=host ghcr.io/eclipse/kuksa.val/databroker:master --insecure
 </code></pre><h2 id="reading-and-writing-vss-data-via-cli">Reading and Writing VSS data via CLI</h2>
 <p>You can interact with the VSS datapoints using the cli clients. The first option is databroker-cli.</p>
 <p>This is, how you start it:</p>
-<pre tabindex="0"><code>docker run -it --rm --net=host ghcr.io/eclipse/kuksa.val/databroker-cli:master       
+<pre tabindex="0"><code>docker run -it --rm --net=host ghcr.io/eclipse/kuksa.val/databroker-cli:master
 </code></pre><p>Here is how you can use it:</p>
 <pre tabindex="0"><code>client&gt; get Vehicle.Speed 
 -&gt; Vehicle.Speed: ( NotAvailable )
@@ -299,9 +300,9 @@ gRPC channel disconnected.
 </span></span><span style="display:flex;"><span>        print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Feeding Vehicle.Speed to </span><span style="color:#e6db74">{</span>speed<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
 </span></span><span style="display:flex;"><span>        time<span style="color:#f92672">.</span>sleep(<span style="color:#ae81ff">1</span>)
 </span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;Finished.&#34;</span>)
-</span></span></code></pre></div><p>Do a <code>pip install kuksa-client</code> and start with
-python ./speed_provider.py</p>
-<h3 id="subscribing-data">Subscribing data:</h3>
+</span></span></code></pre></div><p>Do a <code>pip install kuksa-client</code> and start with</p>
+<pre tabindex="0"><code>python ./speed_provider.py
+</code></pre><h3 id="subscribing-data">Subscribing data:</h3>
 <p>Create a file <code>speed_subscriber.py</code> with the following content</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">from</span> kuksa_client.grpc <span style="color:#f92672">import</span> VSSClient
 </span></span><span style="display:flex;"><span>
@@ -312,15 +313,15 @@ python ./speed_provider.py</p>
 </span></span><span style="display:flex;"><span>    ]):
 </span></span><span style="display:flex;"><span>        speed <span style="color:#f92672">=</span> updates[<span style="color:#e6db74">&#39;Vehicle.Speed&#39;</span>]<span style="color:#f92672">.</span>value
 </span></span><span style="display:flex;"><span>        print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Received updated speed: </span><span style="color:#e6db74">{</span>speed<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
-</span></span></code></pre></div><p>Do a <code>pip install kuksa-client</code> and start with
-python ./speed_subscriber.py</p>
-<h2 id="faq--notes">FAQ &amp; Notes</h2>
-<p>Frequently anticipated questions and tipps.</p>
+</span></span></code></pre></div><p>Do a <code>pip install kuksa-client</code> and start with</p>
+<pre tabindex="0"><code>python ./speed_subscriber.py
+</code></pre><h2 id="faq--notes">FAQ &amp; Notes</h2>
+<p>Frequently anticipated questions and tips.</p>
 <h3 id="this-is-not-working-on-os-x">This is not working on OS X</h3>
-<p>Unfortunately OS X has a bug that does not allow you to use the databroker default 55555. To change when starting the server:</p>
-<pre tabindex="0"><code>docker run -it --rm --net=host ghcr.io/eclipse/kuksa.val/databroker:master  --port 55556
+<p>Unfortunately OS X has a bug that does not allow you to use the Databroker default port 55555. To change when starting the server:</p>
+<pre tabindex="0"><code>docker run -it --rm --net=host ghcr.io/eclipse/kuksa.val/databroker:master  --port 55556 --insecure
 </code></pre><p>Using the databroker-cli</p>
-<pre tabindex="0"><code>docker run -it --rm --net=host -e KUKSA_DATA_BROKER_PORT=55556 ghcr.io/eclipse/kuksa.val/databroker-cli:master                   
+<pre tabindex="0"><code>docker run -it --rm --net=host -e KUKSA_DATA_BROKER_PORT=55556 ghcr.io/eclipse/kuksa.val/databroker-cli:master
 </code></pre><p>Using kuksa-client CLI</p>
 <pre tabindex="0"><code>docker run -it --rm --net=host ghcr.io/eclipse/kuksa.val/kuksa-client:master --port 55556 --protocol grpc --insecure 
 </code></pre><h3 id="docker-desktop-host-networking-not-supported">Docker desktop: Host networking not supported</h3>
@@ -328,14 +329,14 @@ python ./speed_subscriber.py</p>
 <p>However when using Docker Desktop on Mac OS or Windows, <a href="https://docs.docker.com/network/host/">host networking is not supported</a>.</p>
 <p>One alternative is using a Docker distribution, that does support it even on Mac OS or Windows. <a href="https://rancherdesktop.io">Rancher Desktop</a> is an alternative that does.</p>
 <p>With Docker Desktop you can still forward ports, so this should work:</p>
-<pre tabindex="0"><code>docker run -it --rm  --publish 55556:55556 ghcr.io/eclipse/kuksa.val/databroker:master  --port 55556
+<pre tabindex="0"><code>docker run -it --rm  --publish 55556:55556 ghcr.io/eclipse/kuksa.val/databroker:master  --port 55556 --insecure
 </code></pre><p>From your host computer you can now reach databroker at <code>127.0.0.1:55556</code>. To connect from another container, you need to use your computers IP address (<strong>not</strong> 127.0.0.1), i.e. to use the client</p>
 <pre tabindex="0"><code>docker run -it --rm  -e KUKSA_DATA_BROKER_PORT=55556 -e KUKSA_DATA_BROKER_ADDR=&lt;YOUR_IP&gt; ghcr.io/eclipse/kuksa.val/databroker-cli:master 
 </code></pre><p>Recent versions of the databroker-cli also support command line arguments, so you can also write</p>
 <pre tabindex="0"><code>docker run -it --rm   ghcr.io/eclipse/kuksa.val/databroker-cli:master  --server http://&lt;YOUR_IP&gt;:55556
 </code></pre><h3 id="feedset-why-is-my-data-not-updated">feed/set: Why is my data not updated?</h3>
 <p>Some VSS points are &ldquo;sensors&rdquo;, e.g. Vehicle.Speed. You can read/get Vehicle speed, but we are not expecting to be able to influence it via VSS.
-Historically components, that gather the actual vehicle speed from some sensors/busses in a vehicle and providing a VSS  representation to kuksa.val have been called <code>feeders</code>. Hence, to update the current speed in the Rust-cli, you use</p>
+Historically components, that gather the actual vehicle speed from some sensors/busses in a vehicle and providing a VSS representation to kuksa.val have been called <code>feeders</code>. Hence, to update the current speed in the Rust-cli, you use</p>
 <pre tabindex="0"><code>feed Vehicle.Speed 200
 </code></pre><p>while in the Python-cli you use</p>
 <pre tabindex="0"><code>set Vehicle.Speed 200
