@@ -32,7 +32,7 @@ issues are tracked and discussed in the repository of the respective sub-project
 | Eclipse KUKSA.val.services        |https://github.com/eclipse/kuksa.val.services       | Set of example vehicle services  |
 | Eclipse KUKSA.hardware   | https://github.com/eclipse/kuksa.hardware |Hardware schematics and manufacturinng files for the KUKSA SDV prototpying platform. This is a PI-compatible hardware providing access to CAN, OBD and cellular connectivity  |
 | Eclipse KUKSA.cloud      | https://github.com/eclipse/kuksa.cloud    | The cloud-backend of Eclipse KUKSA, including the App Store. Provides helmcharts for easy deployment of the KUKSA.cloud |
-| KUKSA.website            | https://github.com/eclipse/kuksa.website  | The sources for the website you are reading now |
+| KUKSA-website            | https://github.com/eclipse-kuksa/kuksa-website  | The sources for the website you are reading now |
 
 
 ## Dormant projects
