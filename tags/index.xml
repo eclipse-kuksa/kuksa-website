@@ -2,269 +2,269 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Eclipse KUKSA</title>
-    <link>http://eclipse.github.io/kuksa.website/tags/</link>
+    <link>https://eclipse-kuksa.github.io/kuksa-website/tags/</link>
     <description>Recent content in Tags on Eclipse KUKSA</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://eclipse.github.io/kuksa.website/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 17 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://eclipse-kuksa.github.io/kuksa-website/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CAN</title>
-      <link>http://eclipse.github.io/kuksa.website/tags/can/</link>
+      <link>https://eclipse-kuksa.github.io/kuksa-website/tags/can/</link>
       <pubDate>Fri, 17 Feb 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://eclipse.github.io/kuksa.website/tags/can/</guid>
+      <guid>https://eclipse-kuksa.github.io/kuksa-website/tags/can/</guid>
       <description></description>
     </item>
     
     <item>
       <title>KUKSA.val</title>
-      <link>http://eclipse.github.io/kuksa.website/tags/kuksa.val/</link>
+      <link>https://eclipse-kuksa.github.io/kuksa-website/tags/kuksa.val/</link>
       <pubDate>Fri, 17 Feb 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://eclipse.github.io/kuksa.website/tags/kuksa.val/</guid>
+      <guid>https://eclipse-kuksa.github.io/kuksa-website/tags/kuksa.val/</guid>
       <description></description>
     </item>
     
     <item>
       <title>OBD</title>
-      <link>http://eclipse.github.io/kuksa.website/tags/obd/</link>
+      <link>https://eclipse-kuksa.github.io/kuksa-website/tags/obd/</link>
       <pubDate>Fri, 17 Feb 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://eclipse.github.io/kuksa.website/tags/obd/</guid>
+      <guid>https://eclipse-kuksa.github.io/kuksa-website/tags/obd/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Open Hardware</title>
-      <link>http://eclipse.github.io/kuksa.website/tags/open-hardware/</link>
+      <link>https://eclipse-kuksa.github.io/kuksa-website/tags/open-hardware/</link>
       <pubDate>Fri, 17 Feb 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://eclipse.github.io/kuksa.website/tags/open-hardware/</guid>
+      <guid>https://eclipse-kuksa.github.io/kuksa-website/tags/open-hardware/</guid>
       <description></description>
     </item>
     
     <item>
       <title>J1939</title>
-      <link>http://eclipse.github.io/kuksa.website/tags/j1939/</link>
+      <link>https://eclipse-kuksa.github.io/kuksa-website/tags/j1939/</link>
       <pubDate>Thu, 24 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://eclipse.github.io/kuksa.website/tags/j1939/</guid>
+      <guid>https://eclipse-kuksa.github.io/kuksa-website/tags/j1939/</guid>
       <description></description>
     </item>
     
     <item>
       <title>SCR</title>
-      <link>http://eclipse.github.io/kuksa.website/tags/scr/</link>
+      <link>https://eclipse-kuksa.github.io/kuksa-website/tags/scr/</link>
       <pubDate>Thu, 24 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://eclipse.github.io/kuksa.website/tags/scr/</guid>
+      <guid>https://eclipse-kuksa.github.io/kuksa-website/tags/scr/</guid>
       <description></description>
     </item>
     
     <item>
       <title>DBC</title>
-      <link>http://eclipse.github.io/kuksa.website/tags/dbc/</link>
+      <link>https://eclipse-kuksa.github.io/kuksa-website/tags/dbc/</link>
       <pubDate>Tue, 18 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://eclipse.github.io/kuksa.website/tags/dbc/</guid>
+      <guid>https://eclipse-kuksa.github.io/kuksa-website/tags/dbc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Demo</title>
-      <link>http://eclipse.github.io/kuksa.website/tags/demo/</link>
+      <link>https://eclipse-kuksa.github.io/kuksa-website/tags/demo/</link>
       <pubDate>Tue, 18 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://eclipse.github.io/kuksa.website/tags/demo/</guid>
+      <guid>https://eclipse-kuksa.github.io/kuksa-website/tags/demo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Feeder</title>
-      <link>http://eclipse.github.io/kuksa.website/tags/feeder/</link>
+      <link>https://eclipse-kuksa.github.io/kuksa-website/tags/feeder/</link>
       <pubDate>Tue, 18 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://eclipse.github.io/kuksa.website/tags/feeder/</guid>
+      <guid>https://eclipse-kuksa.github.io/kuksa-website/tags/feeder/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Eclipse Kuksa Documentation</title>
-      <link>http://eclipse.github.io/kuksa.website/tags/eclipse-kuksa-documentation/</link>
+      <link>https://eclipse-kuksa.github.io/kuksa-website/tags/eclipse-kuksa-documentation/</link>
       <pubDate>Sat, 25 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://eclipse.github.io/kuksa.website/tags/eclipse-kuksa-documentation/</guid>
+      <guid>https://eclipse-kuksa.github.io/kuksa-website/tags/eclipse-kuksa-documentation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Eclipse Kuksa @ EclipseCon19</title>
-      <link>http://eclipse.github.io/kuksa.website/tags/eclipse-kuksa-eclipsecon19/</link>
+      <link>https://eclipse-kuksa.github.io/kuksa-website/tags/eclipse-kuksa-eclipsecon19/</link>
       <pubDate>Tue, 21 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://eclipse.github.io/kuksa.website/tags/eclipse-kuksa-eclipsecon19/</guid>
+      <guid>https://eclipse-kuksa.github.io/kuksa-website/tags/eclipse-kuksa-eclipsecon19/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Eclipse Kuksa</title>
-      <link>http://eclipse.github.io/kuksa.website/tags/eclipse-kuksa/</link>
+      <link>https://eclipse-kuksa.github.io/kuksa-website/tags/eclipse-kuksa/</link>
       <pubDate>Fri, 20 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://eclipse.github.io/kuksa.website/tags/eclipse-kuksa/</guid>
+      <guid>https://eclipse-kuksa.github.io/kuksa-website/tags/eclipse-kuksa/</guid>
       <description></description>
     </item>
     
     <item>
       <title>gateway</title>
-      <link>http://eclipse.github.io/kuksa.website/tags/gateway/</link>
+      <link>https://eclipse-kuksa.github.io/kuksa-website/tags/gateway/</link>
       <pubDate>Mon, 28 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://eclipse.github.io/kuksa.website/tags/gateway/</guid>
+      <guid>https://eclipse-kuksa.github.io/kuksa-website/tags/gateway/</guid>
       <description></description>
     </item>
     
     <item>
       <title>taskit</title>
-      <link>http://eclipse.github.io/kuksa.website/tags/taskit/</link>
+      <link>https://eclipse-kuksa.github.io/kuksa-website/tags/taskit/</link>
       <pubDate>Mon, 28 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://eclipse.github.io/kuksa.website/tags/taskit/</guid>
+      <guid>https://eclipse-kuksa.github.io/kuksa-website/tags/taskit/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Netas</title>
-      <link>http://eclipse.github.io/kuksa.website/tags/netas/</link>
+      <link>https://eclipse-kuksa.github.io/kuksa-website/tags/netas/</link>
       <pubDate>Thu, 19 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://eclipse.github.io/kuksa.website/tags/netas/</guid>
+      <guid>https://eclipse-kuksa.github.io/kuksa-website/tags/netas/</guid>
       <description></description>
     </item>
     
     <item>
       <title>FH-Dortmund</title>
-      <link>http://eclipse.github.io/kuksa.website/tags/fh-dortmund/</link>
+      <link>https://eclipse-kuksa.github.io/kuksa-website/tags/fh-dortmund/</link>
       <pubDate>Fri, 05 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://eclipse.github.io/kuksa.website/tags/fh-dortmund/</guid>
+      <guid>https://eclipse-kuksa.github.io/kuksa-website/tags/fh-dortmund/</guid>
       <description></description>
     </item>
     
     <item>
       <title>SUMO</title>
-      <link>http://eclipse.github.io/kuksa.website/tags/sumo/</link>
+      <link>https://eclipse-kuksa.github.io/kuksa-website/tags/sumo/</link>
       <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://eclipse.github.io/kuksa.website/tags/sumo/</guid>
+      <guid>https://eclipse-kuksa.github.io/kuksa-website/tags/sumo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Authentication</title>
-      <link>http://eclipse.github.io/kuksa.website/tags/authentication/</link>
+      <link>https://eclipse-kuksa.github.io/kuksa-website/tags/authentication/</link>
       <pubDate>Thu, 18 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://eclipse.github.io/kuksa.website/tags/authentication/</guid>
+      <guid>https://eclipse-kuksa.github.io/kuksa-website/tags/authentication/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Koçsistem</title>
-      <link>http://eclipse.github.io/kuksa.website/tags/ko%C3%A7sistem/</link>
+      <link>https://eclipse-kuksa.github.io/kuksa-website/tags/ko%C3%A7sistem/</link>
       <pubDate>Thu, 18 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://eclipse.github.io/kuksa.website/tags/ko%C3%A7sistem/</guid>
+      <guid>https://eclipse-kuksa.github.io/kuksa-website/tags/ko%C3%A7sistem/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Netaş</title>
-      <link>http://eclipse.github.io/kuksa.website/tags/neta%C5%9F/</link>
+      <link>https://eclipse-kuksa.github.io/kuksa-website/tags/neta%C5%9F/</link>
       <pubDate>Thu, 18 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://eclipse.github.io/kuksa.website/tags/neta%C5%9F/</guid>
+      <guid>https://eclipse-kuksa.github.io/kuksa-website/tags/neta%C5%9F/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Otokar</title>
-      <link>http://eclipse.github.io/kuksa.website/tags/otokar/</link>
+      <link>https://eclipse-kuksa.github.io/kuksa-website/tags/otokar/</link>
       <pubDate>Thu, 18 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://eclipse.github.io/kuksa.website/tags/otokar/</guid>
+      <guid>https://eclipse-kuksa.github.io/kuksa-website/tags/otokar/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Magazine</title>
-      <link>http://eclipse.github.io/kuksa.website/tags/magazine/</link>
+      <link>https://eclipse-kuksa.github.io/kuksa-website/tags/magazine/</link>
       <pubDate>Fri, 15 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://eclipse.github.io/kuksa.website/tags/magazine/</guid>
+      <guid>https://eclipse-kuksa.github.io/kuksa-website/tags/magazine/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ece18</title>
-      <link>http://eclipse.github.io/kuksa.website/tags/ece18/</link>
+      <link>https://eclipse-kuksa.github.io/kuksa-website/tags/ece18/</link>
       <pubDate>Wed, 24 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://eclipse.github.io/kuksa.website/tags/ece18/</guid>
+      <guid>https://eclipse-kuksa.github.io/kuksa-website/tags/ece18/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ecf18</title>
-      <link>http://eclipse.github.io/kuksa.website/tags/ecf18/</link>
+      <link>https://eclipse-kuksa.github.io/kuksa-website/tags/ecf18/</link>
       <pubDate>Tue, 18 Sep 2018 13:07:31 +0200</pubDate>
       
-      <guid>http://eclipse.github.io/kuksa.website/tags/ecf18/</guid>
+      <guid>https://eclipse-kuksa.github.io/kuksa-website/tags/ecf18/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Appstore</title>
-      <link>http://eclipse.github.io/kuksa.website/tags/appstore/</link>
+      <link>https://eclipse-kuksa.github.io/kuksa-website/tags/appstore/</link>
       <pubDate>Thu, 30 Aug 2018 13:47:08 +0200</pubDate>
       
-      <guid>http://eclipse.github.io/kuksa.website/tags/appstore/</guid>
+      <guid>https://eclipse-kuksa.github.io/kuksa-website/tags/appstore/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Implementation</title>
-      <link>http://eclipse.github.io/kuksa.website/tags/implementation/</link>
+      <link>https://eclipse-kuksa.github.io/kuksa-website/tags/implementation/</link>
       <pubDate>Tue, 05 Jun 2018 21:49:20 +0200</pubDate>
       
-      <guid>http://eclipse.github.io/kuksa.website/tags/implementation/</guid>
+      <guid>https://eclipse-kuksa.github.io/kuksa-website/tags/implementation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>rover</title>
-      <link>http://eclipse.github.io/kuksa.website/tags/rover/</link>
+      <link>https://eclipse-kuksa.github.io/kuksa-website/tags/rover/</link>
       <pubDate>Thu, 31 May 2018 21:49:20 +0200</pubDate>
       
-      <guid>http://eclipse.github.io/kuksa.website/tags/rover/</guid>
+      <guid>https://eclipse-kuksa.github.io/kuksa-website/tags/rover/</guid>
       <description></description>
     </item>
     
     <item>
       <title>IoT</title>
-      <link>http://eclipse.github.io/kuksa.website/tags/iot/</link>
+      <link>https://eclipse-kuksa.github.io/kuksa-website/tags/iot/</link>
       <pubDate>Wed, 17 Jan 2018 13:47:08 +0200</pubDate>
       
-      <guid>http://eclipse.github.io/kuksa.website/tags/iot/</guid>
+      <guid>https://eclipse-kuksa.github.io/kuksa-website/tags/iot/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Oulanka</title>
-      <link>http://eclipse.github.io/kuksa.website/tags/oulanka/</link>
+      <link>https://eclipse-kuksa.github.io/kuksa-website/tags/oulanka/</link>
       <pubDate>Thu, 26 Oct 2017 13:39:46 +0200</pubDate>
       
-      <guid>http://eclipse.github.io/kuksa.website/tags/oulanka/</guid>
+      <guid>https://eclipse-kuksa.github.io/kuksa-website/tags/oulanka/</guid>
       <description></description>
     </item>
     
