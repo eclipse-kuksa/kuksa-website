@@ -2,6 +2,9 @@ name: Standard Build Check
 
 on: [push, pull_request]
 
+permissions:
+  contents: write
+
 jobs:
   buildtest:
     name: Build Test
