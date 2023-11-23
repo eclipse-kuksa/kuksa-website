@@ -21,6 +21,8 @@ draft: false
 
 # Publications
 
+
+- Sebastain Schildt: "VSS in-vehicle, KUKSA State of the Union: Android and the Return of VISS",  COVESA AMM Fall 2024, Troy, Michigan https://wiki.covesa.global/download/attachments/78840403/VSS-in-vehicle-KUKSA-State.pdf?version=1&modificationDate=1697552147551&api=v2 
 - ITEA4 Eureka Cluster on Software Innovation: "ITEA Success story APPSTACLE Vehicle connectivity for novel applications", 2022 https://itea4.org/project/success-story/appstacle-succes-story-1.html
 - D. Grewe, M. Wagner, U. Ambalavanan, L. Liu, N. Nayak and S. Schildt: "On the Design of an Information-Centric Networking Extension for IoT APIs", 2021 IEEE 94th Vehicular Technology Conference (VTC2021-Fall), 2021, https://ieeexplore.ieee.org/abstract/document/9625470
 - Junhyung Ki, Sebastian Schildt, Andreas Hastall Sven Erik Jeroschewski, Robert Hottger: "Eclipse KUKSA.val for SCR Anti-Tampering Monitoring in Heavy Vehicles", 2nd Eclipse Research International Conference on Security, Artificial Intelligence, Architecture and Modelling for Next Generation Mobility, 2021, http://ceur-ws.org/Vol-3028/D2-02-ESAAMM_2021_paper_3.pdf
