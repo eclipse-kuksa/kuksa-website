@@ -30,7 +30,7 @@ issues are tracked and discussed in the repository of the respective sub-project
 | Eclipse KUKSA.val        |https://github.com/eclipse/kuksa.val       | KUKSA Vehicle Abstraction Layer, this is a an implementation of a VSS server provding access to in-vehicle signals using VISS or GRPC interfaces  |
 | Eclipse KUKSA.val.feeders        |https://github.com/eclipse/kuksa.val.feeders       | Multiple data and actuation providers, gathering vehicle data and transforming it to VSS suitable for KUKSA.val  |
 | Eclipse KUKSA.val.services        | https://github.com/eclipse/kuksa.val.services       | Set of example vehicle services  |
-| Eclipse KUKSA Android SDK        | https://github.com/eclipse/kuksa.val.services  | SDK to develop KUKSA clients on Android using Kotlin or Java  |
+| Eclipse KUKSA Android SDK        | https://github.com/eclipse-kuksa/kuksa-android-sdk  | SDK to develop KUKSA clients on Android using Kotlin or Java  |
 | Eclipse KUKSA Android Companion        | https://github.com/eclipse-kuksa/kuksa-android-companion  | Example App using the Android SDK to check and control temperature, tire pressure, doors etc. from your phone  |
 | Eclipse KUKSA Python SDK        | https://github.com/eclipse-kuksa/kuksa-python-sdk  | SDK to develop KUKSA applications and providers using Python. Also includes a versatile CLI client for testing/debugging  |
 | Eclipse KUKSA.hardware   | https://github.com/eclipse-kuksa/kuksa-hardware |Hardware schematics and manufacturing files for the KUKSA SDV prototpying platform. This is a PI-compatible hardware providing access to CAN, OBD and cellular connectivity  |
