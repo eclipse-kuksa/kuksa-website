@@ -36,7 +36,7 @@
 
 
 
-<link href="/kuksa-website/css/custom.css?1691481678" rel="stylesheet">
+<link href="/kuksa-website/css/custom.css?1700829376" rel="stylesheet">
 
 
 
@@ -252,17 +252,17 @@
 <p>This is, how you start it:</p>
 <pre tabindex="0"><code>docker run -it --rm --net=host ghcr.io/eclipse/kuksa.val/databroker-cli:master
 </code></pre><p>Here is how you can use it:</p>
-<pre tabindex="0"><code>client&gt; get Vehicle.Speed 
+<pre tabindex="0"><code>client&gt; get Vehicle.Speed
 -&gt; Vehicle.Speed: ( NotAvailable )
 client&gt; feed Vehicle.Speed 200
 -&gt; Ok
-client&gt; get Vehicle.Speed 
+client&gt; get Vehicle.Speed
 -&gt; Vehicle.Speed: 200.00
 client&gt; quit
 Bye bye!
 </code></pre><p>An alternative is the kuksa-client CLI (based on our Python client library).</p>
 <p>Here is how you start it:</p>
-<pre tabindex="0"><code>docker run -it --rm --net=host ghcr.io/eclipse/kuksa.val/kuksa-client:master --port 55555 --protocol grpc --insecure 
+<pre tabindex="0"><code>docker run -it --rm --net=host ghcr.io/eclipse-kuksa/kuksa-python-sdk/kuksa-client:main
 </code></pre><p>Here is how you can use it:</p>
 <pre tabindex="0"><code>Test Client&gt; getValue Vehicle.Speed
 {
@@ -307,7 +307,7 @@ gRPC channel disconnected.
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">from</span> kuksa_client.grpc <span style="color:#f92672">import</span> VSSClient
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">with</span> VSSClient(<span style="color:#e6db74">&#39;127.0.0.1&#39;</span>, <span style="color:#ae81ff">55555</span>) <span style="color:#66d9ef">as</span> client:
-</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> updates <span style="color:#f92672">in</span> client<span style="color:#f92672">.</span>subscribe_current_values([
 </span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#39;Vehicle.Speed&#39;</span>,
 </span></span><span style="display:flex;"><span>    ]):
@@ -323,7 +323,7 @@ gRPC channel disconnected.
 </code></pre><p>Using the databroker-cli</p>
 <pre tabindex="0"><code>docker run -it --rm --net=host -e KUKSA_DATA_BROKER_PORT=55556 ghcr.io/eclipse/kuksa.val/databroker-cli:master
 </code></pre><p>Using kuksa-client CLI</p>
-<pre tabindex="0"><code>docker run -it --rm --net=host ghcr.io/eclipse/kuksa.val/kuksa-client:master --port 55556 --protocol grpc --insecure 
+<pre tabindex="0"><code>docker run -it --rm --net=host ghcr.io/eclipse-kuksa/kuksa-python-sdk/kuksa-client:main grpc://127.0.0.1:55556
 </code></pre><h3 id="docker-desktop-host-networking-not-supported">Docker desktop: Host networking not supported</h3>
 <p>The examples above all used docker&rsquo;s <code>--net=host</code> option. That is quite convenient for development, as basically your containers &ldquo;share&rdquo; your hosts networking and there is no need for any port publishing.</p>
 <p>However when using Docker Desktop on Mac OS or Windows, <a href="https://docs.docker.com/network/host/">host networking is not supported</a>.</p>
@@ -331,7 +331,7 @@ gRPC channel disconnected.
 <p>With Docker Desktop you can still forward ports, so this should work:</p>
 <pre tabindex="0"><code>docker run -it --rm  --publish 55556:55556 ghcr.io/eclipse/kuksa.val/databroker:master  --port 55556 --insecure
 </code></pre><p>From your host computer you can now reach databroker at <code>127.0.0.1:55556</code>. To connect from another container, you need to use your computers IP address (<strong>not</strong> 127.0.0.1), i.e. to use the client</p>
-<pre tabindex="0"><code>docker run -it --rm  -e KUKSA_DATA_BROKER_PORT=55556 -e KUKSA_DATA_BROKER_ADDR=&lt;YOUR_IP&gt; ghcr.io/eclipse/kuksa.val/databroker-cli:master 
+<pre tabindex="0"><code>docker run -it --rm  -e KUKSA_DATA_BROKER_PORT=55556 -e KUKSA_DATA_BROKER_ADDR=&lt;YOUR_IP&gt; ghcr.io/eclipse/kuksa.val/databroker-cli:master
 </code></pre><p>Recent versions of the databroker-cli also support command line arguments, so you can also write</p>
 <pre tabindex="0"><code>docker run -it --rm   ghcr.io/eclipse/kuksa.val/databroker-cli:master  --server http://&lt;YOUR_IP&gt;:55556
 </code></pre><h3 id="feedset-why-is-my-data-not-updated">feed/set: Why is my data not updated?</h3>
