@@ -23,7 +23,7 @@ The open Eclipse KUKSA project aims to provide shared building blocks for the So
 {{< emph >}} Cooperate on plumbing. Compete on porcelain.{{< /emph >}}
 
 One of the main features of KUKSA is abstracting vehicle data and interfaces to a common format based for example on the [Vehicle Signal Specification](https://covesa.github.io/vehicle_signal_specification/). That way, all functions sitting on top of KUKSA can run on all enabled cars. KUKSA itself focusses on the adaptation of various Vehicle Interfaces into a basic basic interfaces using simple APIs. 
-This enables you to add your preferred onboard or offboard techstack to new vehicle architectures more easily. If you are looking for a complete toolchain and paradigm to build vehicle apps, you may want to check out the [Eclipse Velocitas](https://websites.eclipseprojects.io/velocitas/) project. 
+This enables you to add your preferred onboard or offboard techstack to new vehicle architectures more easily. If you are looking for a complete toolchain and paradigm to build vehicle apps, you may want to check out the [Eclipse Velocitas](https://projects.eclipse.org/projects/automotive.velocitas) project. 
 
 The following picture shows an example deployment of KUKSA.
 
