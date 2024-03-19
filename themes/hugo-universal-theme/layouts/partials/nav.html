@@ -2,7 +2,7 @@
     <div class="navbar navbar-default yamm {{ if .Site.Params.dropdown_mouse_over }}mouseover{{ end }}" role="navigation" id="navbar">
         <div class="container">
             <div class="navbar-header">
-                <a class="navbar-brand home" href="{{ "/" | relLangURL }}">
+                <a class="navbar-brand home" href="{{ "" | relURL }}">
                     {{ if default false .Site.Params.disabled_logo }}
                       <h4>{{ .Site.Params.logo_text }}</h4>
                     {{ else }}
