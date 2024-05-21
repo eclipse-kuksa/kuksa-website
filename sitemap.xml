@@ -2,34 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://eclipse-kuksa.github.io/kuksa-website/tags/audit/</loc>
+    <lastmod>2024-05-21T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://eclipse-kuksa.github.io/kuksa-website/blog/</loc>
-    <lastmod>2023-02-17T00:00:00+00:00</lastmod>
+    <lastmod>2024-05-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://eclipse-kuksa.github.io/kuksa-website/categories/</loc>
+    <lastmod>2024-05-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://eclipse-kuksa.github.io/kuksa-website/</loc>
+    <lastmod>2024-05-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://eclipse-kuksa.github.io/kuksa-website/categories/implementation/</loc>
+    <lastmod>2024-05-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://eclipse-kuksa.github.io/kuksa-website/tags/kuksa.val/</loc>
+    <lastmod>2024-05-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://eclipse-kuksa.github.io/kuksa-website/tags/security/</loc>
+    <lastmod>2024-05-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://eclipse-kuksa.github.io/kuksa-website/blog/2024/05/21/2024-05-21-audit/</loc>
+    <lastmod>2024-05-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://eclipse-kuksa.github.io/kuksa-website/tags/</loc>
+    <lastmod>2024-05-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://eclipse-kuksa.github.io/kuksa-website/tags/can/</loc>
     <lastmod>2023-02-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://eclipse-kuksa.github.io/kuksa-website/categories/</loc>
-    <lastmod>2023-02-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://eclipse-kuksa.github.io/kuksa-website/</loc>
-    <lastmod>2023-02-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://eclipse-kuksa.github.io/kuksa-website/categories/implementation/</loc>
-    <lastmod>2023-02-17T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://eclipse-kuksa.github.io/kuksa-website/blog/2023/02/17/2023-02-17-fosdem2023/</loc>
-    <lastmod>2023-02-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://eclipse-kuksa.github.io/kuksa-website/tags/kuksa.val/</loc>
     <lastmod>2023-02-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://eclipse-kuksa.github.io/kuksa-website/tags/obd/</loc>
     <lastmod>2023-02-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://eclipse-kuksa.github.io/kuksa-website/tags/open-hardware/</loc>
-    <lastmod>2023-02-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://eclipse-kuksa.github.io/kuksa-website/tags/</loc>
     <lastmod>2023-02-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://eclipse-kuksa.github.io/kuksa-website/publications/</loc>

@@ -6,7 +6,17 @@
     <description>Recent content in Implementation on Eclipse KUKSA</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://eclipse-kuksa.github.io/kuksa-website/categories/implementation/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 21 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://eclipse-kuksa.github.io/kuksa-website/categories/implementation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Security Audit for Eclipse Kuksa released</title>
+      <link>https://eclipse-kuksa.github.io/kuksa-website/blog/2024/05/21/2024-05-21-audit/</link>
+      <pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://eclipse-kuksa.github.io/kuksa-website/blog/2024/05/21/2024-05-21-audit/</guid>
+      <description>Applications that utilize artifacts from the Kuksa project need to rely on the secure execution of these components. We are, therefore, happy to announce the publication of an external audit report carried out by Quarkslab. The audit was facilitated through OSTIF and the Eclipse Foundation and made possible by the funding the Eclipse Foundation received from the Alpha-Omega project.
+The audit was scoped on the KUKSA databroker and the respective Python client SDK.</description>
+    </item>
+    
     <item>
       <title>KUKSA at FOSDEM 2023</title>
       <link>https://eclipse-kuksa.github.io/kuksa-website/blog/2023/02/17/2023-02-17-fosdem2023/</link>
