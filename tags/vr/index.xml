@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>VR on Eclipse KUKSA</title>
+    <link>https://eclipse-kuksa.github.io/kuksa-website/tags/vr/</link>
+    <description>Recent content in VR on Eclipse KUKSA</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 08 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://eclipse-kuksa.github.io/kuksa-website/tags/vr/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>KUKSA with mixed reality at Bosch Connected Experience Hackathon</title>
+      <link>https://eclipse-kuksa.github.io/kuksa-website/blog/2024/05/08/2024-05-08-mixedrealitybcx/</link>
+      <pubDate>Wed, 08 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://eclipse-kuksa.github.io/kuksa-website/blog/2024/05/08/2024-05-08-mixedrealitybcx/</guid>
+      <description>At the recent Bosch Connected Experience (BCX) hackathon, we had the incredible opportunity to fuel the imaginations of around 280 passionate developers, all eager to bring their automotive software concepts to life. Our collaboration with the colleagues at Bosch Digital was nothing short of inspiring, as we equipped these innovators with the tools they needed: hack challenges, hardware, and code templates.
+These resources empowered participants to:
+Craft vehicle applications using Eclipse KUKSA&amp;rsquo;s Databroker abstraction and the Vehicle Signal Specification (VSS).</description>
+    </item>
+    
+  </channel>
+</rss>
