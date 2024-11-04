@@ -1,15 +1,16 @@
 # kuksa-website
 Sources of the Kuksa website
 
-For development you need to build the files through ```hugo --environment development```
-
 Generated GitHub Pages available at https://eclipse-kuksa.github.io/kuksa-website/.
 In addition https://www.eclipse.org/kuksa/ can also be used as link to the generated pages.
 
 ## How to build
 
+Make sure to check out the theme submodule
 
-For development you need to build the files through ```hugo --environment development```
+```
+git submodule update --init
+```
 
 You can run a local instance for testing purposes like below.
 

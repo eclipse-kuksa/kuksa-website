@@ -139,10 +139,3 @@ paginate = 10
 [params.about]
     enable = true
     title = "About Eclipse KUKSA"
-
-[[module.imports]]
-path = "github.com/eclipse/kuksa.val"
-
-  [[module.imports.mounts]]
-  source = "doc/quickstart.md"
-  target = "content/quickstart.md"
