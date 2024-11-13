@@ -6,18 +6,14 @@
     <description>Recent content in Magazine on Eclipse KUKSA</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 Feb 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://eclipse-kuksa.github.io/kuksa-website/tags/magazine/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://eclipse-kuksa.github.io/kuksa-website/tags/magazine/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Otokar Hatti</title>
       <link>https://eclipse-kuksa.github.io/kuksa-website/blog/2019/02/15/2019-02-15-otokar-magazin/</link>
       <pubDate>Fri, 15 Feb 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://eclipse-kuksa.github.io/kuksa-website/blog/2019/02/15/2019-02-15-otokar-magazin/</guid>
-      <description>The Turkish consortium composed an article which is published in the monthly public magazine “Otokar Hattı” (“Otokar Production Line” in English).
-Check it out page 6-7, of the following pdf file: Otokar Hatti.
-The article is in Turkish
-Erdem Ergen KoçSistem </description>
+      <description>The Turkish consortium composed an article which is published in the monthly public magazine “Otokar Hattı” (“Otokar Production Line” in English).&#xA;Check it out page 6-7, of the following pdf file: Otokar Hatti.&#xA;The article is in Turkish&#xA;Erdem Ergen KoçSistem </description>
     </item>
-    
   </channel>
 </rss>

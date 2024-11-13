@@ -6,60 +6,49 @@
     <description>Recent content in Categories on Eclipse KUKSA</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 21 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://eclipse-kuksa.github.io/kuksa-website/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 21 May 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://eclipse-kuksa.github.io/kuksa-website/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Implementation</title>
       <link>https://eclipse-kuksa.github.io/kuksa-website/categories/implementation/</link>
       <pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://eclipse-kuksa.github.io/kuksa-website/categories/implementation/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>Use Cases</title>
+      <title>Use-Cases</title>
       <link>https://eclipse-kuksa.github.io/kuksa-website/categories/use-cases/</link>
       <pubDate>Wed, 08 May 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://eclipse-kuksa.github.io/kuksa-website/categories/use-cases/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>dissemination</title>
+      <title>Dissemination</title>
       <link>https://eclipse-kuksa.github.io/kuksa-website/categories/dissemination/</link>
       <pubDate>Thu, 24 Jun 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://eclipse-kuksa.github.io/kuksa-website/categories/dissemination/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>release</title>
+      <title>Release</title>
       <link>https://eclipse-kuksa.github.io/kuksa-website/categories/release/</link>
       <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://eclipse-kuksa.github.io/kuksa-website/categories/release/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>rover</title>
+      <title>Rover</title>
       <link>https://eclipse-kuksa.github.io/kuksa-website/categories/rover/</link>
       <pubDate>Thu, 31 May 2018 21:49:20 +0200</pubDate>
-      
       <guid>https://eclipse-kuksa.github.io/kuksa-website/categories/rover/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Introduction</title>
       <link>https://eclipse-kuksa.github.io/kuksa-website/categories/introduction/</link>
       <pubDate>Wed, 17 Jan 2018 13:47:08 +0200</pubDate>
-      
       <guid>https://eclipse-kuksa.github.io/kuksa-website/categories/introduction/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

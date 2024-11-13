@@ -6,16 +6,14 @@
     <description>Recent content in FH-Dortmund on Eclipse KUKSA</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 05 Jul 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://eclipse-kuksa.github.io/kuksa-website/tags/fh-dortmund/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://eclipse-kuksa.github.io/kuksa-website/tags/fh-dortmund/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Summerschool FH-Dortmund - Automotive Stream</title>
       <link>https://eclipse-kuksa.github.io/kuksa-website/blog/2019/07/05/2019-07-05-summerschool/</link>
       <pubDate>Fri, 05 Jul 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://eclipse-kuksa.github.io/kuksa-website/blog/2019/07/05/2019-07-05-summerschool/</guid>
-      <description>On regular basis, Dortmund University of Applied Sciences and Arts (Germany) organizes a one week summer school for students with various streams to choose from. As part of the automotive stream, Eclipse Kuksa technologies have been presented and students could get their hands on
-the Eclipse Kuksa OBD dongle used in a real car scenario applications installed via the Appstore the Eclipse Kuksa Rover running AGL or Raspbian with the Eclipse Kuksa in-vehicle layers the new Eclipse Kuksa IDE for a simplified deployment of applications and cloud services and more&amp;hellip; </description>
+      <description>On regular basis, Dortmund University of Applied Sciences and Arts (Germany) organizes a one week summer school for students with various streams to choose from. As part of the automotive stream, Eclipse Kuksa technologies have been presented and students could get their hands on&#xA;the Eclipse Kuksa OBD dongle used in a real car scenario applications installed via the Appstore the Eclipse Kuksa Rover running AGL or Raspbian with the Eclipse Kuksa in-vehicle layers the new Eclipse Kuksa IDE for a simplified deployment of applications and cloud services and more&amp;hellip; </description>
     </item>
-    
   </channel>
 </rss>

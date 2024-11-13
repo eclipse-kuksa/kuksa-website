@@ -6,27 +6,21 @@
     <description>Recent content in Open Hardware on Eclipse KUKSA</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://eclipse-kuksa.github.io/kuksa-website/tags/open-hardware/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 17 Feb 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://eclipse-kuksa.github.io/kuksa-website/tags/open-hardware/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>KUKSA at FOSDEM 2023</title>
       <link>https://eclipse-kuksa.github.io/kuksa-website/blog/2023/02/17/2023-02-17-fosdem2023/</link>
       <pubDate>Fri, 17 Feb 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://eclipse-kuksa.github.io/kuksa-website/blog/2023/02/17/2023-02-17-fosdem2023/</guid>
-      <description>KUKSA has been at the FOSDEM 2023 in Brussels. We show-cased how the Eclipse KUKSA project can help to leverage the advantages of a standardized description of vehicle signals
-The talk presented the architectural answer given by the Eclipse KUKSA project to leverage the COVESA Vehicle Signal Specification inside a vehicle. It showed how to use KUKSA components to gather and transform the data from lower embedded layers in the vehicle, and providing them in a secure way to apps and services.</description>
+      <description>KUKSA has been at the FOSDEM 2023 in Brussels. We show-cased how the Eclipse KUKSA project can help to leverage the advantages of a standardized description of vehicle signals&#xA;The talk presented the architectural answer given by the Eclipse KUKSA project to leverage the COVESA Vehicle Signal Specification inside a vehicle. It showed how to use KUKSA components to gather and transform the data from lower embedded layers in the vehicle, and providing them in a secure way to apps and services.</description>
     </item>
-    
     <item>
       <title>KUKSA CANOPi Prototyping platform for Software Defined Vehicle applications</title>
       <link>https://eclipse-kuksa.github.io/kuksa-website/blog/2022/03/24/2022-03-24-canopi/</link>
       <pubDate>Thu, 24 Mar 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://eclipse-kuksa.github.io/kuksa-website/blog/2022/03/24/2022-03-24-canopi/</guid>
-      <description>If you have followed KUKSA over the last years you know the KUKSA OBD Prototyping Platform, a Raspberry CM3-based OBD dongle. Now we are proud to present the second iteration of the KUKSA hardware. As we are not limited to OBD anymore, a small rename was in order, so let&amp;rsquo;s welcome the
-KUKSA CANOPi Platform a Rapid Prototyping Hardware for Software Defined Vehicle Applications. So what is new?
-Two independent MCP251xFD based CAN-FD interfaces.</description>
+      <description>If you have followed KUKSA over the last years you know the KUKSA OBD Prototyping Platform, a Raspberry CM3-based OBD dongle. Now we are proud to present the second iteration of the KUKSA hardware. As we are not limited to OBD anymore, a small rename was in order, so let&amp;rsquo;s welcome the&#xA;KUKSA CANOPi Platform a Rapid Prototyping Hardware for Software Defined Vehicle Applications. So what is new?&#xA;Two independent MCP251xFD based CAN-FD interfaces.</description>
     </item>
-    
   </channel>
 </rss>

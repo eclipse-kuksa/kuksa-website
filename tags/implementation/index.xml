@@ -6,17 +6,14 @@
     <description>Recent content in Implementation on Eclipse KUKSA</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 05 Jun 2018 21:49:20 +0200</lastBuildDate><atom:link href="https://eclipse-kuksa.github.io/kuksa-website/tags/implementation/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 05 Jun 2018 21:49:20 +0200</lastBuildDate>
+    <atom:link href="https://eclipse-kuksa.github.io/kuksa-website/tags/implementation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Initial Contributions</title>
       <link>https://eclipse-kuksa.github.io/kuksa-website/blog/2018/06/05/2018-06-05-initialcontribution/</link>
       <pubDate>Tue, 05 Jun 2018 21:49:20 +0200</pubDate>
-      
       <guid>https://eclipse-kuksa.github.io/kuksa-website/blog/2018/06/05/2018-06-05-initialcontribution/</guid>
-      <description>Eclipse Kuksa&amp;rsquo;s initial contribution was successfully submitted to the GitHub repositories. We are working on a roadmap to present planned activities for upcoming contributions. Apart from the three major Kuksa parts, i.e.,
-kuksa.invehicle kuksa.cloud kuksa.ide additional repositories will cover specific use-cases, builds, tests, and other features within:
-kuksa.apps kuksa.integration </description>
+      <description>Eclipse Kuksa&amp;rsquo;s initial contribution was successfully submitted to the GitHub repositories. We are working on a roadmap to present planned activities for upcoming contributions. Apart from the three major Kuksa parts, i.e.,&#xA;kuksa.invehicle kuksa.cloud kuksa.ide additional repositories will cover specific use-cases, builds, tests, and other features within:&#xA;kuksa.apps kuksa.integration </description>
     </item>
-    
   </channel>
 </rss>

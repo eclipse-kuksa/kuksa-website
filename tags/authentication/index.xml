@@ -6,16 +6,14 @@
     <description>Recent content in Authentication on Eclipse KUKSA</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 18 Apr 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://eclipse-kuksa.github.io/kuksa-website/tags/authentication/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 18 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://eclipse-kuksa.github.io/kuksa-website/tags/authentication/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Appstacle Use Case: Remote Driver Authentication with Eclipse Kuksa</title>
       <link>https://eclipse-kuksa.github.io/kuksa-website/blog/2019/04/18/2019-04-18-remote-driver-anthentication/</link>
       <pubDate>Thu, 18 Apr 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://eclipse-kuksa.github.io/kuksa-website/blog/2019/04/18/2019-04-18-remote-driver-anthentication/</guid>
-      <description>The Appstacle Turkish consortium, including Koçsistem, Otokar and Netaş, has created a Remote Driver Authentication demo based on the Eclipse Kuksa platform.
-Within the project, various companies or groups of companies, have focused on several use cases that support the vision of an ecosystem for purchasing and downloading in-vehicle applications. Otokar, a vehicle manufacturer, is tasked with integrating these scenarios and testing them on real vehicles. Otokar and the rest of the Turkish consortium are focused on the driver and passenger authentication scenarios.</description>
+      <description>The Appstacle Turkish consortium, including Koçsistem, Otokar and Netaş, has created a Remote Driver Authentication demo based on the Eclipse Kuksa platform.&#xA;Within the project, various companies or groups of companies, have focused on several use cases that support the vision of an ecosystem for purchasing and downloading in-vehicle applications. Otokar, a vehicle manufacturer, is tasked with integrating these scenarios and testing them on real vehicles. Otokar and the rest of the Turkish consortium are focused on the driver and passenger authentication scenarios.</description>
     </item>
-    
   </channel>
 </rss>

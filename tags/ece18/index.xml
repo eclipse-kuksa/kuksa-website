@@ -1,31 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ece18 on Eclipse KUKSA</title>
+    <title>Ece18 on Eclipse KUKSA</title>
     <link>https://eclipse-kuksa.github.io/kuksa-website/tags/ece18/</link>
-    <description>Recent content in ece18 on Eclipse KUKSA</description>
+    <description>Recent content in Ece18 on Eclipse KUKSA</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 24 Oct 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://eclipse-kuksa.github.io/kuksa-website/tags/ece18/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Oct 2018 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://eclipse-kuksa.github.io/kuksa-website/tags/ece18/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ECE2018: Automotive meets IoT: Innovating your Future Vehicle</title>
       <link>https://eclipse-kuksa.github.io/kuksa-website/blog/2018/10/24/2018-10-24-ece2018-automotive-meets-iot/</link>
       <pubDate>Wed, 24 Oct 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://eclipse-kuksa.github.io/kuksa-website/blog/2018/10/24/2018-10-24-ece2018-automotive-meets-iot/</guid>
-      <description>Sebastian Schildt (Robert Bosch GmbH) made a very interesting and well received presentation of the Kuksa project at EclipseCon Europe 2018.
-Check it out!</description>
+      <description>Sebastian Schildt (Robert Bosch GmbH) made a very interesting and well received presentation of the Kuksa project at EclipseCon Europe 2018.&#xA;Check it out!</description>
     </item>
-    
     <item>
       <title>EclipseCon Europe and ESE Kongress events</title>
       <link>https://eclipse-kuksa.github.io/kuksa-website/blog/2018/10/22/2018-10-22-ece1018ese1218/</link>
       <pubDate>Mon, 22 Oct 2018 12:13:28 +0200</pubDate>
-      
       <guid>https://eclipse-kuksa.github.io/kuksa-website/blog/2018/10/22/2018-10-22-ece1018ese1218/</guid>
-      <description>EclipseCon France 2018 Eclipse Kuksa and its latest development activities will be presented along with the talk Automotive meets IoT: Innovating your Future Vehicle at EclipseCon Europe 2018 in Ludwigsburg, Germany.
-Embedded Software Engineering Kongress 2018 In addition to the EclipseCon Europe event, you can join us at the ESE Kongress in Sindelfingen, Germany, on December, 6th. The talk Überwindung der Silos – Revolution für vernetzte Fahrzeuge, that means &amp;lsquo;Overcoming the Silos - Revolution for Connected Vehicles&amp;rsquo;, will be held at 16:45 o&amp;rsquo;clock (4:45pm) and will cover both a generic as well as detailed descriptions of the three Eclipse Kuksa platforms (a) In-Vehicle, (b) IDE, and ( c) Cloud.</description>
+      <description>EclipseCon France 2018 Eclipse Kuksa and its latest development activities will be presented along with the talk Automotive meets IoT: Innovating your Future Vehicle at EclipseCon Europe 2018 in Ludwigsburg, Germany.&#xA;Embedded Software Engineering Kongress 2018 In addition to the EclipseCon Europe event, you can join us at the ESE Kongress in Sindelfingen, Germany, on December, 6th. The talk Überwindung der Silos – Revolution für vernetzte Fahrzeuge, that means &amp;lsquo;Overcoming the Silos - Revolution for Connected Vehicles&amp;rsquo;, will be held at 16:45 o&amp;rsquo;clock (4:45pm) and will cover both a generic as well as detailed descriptions of the three Eclipse Kuksa platforms (a) In-Vehicle, (b) IDE, and ( c) Cloud.</description>
     </item>
-    
   </channel>
 </rss>

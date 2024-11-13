@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>gateway on Eclipse KUKSA</title>
+    <title>Gateway on Eclipse KUKSA</title>
     <link>https://eclipse-kuksa.github.io/kuksa-website/tags/gateway/</link>
-    <description>Recent content in gateway on Eclipse KUKSA</description>
+    <description>Recent content in Gateway on Eclipse KUKSA</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 28 Oct 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://eclipse-kuksa.github.io/kuksa-website/tags/gateway/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 28 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://eclipse-kuksa.github.io/kuksa-website/tags/gateway/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Automotive Ethernet Gateway by taskit</title>
       <link>https://eclipse-kuksa.github.io/kuksa-website/blog/2019/10/28/2019-10-28-taskit/</link>
       <pubDate>Mon, 28 Oct 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://eclipse-kuksa.github.io/kuksa-website/blog/2019/10/28/2019-10-28-taskit/</guid>
-      <description>taskit GmbH has developed a Car2X Gateway, which enables standardized, secure access to the cloud for in-car software. It comes pre-installed with Automotive Grade Linux (AGL) and Eclipse Kuksa and supports multiple interfaces such as CAN bus and Automotive Ethernet.
-The Gateway was created as a part of the APPSTACLE project. This project is creating an open de facto standard and an open-source implementation of a complete technology stack for connected car scenarios as well as an associated ecosystem of libraries, tools, business models, services and support - hosted by the Eclipse Foundation as the Eclipse Kuksa project.</description>
+      <description>taskit GmbH has developed a Car2X Gateway, which enables standardized, secure access to the cloud for in-car software. It comes pre-installed with Automotive Grade Linux (AGL) and Eclipse Kuksa and supports multiple interfaces such as CAN bus and Automotive Ethernet.&#xA;The Gateway was created as a part of the APPSTACLE project. This project is creating an open de facto standard and an open-source implementation of a complete technology stack for connected car scenarios as well as an associated ecosystem of libraries, tools, business models, services and support - hosted by the Eclipse Foundation as the Eclipse Kuksa project.</description>
     </item>
-    
   </channel>
 </rss>

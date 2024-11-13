@@ -92,7 +92,7 @@
     <loc>https://eclipse-kuksa.github.io/kuksa-website/tags/feeder/</loc>
     <lastmod>2020-08-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://eclipse-kuksa.github.io/kuksa-website/tags/eclipse-kuksa-eclipsecon19/</loc>
+    <loc>https://eclipse-kuksa.github.io/kuksa-website/tags/eclipse-kuksa-@-eclipsecon19/</loc>
     <lastmod>2020-01-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://eclipse-kuksa.github.io/kuksa-website/blog/2020/01/21/2020-01-21-eclipsecon19/</loc>
@@ -225,6 +225,5 @@
     <lastmod>2017-10-26T13:39:46+02:00</lastmod>
   </url><url>
     <loc>https://eclipse-kuksa.github.io/kuksa-website/quickstart/</loc>
-    <priority>0</priority>
   </url>
 </urlset>

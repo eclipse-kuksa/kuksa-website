@@ -6,16 +6,14 @@
     <description>Recent content in Appstore on Eclipse KUKSA</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 30 Aug 2018 13:47:08 +0200</lastBuildDate><atom:link href="https://eclipse-kuksa.github.io/kuksa-website/tags/appstore/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 30 Aug 2018 13:47:08 +0200</lastBuildDate>
+    <atom:link href="https://eclipse-kuksa.github.io/kuksa-website/tags/appstore/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Eclipse Kuksa Hackathon 08.2018</title>
       <link>https://eclipse-kuksa.github.io/kuksa-website/blog/2018/08/30/2018-08-30-hack0818/</link>
       <pubDate>Thu, 30 Aug 2018 13:47:08 +0200</pubDate>
-      
       <guid>https://eclipse-kuksa.github.io/kuksa-website/blog/2018/08/30/2018-08-30-hack0818/</guid>
-      <description>Hacking 3 Days @ IDiAL, FH-Dortmund, for Eclipse Kuksa Features 13 Hackers met in Dortmund on August, 28th until 30th of August to work on an end-to-end use case scenario along with new Eclipse Kuksa technologies. 20 CQs, 2 major GitHub pull-requests, and 21035 LOCs were the results. Of course, the LOCs also contain content from work prior to the Hackathon.
-More precisely, the Eclipse Kuksa Appstore was migrated to an Eclipse HawkBit Server, that transmits applications wirelessly to an Eclipse HawkBit client running on a device (Raspberry Pi) that runs the Kuksa adapted AGL (Automotive Grade Linux + Kuksa technologies).</description>
+      <description>Hacking 3 Days @ IDiAL, FH-Dortmund, for Eclipse Kuksa Features 13 Hackers met in Dortmund on August, 28th until 30th of August to work on an end-to-end use case scenario along with new Eclipse Kuksa technologies. 20 CQs, 2 major GitHub pull-requests, and 21035 LOCs were the results. Of course, the LOCs also contain content from work prior to the Hackathon.&#xA;More precisely, the Eclipse Kuksa Appstore was migrated to an Eclipse HawkBit Server, that transmits applications wirelessly to an Eclipse HawkBit client running on a device (Raspberry Pi) that runs the Kuksa adapted AGL (Automotive Grade Linux + Kuksa technologies).</description>
     </item>
-    
   </channel>
 </rss>

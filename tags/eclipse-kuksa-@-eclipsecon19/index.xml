@@ -2,20 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Eclipse Kuksa @ EclipseCon19 on Eclipse KUKSA</title>
-    <link>https://eclipse-kuksa.github.io/kuksa-website/tags/eclipse-kuksa-eclipsecon19/</link>
+    <link>https://eclipse-kuksa.github.io/kuksa-website/tags/eclipse-kuksa-@-eclipsecon19/</link>
     <description>Recent content in Eclipse Kuksa @ EclipseCon19 on Eclipse KUKSA</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 21 Jan 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://eclipse-kuksa.github.io/kuksa-website/tags/eclipse-kuksa-eclipsecon19/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 21 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://eclipse-kuksa.github.io/kuksa-website/tags/eclipse-kuksa-@-eclipsecon19/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Using Eclipse Kuksa for Connected Vehicle Services [Video]</title>
       <link>https://eclipse-kuksa.github.io/kuksa-website/blog/2020/01/21/2020-01-21-eclipsecon19/</link>
       <pubDate>Tue, 21 Jan 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://eclipse-kuksa.github.io/kuksa-website/blog/2020/01/21/2020-01-21-eclipsecon19/</guid>
-      <description>EclipseCon Europe 2019 Presentation: Using Eclipse Kuksa for Connected Vehicle Services &amp;hellip; is presented by project comitters and contributers at the EclispeCon Europe 2019:
-EclipseCon Europe 2019 Interview: APPSTACLE &amp;amp; Eclilpse Kuksa </description>
+      <description>EclipseCon Europe 2019 Presentation: Using Eclipse Kuksa for Connected Vehicle Services &amp;hellip; is presented by project comitters and contributers at the EclispeCon Europe 2019:&#xA;EclipseCon Europe 2019 Interview: APPSTACLE &amp;amp; Eclilpse Kuksa </description>
     </item>
-    
   </channel>
 </rss>

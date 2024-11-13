@@ -6,15 +6,14 @@
     <description>Recent content in Oulanka on Eclipse KUKSA</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 26 Oct 2017 13:39:46 +0200</lastBuildDate><atom:link href="https://eclipse-kuksa.github.io/kuksa-website/tags/oulanka/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 26 Oct 2017 13:39:46 +0200</lastBuildDate>
+    <atom:link href="https://eclipse-kuksa.github.io/kuksa-website/tags/oulanka/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Oulanka Project Meeting</title>
       <link>https://eclipse-kuksa.github.io/kuksa-website/blog/2017/10/26/2017-10-26-oulanka/</link>
       <pubDate>Thu, 26 Oct 2017 13:39:46 +0200</pubDate>
-      
       <guid>https://eclipse-kuksa.github.io/kuksa-website/blog/2017/10/26/2017-10-26-oulanka/</guid>
       <description>At the project meeting in Oulanka, Finnland, the APPSTACLE consortium collected and coordinated a variety of topics to work on in the upcoming time. Use-case scenarios, in-vehicle development activities, network protocols, cloud infrastructure, security demands, dissemination and exploitation and other topics were in focus for the project partners. The various discussions, cooperations, ideas, and further activities were defined in order to set the basis to reach the goals of APPSTACLE and form Eclipse Kuksa, i.</description>
     </item>
-    
   </channel>
 </rss>

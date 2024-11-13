@@ -6,17 +6,14 @@
     <description>Recent content in Demo on Eclipse KUKSA</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 18 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://eclipse-kuksa.github.io/kuksa-website/tags/demo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 18 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://eclipse-kuksa.github.io/kuksa-website/tags/demo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Eclipse Kuksa.val DBC Feeder Demo [Video]</title>
       <link>https://eclipse-kuksa.github.io/kuksa-website/blog/2020/08/18/2020-08-18-dbc/</link>
       <pubDate>Tue, 18 Aug 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://eclipse-kuksa.github.io/kuksa-website/blog/2020/08/18/2020-08-18-dbc/</guid>
-      <description>Eclipse Kuksa.val DBC Feeder Demo [Video] This demo showcases the features of the kuksa.val (https://github.com/eclipse/kuksa.val) server.
-While the automotive world is full of standards, there are not a lot of useful standards for an I(o)T world. Useful here means
-Standardize on semantics, not technology only Usable across vendors, by anyone (car manufacturers, suppiers, aftermarket, third parties) Building on, or interacting with, common IT technologies One of the more useful approaches in this context is the Genivi Vehicle signal specification (VSS) (https://github.</description>
+      <description>Eclipse Kuksa.val DBC Feeder Demo [Video] This demo showcases the features of the kuksa.val (https://github.com/eclipse/kuksa.val) server.&#xA;While the automotive world is full of standards, there are not a lot of useful standards for an I(o)T world. Useful here means&#xA;Standardize on semantics, not technology only Usable across vendors, by anyone (car manufacturers, suppiers, aftermarket, third parties) Building on, or interacting with, common IT technologies One of the more useful approaches in this context is the Genivi Vehicle signal specification (VSS) (https://github.</description>
     </item>
-    
   </channel>
 </rss>

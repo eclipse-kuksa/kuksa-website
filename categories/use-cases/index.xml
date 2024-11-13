@@ -1,42 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Use Cases on Eclipse KUKSA</title>
+    <title>Use-Cases on Eclipse KUKSA</title>
     <link>https://eclipse-kuksa.github.io/kuksa-website/categories/use-cases/</link>
-    <description>Recent content in Use Cases on Eclipse KUKSA</description>
+    <description>Recent content in Use-Cases on Eclipse KUKSA</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 08 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://eclipse-kuksa.github.io/kuksa-website/categories/use-cases/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 08 May 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://eclipse-kuksa.github.io/kuksa-website/categories/use-cases/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>KUKSA with mixed reality at Bosch Connected Experience Hackathon</title>
       <link>https://eclipse-kuksa.github.io/kuksa-website/blog/2024/05/08/2024-05-08-mixedrealitybcx/</link>
       <pubDate>Wed, 08 May 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://eclipse-kuksa.github.io/kuksa-website/blog/2024/05/08/2024-05-08-mixedrealitybcx/</guid>
-      <description>At the recent Bosch Connected Experience (BCX) hackathon, we had the incredible opportunity to fuel the imaginations of around 280 passionate developers, all eager to bring their automotive software concepts to life. Our collaboration with the colleagues at Bosch Digital was nothing short of inspiring, as we equipped these innovators with the tools they needed: hack challenges, hardware, and code templates.
-These resources empowered participants to:
-Craft vehicle applications using Eclipse KUKSA&amp;rsquo;s Databroker abstraction and the Vehicle Signal Specification (VSS).</description>
+      <description>At the recent Bosch Connected Experience (BCX) hackathon, we had the incredible opportunity to fuel the imaginations of around 280 passionate developers, all eager to bring their automotive software concepts to life. Our collaboration with the colleagues at Bosch Digital was nothing short of inspiring, as we equipped these innovators with the tools they needed: hack challenges, hardware, and code templates.&#xA;These resources empowered participants to:&#xA;Craft vehicle applications using Eclipse KUKSA&amp;rsquo;s Databroker abstraction and the Vehicle Signal Specification (VSS).</description>
     </item>
-    
     <item>
       <title>Automotive Ethernet Gateway by taskit</title>
       <link>https://eclipse-kuksa.github.io/kuksa-website/blog/2019/10/28/2019-10-28-taskit/</link>
       <pubDate>Mon, 28 Oct 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://eclipse-kuksa.github.io/kuksa-website/blog/2019/10/28/2019-10-28-taskit/</guid>
-      <description>taskit GmbH has developed a Car2X Gateway, which enables standardized, secure access to the cloud for in-car software. It comes pre-installed with Automotive Grade Linux (AGL) and Eclipse Kuksa and supports multiple interfaces such as CAN bus and Automotive Ethernet.
-The Gateway was created as a part of the APPSTACLE project. This project is creating an open de facto standard and an open-source implementation of a complete technology stack for connected car scenarios as well as an associated ecosystem of libraries, tools, business models, services and support - hosted by the Eclipse Foundation as the Eclipse Kuksa project.</description>
+      <description>taskit GmbH has developed a Car2X Gateway, which enables standardized, secure access to the cloud for in-car software. It comes pre-installed with Automotive Grade Linux (AGL) and Eclipse Kuksa and supports multiple interfaces such as CAN bus and Automotive Ethernet.&#xA;The Gateway was created as a part of the APPSTACLE project. This project is creating an open de facto standard and an open-source implementation of a complete technology stack for connected car scenarios as well as an associated ecosystem of libraries, tools, business models, services and support - hosted by the Eclipse Foundation as the Eclipse Kuksa project.</description>
     </item>
-    
     <item>
       <title>Appstacle Use Case: Remote Driver Authentication with Eclipse Kuksa</title>
       <link>https://eclipse-kuksa.github.io/kuksa-website/blog/2019/04/18/2019-04-18-remote-driver-anthentication/</link>
       <pubDate>Thu, 18 Apr 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://eclipse-kuksa.github.io/kuksa-website/blog/2019/04/18/2019-04-18-remote-driver-anthentication/</guid>
-      <description>The Appstacle Turkish consortium, including Koçsistem, Otokar and Netaş, has created a Remote Driver Authentication demo based on the Eclipse Kuksa platform.
-Within the project, various companies or groups of companies, have focused on several use cases that support the vision of an ecosystem for purchasing and downloading in-vehicle applications. Otokar, a vehicle manufacturer, is tasked with integrating these scenarios and testing them on real vehicles. Otokar and the rest of the Turkish consortium are focused on the driver and passenger authentication scenarios.</description>
+      <description>The Appstacle Turkish consortium, including Koçsistem, Otokar and Netaş, has created a Remote Driver Authentication demo based on the Eclipse Kuksa platform.&#xA;Within the project, various companies or groups of companies, have focused on several use cases that support the vision of an ecosystem for purchasing and downloading in-vehicle applications. Otokar, a vehicle manufacturer, is tasked with integrating these scenarios and testing them on real vehicles. Otokar and the rest of the Turkish consortium are focused on the driver and passenger authentication scenarios.</description>
     </item>
-    
   </channel>
 </rss>

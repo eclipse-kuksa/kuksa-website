@@ -6,47 +6,35 @@
     <description>Recent content in Eclipse Kuksa on Eclipse KUKSA</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 20 Dec 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://eclipse-kuksa.github.io/kuksa-website/tags/eclipse-kuksa/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 20 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://eclipse-kuksa.github.io/kuksa-website/tags/eclipse-kuksa/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Kuksa IDE [Video]</title>
       <link>https://eclipse-kuksa.github.io/kuksa-website/blog/2019/12/20/2019-12-20-idevideo/</link>
       <pubDate>Fri, 20 Dec 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://eclipse-kuksa.github.io/kuksa-website/blog/2019/12/20/2019-12-20-idevideo/</guid>
-      <description>Kuksa IDE Video published ITEA Article on 0.1.0 Release ITEA published a news article on Kuksa 0.1.0 at https://itea3.org/news/itea-appstacle-project-announces-eclipse-kuksa-platform-for-car-to-car-to-cloud.html
-Kuksa 0.2.0 Release postponed to January 2020 Since minor organizational matters are still ongoing, we need to postpone Eclipse Kuksa 0.2.0 release to January 2020. Stay tuned!</description>
+      <description>Kuksa IDE Video published ITEA Article on 0.1.0 Release ITEA published a news article on Kuksa 0.1.0 at https://itea3.org/news/itea-appstacle-project-announces-eclipse-kuksa-platform-for-car-to-car-to-cloud.html&#xA;Kuksa 0.2.0 Release postponed to January 2020 Since minor organizational matters are still ongoing, we need to postpone Eclipse Kuksa 0.2.0 release to January 2020. Stay tuned!</description>
     </item>
-    
     <item>
       <title>Kuksa IDE VSCE now available</title>
       <link>https://eclipse-kuksa.github.io/kuksa-website/blog/2019/12/13/2019-12-13-vsmarketplace/</link>
       <pubDate>Fri, 13 Dec 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://eclipse-kuksa.github.io/kuksa-website/blog/2019/12/13/2019-12-13-vsmarketplace/</guid>
       <description>Kuksa IDE Extension published to Visual Studio Code Marketplace Today, the Eclipse Kuksa team successfully published the latest Kuksa.IDE-VSCE at the Visual Studio Code marketplace. This Visual Studio Code Extension (VSCE) provides several commands to ease application development, docker image generation, and the transmission to an existing Eclipse Kuksa Appstore. More information can be found here. Download the Eclipse Kuksa IDE VSCE at the official VSCode marketplace now for free. The extension can be further used along with Eclipse Theia and Eclipse Che as part of an online IDE based on kubernetes and docker.</description>
     </item>
-    
     <item>
       <title>Developer Questionnaire</title>
       <link>https://eclipse-kuksa.github.io/kuksa-website/blog/2019/12/11/2019-12-11-questionaire/</link>
       <pubDate>Wed, 11 Dec 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://eclipse-kuksa.github.io/kuksa-website/blog/2019/12/11/2019-12-11-questionaire/</guid>
-      <description>Help us with your feedback to further develop Eclipse Kuksa .. &amp;hellip; take a few moments as a developer to give us feedback from our ecosystem: In-Vehicle, Cloud, and IDE via https://forms.gle/XbhaugGQexb4pexi9
-Thank you!</description>
+      <description>Help us with your feedback to further develop Eclipse Kuksa .. &amp;hellip; take a few moments as a developer to give us feedback from our ecosystem: In-Vehicle, Cloud, and IDE via https://forms.gle/XbhaugGQexb4pexi9&#xA;Thank you!</description>
     </item>
-    
     <item>
       <title>Release 0.1.0</title>
       <link>https://eclipse-kuksa.github.io/kuksa-website/blog/2019/11/01/2019-11-01-release010/</link>
       <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://eclipse-kuksa.github.io/kuksa-website/blog/2019/11/01/2019-11-01-release010/</guid>
-      <description>The APPSTACLE project members and Eclipse Kuksa developers released Eclipse Kuksa 0.1.0 officially on 30.09.2019.
-Within this release you can find the following:
-In-Vehicle In-Vehicle software runs on a target device such as the Raspberry Pi.
-agl-kuksa - Scripts to automate the AGL build system with the meta-kuksa layers. kuksa-hawkbit - Barebone API for connecting to Eclipse Hawkbit. The kuksa-appmanager (see below) should though be the prior choice to interact with Eclipse HawkBit.</description>
+      <description>The APPSTACLE project members and Eclipse Kuksa developers released Eclipse Kuksa 0.1.0 officially on 30.09.2019.&#xA;Within this release you can find the following:&#xA;In-Vehicle In-Vehicle software runs on a target device such as the Raspberry Pi.&#xA;agl-kuksa - Scripts to automate the AGL build system with the meta-kuksa layers. kuksa-hawkbit - Barebone API for connecting to Eclipse Hawkbit. The kuksa-appmanager (see below) should though be the prior choice to interact with Eclipse HawkBit.</description>
     </item>
-    
   </channel>
 </rss>

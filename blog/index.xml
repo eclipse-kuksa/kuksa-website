@@ -6,281 +6,196 @@
     <description>Recent content in Blogs on Eclipse KUKSA</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 21 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://eclipse-kuksa.github.io/kuksa-website/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 21 May 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://eclipse-kuksa.github.io/kuksa-website/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Security Audit for Eclipse Kuksa released</title>
       <link>https://eclipse-kuksa.github.io/kuksa-website/blog/2024/05/21/2024-05-21-audit/</link>
       <pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://eclipse-kuksa.github.io/kuksa-website/blog/2024/05/21/2024-05-21-audit/</guid>
-      <description>Applications that utilize artifacts from the Kuksa project need to rely on the secure execution of these components. We are, therefore, happy to announce the publication of an external audit report carried out by Quarkslab. The audit was facilitated through OSTIF and the Eclipse Foundation and made possible by the funding the Eclipse Foundation received from the Alpha-Omega project.
-The audit was scoped on the KUKSA databroker and the respective Python client SDK.</description>
+      <description>Applications that utilize artifacts from the Kuksa project need to rely on the secure execution of these components. We are, therefore, happy to announce the publication of an external audit report carried out by Quarkslab. The audit was facilitated through OSTIF and the Eclipse Foundation and made possible by the funding the Eclipse Foundation received from the Alpha-Omega project.&#xA;The audit was scoped on the KUKSA databroker and the respective Python client SDK.</description>
     </item>
-    
     <item>
       <title>KUKSA with mixed reality at Bosch Connected Experience Hackathon</title>
       <link>https://eclipse-kuksa.github.io/kuksa-website/blog/2024/05/08/2024-05-08-mixedrealitybcx/</link>
       <pubDate>Wed, 08 May 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://eclipse-kuksa.github.io/kuksa-website/blog/2024/05/08/2024-05-08-mixedrealitybcx/</guid>
-      <description>At the recent Bosch Connected Experience (BCX) hackathon, we had the incredible opportunity to fuel the imaginations of around 280 passionate developers, all eager to bring their automotive software concepts to life. Our collaboration with the colleagues at Bosch Digital was nothing short of inspiring, as we equipped these innovators with the tools they needed: hack challenges, hardware, and code templates.
-These resources empowered participants to:
-Craft vehicle applications using Eclipse KUKSA&amp;rsquo;s Databroker abstraction and the Vehicle Signal Specification (VSS).</description>
+      <description>At the recent Bosch Connected Experience (BCX) hackathon, we had the incredible opportunity to fuel the imaginations of around 280 passionate developers, all eager to bring their automotive software concepts to life. Our collaboration with the colleagues at Bosch Digital was nothing short of inspiring, as we equipped these innovators with the tools they needed: hack challenges, hardware, and code templates.&#xA;These resources empowered participants to:&#xA;Craft vehicle applications using Eclipse KUKSA&amp;rsquo;s Databroker abstraction and the Vehicle Signal Specification (VSS).</description>
     </item>
-    
     <item>
       <title>KUKSA at FOSDEM 2023</title>
       <link>https://eclipse-kuksa.github.io/kuksa-website/blog/2023/02/17/2023-02-17-fosdem2023/</link>
       <pubDate>Fri, 17 Feb 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://eclipse-kuksa.github.io/kuksa-website/blog/2023/02/17/2023-02-17-fosdem2023/</guid>
-      <description>KUKSA has been at the FOSDEM 2023 in Brussels. We show-cased how the Eclipse KUKSA project can help to leverage the advantages of a standardized description of vehicle signals
-The talk presented the architectural answer given by the Eclipse KUKSA project to leverage the COVESA Vehicle Signal Specification inside a vehicle. It showed how to use KUKSA components to gather and transform the data from lower embedded layers in the vehicle, and providing them in a secure way to apps and services.</description>
+      <description>KUKSA has been at the FOSDEM 2023 in Brussels. We show-cased how the Eclipse KUKSA project can help to leverage the advantages of a standardized description of vehicle signals&#xA;The talk presented the architectural answer given by the Eclipse KUKSA project to leverage the COVESA Vehicle Signal Specification inside a vehicle. It showed how to use KUKSA components to gather and transform the data from lower embedded layers in the vehicle, and providing them in a secure way to apps and services.</description>
     </item>
-    
     <item>
       <title>KUKSA CANOPi Prototyping platform for Software Defined Vehicle applications</title>
       <link>https://eclipse-kuksa.github.io/kuksa-website/blog/2022/03/24/2022-03-24-canopi/</link>
       <pubDate>Thu, 24 Mar 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://eclipse-kuksa.github.io/kuksa-website/blog/2022/03/24/2022-03-24-canopi/</guid>
-      <description>If you have followed KUKSA over the last years you know the KUKSA OBD Prototyping Platform, a Raspberry CM3-based OBD dongle. Now we are proud to present the second iteration of the KUKSA hardware. As we are not limited to OBD anymore, a small rename was in order, so let&amp;rsquo;s welcome the
-KUKSA CANOPi Platform a Rapid Prototyping Hardware for Software Defined Vehicle Applications. So what is new?
-Two independent MCP251xFD based CAN-FD interfaces.</description>
+      <description>If you have followed KUKSA over the last years you know the KUKSA OBD Prototyping Platform, a Raspberry CM3-based OBD dongle. Now we are proud to present the second iteration of the KUKSA hardware. As we are not limited to OBD anymore, a small rename was in order, so let&amp;rsquo;s welcome the&#xA;KUKSA CANOPi Platform a Rapid Prototyping Hardware for Software Defined Vehicle Applications. So what is new?&#xA;Two independent MCP251xFD based CAN-FD interfaces.</description>
     </item>
-    
     <item>
       <title>Kuksa.val for SCR Anti-Tampering in trucks [Talk]</title>
       <link>https://eclipse-kuksa.github.io/kuksa-website/blog/2021/06/24/2021-06-24-eclipsesaam-scr-anti-tampering/</link>
       <pubDate>Thu, 24 Jun 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://eclipse-kuksa.github.io/kuksa-website/blog/2021/06/24/2021-06-24-eclipsesaam-scr-anti-tampering/</guid>
-      <description>The DIAS project used Eclipse KUKSA to detect tampering in the exhaust cleaning system of a modern truck. Modern internal combustion engines have several advanced exhaust treatment systems to meet emission standards and legislation. In case of Selective Catalytic Reduction (SCR) for diesel engines, a catalyst (“AdBlue®”) is used as consumable. This incurs costs for the operator of diesel vehicles and provides an incentive to unlawfully circumvent those systems.
-The talk presents how the Eclipse KUKSA stack has been used to realize an anti-tampering system for commercial heavy-duty trucks exhaust systems.</description>
+      <description>The DIAS project used Eclipse KUKSA to detect tampering in the exhaust cleaning system of a modern truck. Modern internal combustion engines have several advanced exhaust treatment systems to meet emission standards and legislation. In case of Selective Catalytic Reduction (SCR) for diesel engines, a catalyst (“AdBlue®”) is used as consumable. This incurs costs for the operator of diesel vehicles and provides an incentive to unlawfully circumvent those systems.&#xA;The talk presents how the Eclipse KUKSA stack has been used to realize an anti-tampering system for commercial heavy-duty trucks exhaust systems.</description>
     </item>
-    
     <item>
       <title>Eclipse Kuksa.val DBC Feeder Demo [Video]</title>
       <link>https://eclipse-kuksa.github.io/kuksa-website/blog/2020/08/18/2020-08-18-dbc/</link>
       <pubDate>Tue, 18 Aug 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://eclipse-kuksa.github.io/kuksa-website/blog/2020/08/18/2020-08-18-dbc/</guid>
-      <description>Eclipse Kuksa.val DBC Feeder Demo [Video] This demo showcases the features of the kuksa.val (https://github.com/eclipse/kuksa.val) server.
-While the automotive world is full of standards, there are not a lot of useful standards for an I(o)T world. Useful here means
-Standardize on semantics, not technology only Usable across vendors, by anyone (car manufacturers, suppiers, aftermarket, third parties) Building on, or interacting with, common IT technologies One of the more useful approaches in this context is the Genivi Vehicle signal specification (VSS) (https://github.</description>
+      <description>Eclipse Kuksa.val DBC Feeder Demo [Video] This demo showcases the features of the kuksa.val (https://github.com/eclipse/kuksa.val) server.&#xA;While the automotive world is full of standards, there are not a lot of useful standards for an I(o)T world. Useful here means&#xA;Standardize on semantics, not technology only Usable across vendors, by anyone (car manufacturers, suppiers, aftermarket, third parties) Building on, or interacting with, common IT technologies One of the more useful approaches in this context is the Genivi Vehicle signal specification (VSS) (https://github.</description>
     </item>
-    
     <item>
       <title>Using Eclipse Kuksa for Connected Vehicle Services [Video]</title>
       <link>https://eclipse-kuksa.github.io/kuksa-website/blog/2020/01/21/2020-01-21-eclipsecon19/</link>
       <pubDate>Tue, 21 Jan 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://eclipse-kuksa.github.io/kuksa-website/blog/2020/01/21/2020-01-21-eclipsecon19/</guid>
-      <description>EclipseCon Europe 2019 Presentation: Using Eclipse Kuksa for Connected Vehicle Services &amp;hellip; is presented by project comitters and contributers at the EclispeCon Europe 2019:
-EclipseCon Europe 2019 Interview: APPSTACLE &amp;amp; Eclilpse Kuksa </description>
+      <description>EclipseCon Europe 2019 Presentation: Using Eclipse Kuksa for Connected Vehicle Services &amp;hellip; is presented by project comitters and contributers at the EclispeCon Europe 2019:&#xA;EclipseCon Europe 2019 Interview: APPSTACLE &amp;amp; Eclilpse Kuksa </description>
     </item>
-    
     <item>
       <title>Kuksa IDE [Video]</title>
       <link>https://eclipse-kuksa.github.io/kuksa-website/blog/2019/12/20/2019-12-20-idevideo/</link>
       <pubDate>Fri, 20 Dec 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://eclipse-kuksa.github.io/kuksa-website/blog/2019/12/20/2019-12-20-idevideo/</guid>
-      <description>Kuksa IDE Video published ITEA Article on 0.1.0 Release ITEA published a news article on Kuksa 0.1.0 at https://itea3.org/news/itea-appstacle-project-announces-eclipse-kuksa-platform-for-car-to-car-to-cloud.html
-Kuksa 0.2.0 Release postponed to January 2020 Since minor organizational matters are still ongoing, we need to postpone Eclipse Kuksa 0.2.0 release to January 2020. Stay tuned!</description>
+      <description>Kuksa IDE Video published ITEA Article on 0.1.0 Release ITEA published a news article on Kuksa 0.1.0 at https://itea3.org/news/itea-appstacle-project-announces-eclipse-kuksa-platform-for-car-to-car-to-cloud.html&#xA;Kuksa 0.2.0 Release postponed to January 2020 Since minor organizational matters are still ongoing, we need to postpone Eclipse Kuksa 0.2.0 release to January 2020. Stay tuned!</description>
     </item>
-    
     <item>
       <title>Kuksa IDE VSCE now available</title>
       <link>https://eclipse-kuksa.github.io/kuksa-website/blog/2019/12/13/2019-12-13-vsmarketplace/</link>
       <pubDate>Fri, 13 Dec 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://eclipse-kuksa.github.io/kuksa-website/blog/2019/12/13/2019-12-13-vsmarketplace/</guid>
       <description>Kuksa IDE Extension published to Visual Studio Code Marketplace Today, the Eclipse Kuksa team successfully published the latest Kuksa.IDE-VSCE at the Visual Studio Code marketplace. This Visual Studio Code Extension (VSCE) provides several commands to ease application development, docker image generation, and the transmission to an existing Eclipse Kuksa Appstore. More information can be found here. Download the Eclipse Kuksa IDE VSCE at the official VSCode marketplace now for free. The extension can be further used along with Eclipse Theia and Eclipse Che as part of an online IDE based on kubernetes and docker.</description>
     </item>
-    
     <item>
       <title>Developer Questionnaire</title>
       <link>https://eclipse-kuksa.github.io/kuksa-website/blog/2019/12/11/2019-12-11-questionaire/</link>
       <pubDate>Wed, 11 Dec 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://eclipse-kuksa.github.io/kuksa-website/blog/2019/12/11/2019-12-11-questionaire/</guid>
-      <description>Help us with your feedback to further develop Eclipse Kuksa .. &amp;hellip; take a few moments as a developer to give us feedback from our ecosystem: In-Vehicle, Cloud, and IDE via https://forms.gle/XbhaugGQexb4pexi9
-Thank you!</description>
+      <description>Help us with your feedback to further develop Eclipse Kuksa .. &amp;hellip; take a few moments as a developer to give us feedback from our ecosystem: In-Vehicle, Cloud, and IDE via https://forms.gle/XbhaugGQexb4pexi9&#xA;Thank you!</description>
     </item>
-    
     <item>
       <title>Release 0.1.0</title>
       <link>https://eclipse-kuksa.github.io/kuksa-website/blog/2019/11/01/2019-11-01-release010/</link>
       <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://eclipse-kuksa.github.io/kuksa-website/blog/2019/11/01/2019-11-01-release010/</guid>
-      <description>The APPSTACLE project members and Eclipse Kuksa developers released Eclipse Kuksa 0.1.0 officially on 30.09.2019.
-Within this release you can find the following:
-In-Vehicle In-Vehicle software runs on a target device such as the Raspberry Pi.
-agl-kuksa - Scripts to automate the AGL build system with the meta-kuksa layers. kuksa-hawkbit - Barebone API for connecting to Eclipse Hawkbit. The kuksa-appmanager (see below) should though be the prior choice to interact with Eclipse HawkBit.</description>
+      <description>The APPSTACLE project members and Eclipse Kuksa developers released Eclipse Kuksa 0.1.0 officially on 30.09.2019.&#xA;Within this release you can find the following:&#xA;In-Vehicle In-Vehicle software runs on a target device such as the Raspberry Pi.&#xA;agl-kuksa - Scripts to automate the AGL build system with the meta-kuksa layers. kuksa-hawkbit - Barebone API for connecting to Eclipse Hawkbit. The kuksa-appmanager (see below) should though be the prior choice to interact with Eclipse HawkBit.</description>
     </item>
-    
     <item>
       <title>Automotive Ethernet Gateway by taskit</title>
       <link>https://eclipse-kuksa.github.io/kuksa-website/blog/2019/10/28/2019-10-28-taskit/</link>
       <pubDate>Mon, 28 Oct 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://eclipse-kuksa.github.io/kuksa-website/blog/2019/10/28/2019-10-28-taskit/</guid>
-      <description>taskit GmbH has developed a Car2X Gateway, which enables standardized, secure access to the cloud for in-car software. It comes pre-installed with Automotive Grade Linux (AGL) and Eclipse Kuksa and supports multiple interfaces such as CAN bus and Automotive Ethernet.
-The Gateway was created as a part of the APPSTACLE project. This project is creating an open de facto standard and an open-source implementation of a complete technology stack for connected car scenarios as well as an associated ecosystem of libraries, tools, business models, services and support - hosted by the Eclipse Foundation as the Eclipse Kuksa project.</description>
+      <description>taskit GmbH has developed a Car2X Gateway, which enables standardized, secure access to the cloud for in-car software. It comes pre-installed with Automotive Grade Linux (AGL) and Eclipse Kuksa and supports multiple interfaces such as CAN bus and Automotive Ethernet.&#xA;The Gateway was created as a part of the APPSTACLE project. This project is creating an open de facto standard and an open-source implementation of a complete technology stack for connected car scenarios as well as an associated ecosystem of libraries, tools, business models, services and support - hosted by the Eclipse Foundation as the Eclipse Kuksa project.</description>
     </item>
-    
     <item>
       <title>APPSTACLE F2F Meeting &amp; Hackathon @ Netas, Istanbul, Turkey</title>
       <link>https://eclipse-kuksa.github.io/kuksa-website/blog/2019/09/19/2019-09-19-netas/</link>
       <pubDate>Thu, 19 Sep 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://eclipse-kuksa.github.io/kuksa-website/blog/2019/09/19/2019-09-19-netas/</guid>
       <description>The APPSTACLE project members and Eclipse Kuksa developers met in mid September 2019 to work on common challenges, release planning, documentation, and specifically technologies around the Eclipse Kuksa Appstore. Many issues could be resolved and the path to Eclipse Kuksa 0.1.0 looks promising!</description>
     </item>
-    
     <item>
       <title>Summerschool FH-Dortmund - Automotive Stream</title>
       <link>https://eclipse-kuksa.github.io/kuksa-website/blog/2019/07/05/2019-07-05-summerschool/</link>
       <pubDate>Fri, 05 Jul 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://eclipse-kuksa.github.io/kuksa-website/blog/2019/07/05/2019-07-05-summerschool/</guid>
-      <description>On regular basis, Dortmund University of Applied Sciences and Arts (Germany) organizes a one week summer school for students with various streams to choose from. As part of the automotive stream, Eclipse Kuksa technologies have been presented and students could get their hands on
-the Eclipse Kuksa OBD dongle used in a real car scenario applications installed via the Appstore the Eclipse Kuksa Rover running AGL or Raspbian with the Eclipse Kuksa in-vehicle layers the new Eclipse Kuksa IDE for a simplified deployment of applications and cloud services and more&amp;hellip; </description>
+      <description>On regular basis, Dortmund University of Applied Sciences and Arts (Germany) organizes a one week summer school for students with various streams to choose from. As part of the automotive stream, Eclipse Kuksa technologies have been presented and students could get their hands on&#xA;the Eclipse Kuksa OBD dongle used in a real car scenario applications installed via the Appstore the Eclipse Kuksa Rover running AGL or Raspbian with the Eclipse Kuksa in-vehicle layers the new Eclipse Kuksa IDE for a simplified deployment of applications and cloud services and more&amp;hellip; </description>
     </item>
-    
     <item>
       <title>When Eclipse Kuksa meets Eclipse SUMO [VIDEO]</title>
       <link>https://eclipse-kuksa.github.io/kuksa-website/blog/2019/05/28/2019-05-28-when-kuksa-meets-sumo/</link>
       <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://eclipse-kuksa.github.io/kuksa-website/blog/2019/05/28/2019-05-28-when-kuksa-meets-sumo/</guid>
       <description>This video features an approach for connecting the Eclipse SUMO track simulation with the open source connected vehicle ecosystem Eclipse Kuksa. More precisely, Eclipse SUMO is used to simulate traffic scenarios including microscopic properties like the position or emission. The generated data of each vehicle is then be sent to the message gateway of the Kuksa IoT Cloud platform and delegated to an according example service that consumes the data.</description>
     </item>
-    
     <item>
       <title>Appstacle Use Case: Remote Driver Authentication with Eclipse Kuksa</title>
       <link>https://eclipse-kuksa.github.io/kuksa-website/blog/2019/04/18/2019-04-18-remote-driver-anthentication/</link>
       <pubDate>Thu, 18 Apr 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://eclipse-kuksa.github.io/kuksa-website/blog/2019/04/18/2019-04-18-remote-driver-anthentication/</guid>
-      <description>The Appstacle Turkish consortium, including Koçsistem, Otokar and Netaş, has created a Remote Driver Authentication demo based on the Eclipse Kuksa platform.
-Within the project, various companies or groups of companies, have focused on several use cases that support the vision of an ecosystem for purchasing and downloading in-vehicle applications. Otokar, a vehicle manufacturer, is tasked with integrating these scenarios and testing them on real vehicles. Otokar and the rest of the Turkish consortium are focused on the driver and passenger authentication scenarios.</description>
+      <description>The Appstacle Turkish consortium, including Koçsistem, Otokar and Netaş, has created a Remote Driver Authentication demo based on the Eclipse Kuksa platform.&#xA;Within the project, various companies or groups of companies, have focused on several use cases that support the vision of an ecosystem for purchasing and downloading in-vehicle applications. Otokar, a vehicle manufacturer, is tasked with integrating these scenarios and testing them on real vehicles. Otokar and the rest of the Turkish consortium are focused on the driver and passenger authentication scenarios.</description>
     </item>
-    
     <item>
       <title>Otokar Hatti</title>
       <link>https://eclipse-kuksa.github.io/kuksa-website/blog/2019/02/15/2019-02-15-otokar-magazin/</link>
       <pubDate>Fri, 15 Feb 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://eclipse-kuksa.github.io/kuksa-website/blog/2019/02/15/2019-02-15-otokar-magazin/</guid>
-      <description>The Turkish consortium composed an article which is published in the monthly public magazine “Otokar Hattı” (“Otokar Production Line” in English).
-Check it out page 6-7, of the following pdf file: Otokar Hatti.
-The article is in Turkish
-Erdem Ergen KoçSistem </description>
+      <description>The Turkish consortium composed an article which is published in the monthly public magazine “Otokar Hattı” (“Otokar Production Line” in English).&#xA;Check it out page 6-7, of the following pdf file: Otokar Hatti.&#xA;The article is in Turkish&#xA;Erdem Ergen KoçSistem </description>
     </item>
-    
     <item>
       <title>Hackathon0119</title>
       <link>https://eclipse-kuksa.github.io/kuksa-website/blog/2019/01/29/2019-01-29-hackathon0119/</link>
       <pubDate>Tue, 29 Jan 2019 15:20:00 +0100</pubDate>
-      
       <guid>https://eclipse-kuksa.github.io/kuksa-website/blog/2019/01/29/2019-01-29-hackathon0119/</guid>
-      <description>Hackathon 2019 The Eclipse Kuksa team met once again for a Hackathon in January 2019 to address Eclipse Kuksa issues and open tasks of our roadmap.
-https://twitter.com/Appstacle/status/1035176013381230592</description>
+      <description>Hackathon 2019 The Eclipse Kuksa team met once again for a Hackathon in January 2019 to address Eclipse Kuksa issues and open tasks of our roadmap.&#xA;https://twitter.com/Appstacle/status/1035176013381230592</description>
     </item>
-    
     <item>
       <title>ECE2018: Automotive meets IoT: Innovating your Future Vehicle</title>
       <link>https://eclipse-kuksa.github.io/kuksa-website/blog/2018/10/24/2018-10-24-ece2018-automotive-meets-iot/</link>
       <pubDate>Wed, 24 Oct 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://eclipse-kuksa.github.io/kuksa-website/blog/2018/10/24/2018-10-24-ece2018-automotive-meets-iot/</guid>
-      <description>Sebastian Schildt (Robert Bosch GmbH) made a very interesting and well received presentation of the Kuksa project at EclipseCon Europe 2018.
-Check it out!</description>
+      <description>Sebastian Schildt (Robert Bosch GmbH) made a very interesting and well received presentation of the Kuksa project at EclipseCon Europe 2018.&#xA;Check it out!</description>
     </item>
-    
     <item>
       <title>EclipseCon Europe and ESE Kongress events</title>
       <link>https://eclipse-kuksa.github.io/kuksa-website/blog/2018/10/22/2018-10-22-ece1018ese1218/</link>
       <pubDate>Mon, 22 Oct 2018 12:13:28 +0200</pubDate>
-      
       <guid>https://eclipse-kuksa.github.io/kuksa-website/blog/2018/10/22/2018-10-22-ece1018ese1218/</guid>
-      <description>EclipseCon France 2018 Eclipse Kuksa and its latest development activities will be presented along with the talk Automotive meets IoT: Innovating your Future Vehicle at EclipseCon Europe 2018 in Ludwigsburg, Germany.
-Embedded Software Engineering Kongress 2018 In addition to the EclipseCon Europe event, you can join us at the ESE Kongress in Sindelfingen, Germany, on December, 6th. The talk Überwindung der Silos – Revolution für vernetzte Fahrzeuge, that means &amp;lsquo;Overcoming the Silos - Revolution for Connected Vehicles&amp;rsquo;, will be held at 16:45 o&amp;rsquo;clock (4:45pm) and will cover both a generic as well as detailed descriptions of the three Eclipse Kuksa platforms (a) In-Vehicle, (b) IDE, and ( c) Cloud.</description>
+      <description>EclipseCon France 2018 Eclipse Kuksa and its latest development activities will be presented along with the talk Automotive meets IoT: Innovating your Future Vehicle at EclipseCon Europe 2018 in Ludwigsburg, Germany.&#xA;Embedded Software Engineering Kongress 2018 In addition to the EclipseCon Europe event, you can join us at the ESE Kongress in Sindelfingen, Germany, on December, 6th. The talk Überwindung der Silos – Revolution für vernetzte Fahrzeuge, that means &amp;lsquo;Overcoming the Silos - Revolution for Connected Vehicles&amp;rsquo;, will be held at 16:45 o&amp;rsquo;clock (4:45pm) and will cover both a generic as well as detailed descriptions of the three Eclipse Kuksa platforms (a) In-Vehicle, (b) IDE, and ( c) Cloud.</description>
     </item>
-    
     <item>
       <title>EclipseCon France 2018 interview</title>
       <link>https://eclipse-kuksa.github.io/kuksa-website/blog/2018/09/18/2018-09-18-ecf2018-interview/</link>
       <pubDate>Tue, 18 Sep 2018 13:07:31 +0200</pubDate>
-      
       <guid>https://eclipse-kuksa.github.io/kuksa-website/blog/2018/09/18/2018-09-18-ecf2018-interview/</guid>
       <description>Interview with Robert Höttger (Fachhochschule Dortmund - University of Applied Science and Arts). Robert presented the recent news about the APPSTACLE project.</description>
     </item>
-    
     <item>
       <title>Eclipse Kuksa Hackathon 08.2018</title>
       <link>https://eclipse-kuksa.github.io/kuksa-website/blog/2018/08/30/2018-08-30-hack0818/</link>
       <pubDate>Thu, 30 Aug 2018 13:47:08 +0200</pubDate>
-      
       <guid>https://eclipse-kuksa.github.io/kuksa-website/blog/2018/08/30/2018-08-30-hack0818/</guid>
-      <description>Hacking 3 Days @ IDiAL, FH-Dortmund, for Eclipse Kuksa Features 13 Hackers met in Dortmund on August, 28th until 30th of August to work on an end-to-end use case scenario along with new Eclipse Kuksa technologies. 20 CQs, 2 major GitHub pull-requests, and 21035 LOCs were the results. Of course, the LOCs also contain content from work prior to the Hackathon.
-More precisely, the Eclipse Kuksa Appstore was migrated to an Eclipse HawkBit Server, that transmits applications wirelessly to an Eclipse HawkBit client running on a device (Raspberry Pi) that runs the Kuksa adapted AGL (Automotive Grade Linux + Kuksa technologies).</description>
+      <description>Hacking 3 Days @ IDiAL, FH-Dortmund, for Eclipse Kuksa Features 13 Hackers met in Dortmund on August, 28th until 30th of August to work on an end-to-end use case scenario along with new Eclipse Kuksa technologies. 20 CQs, 2 major GitHub pull-requests, and 21035 LOCs were the results. Of course, the LOCs also contain content from work prior to the Hackathon.&#xA;More precisely, the Eclipse Kuksa Appstore was migrated to an Eclipse HawkBit Server, that transmits applications wirelessly to an Eclipse HawkBit client running on a device (Raspberry Pi) that runs the Kuksa adapted AGL (Automotive Grade Linux + Kuksa technologies).</description>
     </item>
-    
     <item>
       <title>EclipseCon France participation</title>
       <link>https://eclipse-kuksa.github.io/kuksa-website/blog/2018/06/18/2018-06-18-ecf2018/</link>
       <pubDate>Mon, 18 Jun 2018 13:07:31 +0200</pubDate>
-      
       <guid>https://eclipse-kuksa.github.io/kuksa-website/blog/2018/06/18/2018-06-18-ecf2018/</guid>
-      <description>EclipseCon France 2018 Eclipse Kuksa was presented at EclipseCon France 2018 along with the research booth, the research community&amp;rsquo;s pitch session, a regular talk hold by Tobias Rawald and Robert Hoettger, and an interview about the motivation, goals, and the current state of Eclipse Kuksa.
-https://twitter.com/phkrief/status/1007266197820329984
-https://twitter.com/phkrief/status/1006833646119018496
-https://twitter.com/phkrief/status/1006835234669842432</description>
+      <description>EclipseCon France 2018 Eclipse Kuksa was presented at EclipseCon France 2018 along with the research booth, the research community&amp;rsquo;s pitch session, a regular talk hold by Tobias Rawald and Robert Hoettger, and an interview about the motivation, goals, and the current state of Eclipse Kuksa.&#xA;https://twitter.com/phkrief/status/1007266197820329984&#xA;https://twitter.com/phkrief/status/1006833646119018496&#xA;https://twitter.com/phkrief/status/1006835234669842432</description>
     </item>
-    
     <item>
       <title>Initial Contributions</title>
       <link>https://eclipse-kuksa.github.io/kuksa-website/blog/2018/06/05/2018-06-05-initialcontribution/</link>
       <pubDate>Tue, 05 Jun 2018 21:49:20 +0200</pubDate>
-      
       <guid>https://eclipse-kuksa.github.io/kuksa-website/blog/2018/06/05/2018-06-05-initialcontribution/</guid>
-      <description>Eclipse Kuksa&amp;rsquo;s initial contribution was successfully submitted to the GitHub repositories. We are working on a roadmap to present planned activities for upcoming contributions. Apart from the three major Kuksa parts, i.e.,
-kuksa.invehicle kuksa.cloud kuksa.ide additional repositories will cover specific use-cases, builds, tests, and other features within:
-kuksa.apps kuksa.integration </description>
+      <description>Eclipse Kuksa&amp;rsquo;s initial contribution was successfully submitted to the GitHub repositories. We are working on a roadmap to present planned activities for upcoming contributions. Apart from the three major Kuksa parts, i.e.,&#xA;kuksa.invehicle kuksa.cloud kuksa.ide additional repositories will cover specific use-cases, builds, tests, and other features within:&#xA;kuksa.apps kuksa.integration </description>
     </item>
-    
     <item>
       <title>Rover V03</title>
       <link>https://eclipse-kuksa.github.io/kuksa-website/blog/2018/05/31/2018-05-31-roverv03/</link>
       <pubDate>Thu, 31 May 2018 21:49:20 +0200</pubDate>
-      
       <guid>https://eclipse-kuksa.github.io/kuksa-website/blog/2018/05/31/2018-05-31-roverv03/</guid>
-      <description>The Rover (SW: Rover Software, HW: Rover Hardware) has been updated to version V03. This includes several migrations of tasks to AGL services and applications, as well major improvements to the Rover&amp;rsquo;s chassis, that provides a more modular structure since components can be flexibly clipped to different positions without the need of screws. The following implementations are though on our roadmap for the next release:
-ACC Parking Marker recognition (using OpenCV) Rover-follow application &amp;hellip;.</description>
+      <description>The Rover (SW: Rover Software, HW: Rover Hardware) has been updated to version V03. This includes several migrations of tasks to AGL services and applications, as well major improvements to the Rover&amp;rsquo;s chassis, that provides a more modular structure since components can be flexibly clipped to different positions without the need of screws. The following implementations are though on our roadmap for the next release:&#xA;ACC Parking Marker recognition (using OpenCV) Rover-follow application &amp;hellip;.</description>
     </item>
-    
     <item>
       <title>Eclipse Kuksa @ IoT WG</title>
       <link>https://eclipse-kuksa.github.io/kuksa-website/blog/2018/01/17/2018-01-17-plans/</link>
       <pubDate>Wed, 17 Jan 2018 13:47:08 +0200</pubDate>
-      
       <guid>https://eclipse-kuksa.github.io/kuksa-website/blog/2018/01/17/2018-01-17-plans/</guid>
-      <description>Introduction to Eclipse Kuksa The slides below were part of the introduction of Eclipse Kuksa to the Eclipse IoT community.
-Presentation is available here.</description>
+      <description>Introduction to Eclipse Kuksa The slides below were part of the introduction of Eclipse Kuksa to the Eclipse IoT community.&#xA;Presentation is available here.</description>
     </item>
-    
     <item>
       <title>Oulanka Project Meeting</title>
       <link>https://eclipse-kuksa.github.io/kuksa-website/blog/2017/10/26/2017-10-26-oulanka/</link>
       <pubDate>Thu, 26 Oct 2017 13:39:46 +0200</pubDate>
-      
       <guid>https://eclipse-kuksa.github.io/kuksa-website/blog/2017/10/26/2017-10-26-oulanka/</guid>
       <description>At the project meeting in Oulanka, Finnland, the APPSTACLE consortium collected and coordinated a variety of topics to work on in the upcoming time. Use-case scenarios, in-vehicle development activities, network protocols, cloud infrastructure, security demands, dissemination and exploitation and other topics were in focus for the project partners. The various discussions, cooperations, ideas, and further activities were defined in order to set the basis to reach the goals of APPSTACLE and form Eclipse Kuksa, i.</description>
     </item>
-    
   </channel>
 </rss>
