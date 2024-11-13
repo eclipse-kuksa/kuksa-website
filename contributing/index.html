@@ -36,7 +36,7 @@
 
 
 
-<link href="/kuksa-website/css/custom.css?1731504283" rel="stylesheet">
+<link href="/kuksa-website/css/custom.css?1731506790" rel="stylesheet">
 
 
 
@@ -134,7 +134,7 @@
 
                   
                   <li class="dropdown ">
-                    <a href="/kuksa-website/about/">Vision</a>
+                    <a href="/kuksa-website/about">Vision</a>
                   </li>
                   
                   
@@ -164,7 +164,7 @@
 
                   
                   <li class="dropdown ">
-                    <a href="/kuksa-website/blog/">Blog</a>
+                    <a href="/kuksa-website/contributing">Contributing</a>
                   </li>
                   
                   
@@ -179,7 +179,7 @@
 
                   
                   <li class="dropdown ">
-                    <a href="/kuksa-website/publications/">Videos &amp; Publications</a>
+                    <a href="/kuksa-website/blog">Blog</a>
                   </li>
                   
                   
@@ -194,7 +194,22 @@
 
                   
                   <li class="dropdown ">
-                    <a href="/kuksa-website/resources/">Resources</a>
+                    <a href="/kuksa-website/publications">Videos &amp; Publications</a>
+                  </li>
+                  
+                  
+                  
+                  
+
+                  
+
+                  
+
+                  
+
+                  
+                  <li class="dropdown ">
+                    <a href="/kuksa-website/resources">Resources</a>
                   </li>
                   
                   
@@ -241,12 +256,7 @@
                     <div class="col-md-12">
 
                         <div>
-                          <p><strong>Get in touch</strong> ! There is the</p>
-<h3 id="kuksa-dev-mailing-listhttpsaccountseclipseorgmailing-listkuksa-dev-and-a"><a href="https://accounts.eclipse.org/mailing-list/kuksa-dev">kuksa-dev mailing list</a> and a</h3>
-<h3 id="bi-weekly-zoom-meetinghttpseclipsezoomusj537310990-every-thursday-on-even-calendar-weeks-from-1-2pm-cetcest"><strong>bi-weekly</strong> <a href="https://eclipse.zoom.us/j/537310990">Zoom meeting</a> every Thursday on even calendar weeks from 1-2pm (CET/CEST).</h3>
-<hr>
-<hr>
-<h1 id="howto-contribute-to-eclipse-kuksa">HowTo contribute to Eclipse Kuksa</h1>
+                          <h1 id="how-to-contribute-to-eclipse-kuksa">How to contribute to Eclipse Kuksa</h1>
 <p>Great that you are interested in contributing to Eclipse Kuksa.
 We really looking forward to receive your contribution!</p>
 <p>In the project we agreed upon the following approach to add contributions to the project.</p>
@@ -261,12 +271,6 @@ We really looking forward to receive your contribution!</p>
 <ul>
 <li>
 <p>File headers in file OK (see section <a href="#licensing-and-file-header">License Headers</a> for details)</p>
-</li>
-<li>
-<p>Each new feature is developed in a separate branch</p>
-<ul>
-<li>Development branches should be named like<code>&lt;github-nickname&gt;/&lt;issue&gt;/&lt;description&gt;</code>, e.g. bs-jokri/#2/fix-connection-handling</li>
-</ul>
 </li>
 <li>
 <p>Coding style</p>
@@ -286,7 +290,7 @@ Reviewers might refer to specific clean code practices to help improve contribut
 <p>All tests pass</p>
 <ul>
 <li>Unit testing as it is already present</li>
-<li>You have more - use them!</li>
+<li>If you have more - contribute them!</li>
 </ul>
 </li>
 <li>
@@ -296,8 +300,6 @@ Reviewers might refer to specific clean code practices to help improve contribut
 Github repository that you contribute to. Documentation is in markdown and it either
 included in the top-level README.md file of the Github repository, or linked from
 there.</li>
-<li>Update the high-level overview of Kuksa in the <a href="https://github.com/eclipse/kuksa.integration/wiki">kuksa.integration Wiki at Github</a>.
-From the wiki, provide links to relevant technical documentation in the Github repositories.</li>
 </ul>
 </li>
 <li>
@@ -328,7 +330,7 @@ be signed off. You can also
 <p>If you checked your code according to the DoD and you feel it can be merged to master, please create a PR to master.
 Each PR that is merged to master has to pass all tests and needs a code review of some other person of the project that looks onto your contribution from another angle,
 i.e. didn&rsquo;t work with you on the new feature. Probably a good idea is to have someone from another organization doing the review.
-Maybe you already have someone in mind doing the review, then request a review from this person via the github review functionallity.</p>
+Eclipse Kuksa Committers regularly scan the repositories for new Pull Requests.</p>
 <h2 id="review">Review</h2>
 <p>If you conduct a code review, please look at the following issues:</p>
 <ul>
@@ -338,41 +340,29 @@ Maybe you already have someone in mind doing the review, then request a review f
 <li>Does the new feature fit the overall project goal, is it suitable for the community</li>
 </ul>
 <h2 id="manual-test">Manual Test</h2>
-<p>If applicable the new  feature should at least be deployed and tested by someone before actually merged to master.
-This could be done by the same person that is doing the review but could be performed  by another person.</p>
+<p>If applicable the new feature should at least be deployed and tested by someone before actually merged to master.
+This could be done by the same person that is doing the review but could be performed by another person.</p>
 <p>After review and tests are finished it should be documented who actually did the review and the test.
-Do this with the following lines in the comments of the PR.</p>
-<pre tabindex="0"><code>review-by:email@domain.com
-</code></pre><p>and</p>
-<pre tabindex="0"><code>tested-by:email@domain.com
-</code></pre><h2 id="third-party-dependencies">Third party dependencies</h2>
-<p>If you use third party content (import / include &hellip;), you are required to list each third party content explicitly with its version number in the documentation or your pull-request comment.
-Please note that GPL software cannot be approved for Eclipse Kuksa.</p>
+Use the GitHub review mechanism and give comment stating what you have done.</p>
 <h2 id="licensing-and-file-header">Licensing and file header</h2>
 <p>All files contributed require headers - this will ensure the license and copyright clearing at the end.
 Also, all contributions must have the same license as the original source.</p>
-<p>If a file has relevant functionality add the official EPL-2.0 header as described here
-<a href="https://www.eclipse.org/legal/epl-2.0/faq.php#h.q72cnghf29k0">https://www.eclipse.org/legal/epl-2.0/faq.php#h.q72cnghf29k0</a></p>
-<p>We recommend to use the releng copyright tool at:
-<a href="https://wiki.eclipse.org/Development_Resources/How_to_Use_Eclipse_Copyright_Tool">https://wiki.eclipse.org/Development_Resources/How_to_Use_Eclipse_Copyright_Tool</a></p>
-<pre tabindex="0"><code>/*********************************************************************
-* Copyright (c) {date} {owner} [and others]
+<p>Most Eclipse KUKSA repositories use the <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache-2.0 </a> license.
+A header like the one below shall be used.</p>
+<pre tabindex="0"><code>/********************************************************************************
+* Copyright (c) {year} Contributors to the Eclipse Foundation
 *
-* This program and the accompanying materials are made
-* available under the terms of the Eclipse Public License 2.0
-* which is available at https://www.eclipse.org/legal/epl-2.0/
+* See the NOTICE file(s) distributed with this work for additional
+* information regarding copyright ownership.
 *
-* SPDX-License-Identifier: EPL-2.0
-**********************************************************************/
+* This program and the accompanying materials are made available under the
+* terms of the Apache License 2.0 which is available at
+* http://www.apache.org/licenses/LICENSE-2.0
+*
+* SPDX-License-Identifier: Apache-2.0
+********************************************************************************/
 </code></pre><p>(please adapt comment characters usage)</p>
-<p>For small files such as property files, configuration files or standard XML files:</p>
-<pre tabindex="0"><code># Copyright &lt;COPYRIGHT_HOLDER&gt;, &lt;YEAR&gt;. Part of the Eclipse Kuksa Project.
-#
-# All rights reserved. This configuration file is provided to you under the
-# terms and conditions of the Eclipse Distribution License v1.0 which
-# accompanies this distribution, and is available at
-# http://www.eclipse.org/org/documents/edl-v10.php
-</code></pre><h2 id="eclipse-contributor-agreement">Eclipse Contributor Agreement</h2>
+<h2 id="eclipse-contributor-agreement">Eclipse Contributor Agreement</h2>
 <p>Before your contribution can be accepted by the project team contributors must
 electronically sign the Eclipse Contributor Agreement (ECA).</p>
 <ul>

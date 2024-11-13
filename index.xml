@@ -55,7 +55,7 @@
       <link>https://eclipse-kuksa.github.io/kuksa-website/resources/</link>
       <pubDate>Fri, 14 May 2021 09:46:31 +0200</pubDate>
       <guid>https://eclipse-kuksa.github.io/kuksa-website/resources/</guid>
-      <description>Get in touch Bi-weekly Meeting There is the bi-weekly KUKSA dev/user call on Zoom every Thursday on odd calendar weeks from 1-2pm (CET/CEST).&#xA;Prev Month Next Month This Month Chat You can find us on Chat in Gitter Channel, or if you are a Matrix user using the Gitter-Matrix bridge.&#xA;Mailinglist You can reach us on the kuksa-dev mailing list&#xA;Get the code The code for the various subprojects is provided in the following Github repositories.</description>
+      <description>Get in touch Bi-weekly Meeting There is the bi-weekly KUKSA dev/user call on Zoom every Thursday on odd calendar weeks from 1-2pm (CET/CEST).&#xA;Prev Month Next Month This Month Chat You can find us on Chat in Gitter Channel, or if you are a Matrix user using the Gitter-Matrix bridge.&#xA;Mailinglist You can reach us on the kuksa-dev mailing list&#xA;Get the code The code for the various subprojects is provided in Github repositories.</description>
     </item>
     <item>
       <title>About</title>
@@ -160,7 +160,7 @@
       <link>https://eclipse-kuksa.github.io/kuksa-website/contributing/</link>
       <pubDate>Tue, 29 Jan 2019 09:46:31 +0200</pubDate>
       <guid>https://eclipse-kuksa.github.io/kuksa-website/contributing/</guid>
-      <description>Get in touch ! There is the&#xA;kuksa-dev mailing list and a bi-weekly Zoom meeting every Thursday on even calendar weeks from 1-2pm (CET/CEST). HowTo contribute to Eclipse Kuksa Great that you are interested in contributing to Eclipse Kuksa. We really looking forward to receive your contribution!&#xA;In the project we agreed upon the following approach to add contributions to the project.&#xA;Meet the Definition of Done (DoD) A review took place for the code The new feature was at least once tested manually, deployed to a running test instance Clearly outline third party dependencies Definition of Done First, we have DoD for solved issues.</description>
+      <description>How to contribute to Eclipse Kuksa Great that you are interested in contributing to Eclipse Kuksa. We really looking forward to receive your contribution!&#xA;In the project we agreed upon the following approach to add contributions to the project.&#xA;Meet the Definition of Done (DoD) A review took place for the code The new feature was at least once tested manually, deployed to a running test instance Clearly outline third party dependencies Definition of Done First, we have DoD for solved issues.</description>
     </item>
     <item>
       <title>ECE2018: Automotive meets IoT: Innovating your Future Vehicle</title>
@@ -174,7 +174,7 @@
       <link>https://eclipse-kuksa.github.io/kuksa-website/blog/2018/10/22/2018-10-22-ece1018ese1218/</link>
       <pubDate>Mon, 22 Oct 2018 12:13:28 +0200</pubDate>
       <guid>https://eclipse-kuksa.github.io/kuksa-website/blog/2018/10/22/2018-10-22-ece1018ese1218/</guid>
-      <description>EclipseCon France 2018 Eclipse Kuksa and its latest development activities will be presented along with the talk Automotive meets IoT: Innovating your Future Vehicle at EclipseCon Europe 2018 in Ludwigsburg, Germany.&#xA;Embedded Software Engineering Kongress 2018 In addition to the EclipseCon Europe event, you can join us at the ESE Kongress in Sindelfingen, Germany, on December, 6th. The talk Überwindung der Silos – Revolution für vernetzte Fahrzeuge, that means &amp;lsquo;Overcoming the Silos - Revolution for Connected Vehicles&amp;rsquo;, will be held at 16:45 o&amp;rsquo;clock (4:45pm) and will cover both a generic as well as detailed descriptions of the three Eclipse Kuksa platforms (a) In-Vehicle, (b) IDE, and ( c) Cloud.</description>
+      <description>EclipseCon France 2018 Eclipse Kuksa and its latest development activities will be presented along with the talk Automotive meets IoT: Innovating your Future Vehicle at EclipseCon Europe 2018 in Ludwigsburg, Germany.&#xA;Embedded Software Engineering Kongress 2018 In addition to the EclipseCon Europe event, you can join us at the ESE Kongress in Sindelfingen, Germany, on December, 6th. The talk &amp;ldquo;Überwindung der Silos – Revolution für vernetzte Fahrzeuge&amp;rdquo;, that means &amp;lsquo;Overcoming the Silos - Revolution for Connected Vehicles&amp;rsquo;, will be held at 16:45 o&amp;rsquo;clock (4:45pm) and will cover both a generic as well as detailed descriptions of the three Eclipse Kuksa platforms (a) In-Vehicle, (b) IDE, and ( c) Cloud.</description>
     </item>
     <item>
       <title>EclipseCon France 2018 interview</title>

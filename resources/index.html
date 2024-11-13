@@ -36,7 +36,7 @@
 
 
 
-<link href="/kuksa-website/css/custom.css?1731504283" rel="stylesheet">
+<link href="/kuksa-website/css/custom.css?1731506790" rel="stylesheet">
 
 
 
@@ -134,7 +134,7 @@
 
                   
                   <li class="dropdown ">
-                    <a href="/kuksa-website/about/">Vision</a>
+                    <a href="/kuksa-website/about">Vision</a>
                   </li>
                   
                   
@@ -164,7 +164,7 @@
 
                   
                   <li class="dropdown ">
-                    <a href="/kuksa-website/blog/">Blog</a>
+                    <a href="/kuksa-website/contributing">Contributing</a>
                   </li>
                   
                   
@@ -179,7 +179,7 @@
 
                   
                   <li class="dropdown ">
-                    <a href="/kuksa-website/publications/">Videos &amp; Publications</a>
+                    <a href="/kuksa-website/blog">Blog</a>
                   </li>
                   
                   
@@ -187,26 +187,29 @@
                   
 
                   
-                    
+
+                  
+
+                  
+
+                  
+                  <li class="dropdown ">
+                    <a href="/kuksa-website/publications">Videos &amp; Publications</a>
+                  </li>
+                  
+                  
+                  
                   
 
                   
 
                   
-                    
-                      
-                    
-                      
-                    
-                      
-                    
-                      
-                    
+
                   
 
                   
-                  <li class="dropdown active">
-                    <a href="/kuksa-website/resources/">Resources</a>
+                  <li class="dropdown ">
+                    <a href="/kuksa-website/resources">Resources</a>
                   </li>
                   
                   
@@ -342,105 +345,9 @@
 <h3 id="mailinglist">Mailinglist</h3>
 <p>You can reach us on the <a href="https://accounts.eclipse.org/mailing-list/kuksa-dev">kuksa-dev mailing list</a></p>
 <h1 id="get-the-code">Get the code</h1>
-<p>The code for the various subprojects is provided in the following Github repositories. Please note that
+<p>The code for the various subprojects is provided in  Github repositories. Please note that
 issues are tracked and discussed in the repository of the respective sub-project.</p>
-<h2 id="active-projects">Active projects</h2>
-
-
-
-
-
-<table class="table table-striped table-bordered">
-<thead>
-<tr>
-<th>Component</th>
-<th>Source</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Eclipse KUKSA.val</td>
-<td><a href="https://github.com/eclipse/kuksa.val">https://github.com/eclipse/kuksa.val</a></td>
-<td>KUKSA Vehicle Abstraction Layer, this is a an implementation of a VSS server provding access to in-vehicle signals using VISS or GRPC interfaces</td>
-</tr>
-<tr>
-<td>Eclipse KUKSA.val.feeders</td>
-<td><a href="https://github.com/eclipse/kuksa.val.feeders">https://github.com/eclipse/kuksa.val.feeders</a></td>
-<td>Multiple data and actuation providers, gathering vehicle data and transforming it to VSS suitable for KUKSA.val</td>
-</tr>
-<tr>
-<td>Eclipse KUKSA.val.services</td>
-<td><a href="https://github.com/eclipse/kuksa.val.services">https://github.com/eclipse/kuksa.val.services</a></td>
-<td>Set of example vehicle services</td>
-</tr>
-<tr>
-<td>Eclipse KUKSA Android SDK</td>
-<td><a href="https://github.com/eclipse-kuksa/kuksa-android-sdk">https://github.com/eclipse-kuksa/kuksa-android-sdk</a></td>
-<td>SDK to develop KUKSA clients on Android using Kotlin or Java</td>
-</tr>
-<tr>
-<td>Eclipse KUKSA Android Companion</td>
-<td><a href="https://github.com/eclipse-kuksa/kuksa-android-companion">https://github.com/eclipse-kuksa/kuksa-android-companion</a></td>
-<td>Example App using the Android SDK to check and control temperature, tire pressure, doors etc. from your phone</td>
-</tr>
-<tr>
-<td>Eclipse KUKSA Python SDK</td>
-<td><a href="https://github.com/eclipse-kuksa/kuksa-python-sdk">https://github.com/eclipse-kuksa/kuksa-python-sdk</a></td>
-<td>SDK to develop KUKSA applications and providers using Python. Also includes a versatile CLI client for testing/debugging</td>
-</tr>
-<tr>
-<td>Eclipse KUKSA.hardware</td>
-<td><a href="https://github.com/eclipse-kuksa/kuksa-hardware">https://github.com/eclipse-kuksa/kuksa-hardware</a></td>
-<td>Hardware schematics and manufacturing files for the KUKSA SDV prototpying platform. This is a PI-compatible hardware providing access to CAN, OBD and cellular connectivity</td>
-</tr>
-<tr>
-<td>KUKSA-website</td>
-<td><a href="https://github.com/eclipse-kuksa/kuksa-website">https://github.com/eclipse-kuksa/kuksa-website</a></td>
-<td>The sources for the website you are reading now</td>
-</tr>
-</tbody>
-</table>
-
-<h2 id="dormant-projects">Dormant projects</h2>
-<p>This repositories contain components that have been developed in the past, but are currently not actively maintained or whose functionality has been integrated into active components.</p>
-
-
-
-
-
-<table class="table table-striped table-bordered">
-<thead>
-<tr>
-<th>Component</th>
-<th>Source</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Eclipse KUKSA.ide</td>
-<td><a href="https://github.com/eclipse/kuksa.ide">https://github.com/eclipse/kuksa.ide</a></td>
-<td>Browser-based IDE used by developers to create applications for the Eclipse Kuksa in-vehicle. If you are searching for an integrated way to build applications based on vehicle data provided by KUKSA.val, you may want to check the <a href="https://eclipse-velocitas.github.io/velocitas-docs/">Velocitas framework</a>. As first step you can have a look at the playground from <a href="https://digitalauto.netlify.app/">digital auto</a>.</td>
-</tr>
-<tr>
-<td>KUKSA.Apps</td>
-<td><a href="https://github.com/eclipse/kuksa.apps">https://github.com/eclipse/kuksa.apps</a></td>
-<td>Contains applications to showcase use-cases of Eclipse KUKSA. Demos regarding vehicle signal access have been moved over to <a href="https://github.com/eclipse/kuksa.val">KUKSA.val</a></td>
-</tr>
-<tr>
-<td>KUKSA.In-Vehicle</td>
-<td><a href="https://github.com/eclipse/kuksa.invehicle">https://github.com/eclipse/kuksa.invehicle</a></td>
-<td>The in-vehicle platform of Eclipse Kuksa. The KUKSA hardware has been moved to <a href="https://github.com/eclipse/kuksa.hardware">KUKSA.hardware</a>, the VISS dataserver for accessing in-vehicle data is further developed in <a href="https://github.com/eclipse/kuksa.val">KUKSA.val</a>. For a modern integrated SDV distribution check <a href="https://eclipse-leda.github.io/leda/">Eclipse LEDA</a></td>
-</tr>
-<tr>
-<td>Eclipse KUKSA.cloud</td>
-<td><a href="https://github.com/eclipse/kuksa.cloud">https://github.com/eclipse/kuksa.cloud</a></td>
-<td>The cloud-backend of Eclipse KUKSA, including the App Store. Provides helmcharts for easy deployment of the KUKSA.cloud. For deploying software in a vehicle check <a href="https://github.com/eclipse-kanto">Eclipse Kanto</a> or other pojects in <a href="https://sdv.eclipse.org/">Eclipse SDV</a>. For updated versions of the components utilized in KUKSA.cloud check <a href="https://github.com/eclipse/packages">Eclipse IoT packages</a></td>
-</tr>
-</tbody>
-</table>
-
+<p>Please visit <a href="https://github.com/eclipse-kuksa">Eclipse Kuksa</a> on Github to explore all repositories!</p>
 
                         </div>
 
