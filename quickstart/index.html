@@ -36,7 +36,7 @@
 
 
 
-<link href="/kuksa-website/css/custom.css?1731506790" rel="stylesheet">
+<link href="/kuksa-website/css/custom.css?1733861589" rel="stylesheet">
 
 
 
@@ -256,28 +256,32 @@
                     <div class="col-md-12">
 
                         <div>
-                          <h1 id="kuksaval-quickstart">KUKSA.val Quickstart</h1>
-<p>The quickest possible way to get KUKSA.val up and running</p>
-<p><em>Note: The examples in this document do not use TLS or access control.</em></p>
+                          <h1 id="kuksa-quickstart">Kuksa Quickstart</h1>
+<p>The quickest possible way to get Kuksa up and running</p>
+<p><em>Note: The examples in this document do not use TLS or access control.</em>
+<em>They use the latest released version and use default settings as far as possible.</em>
+<em>More details on how you can configure the components is available in the <a href="https://github.com/eclipse-kuksa">GitHub Repositories</a>!</em></p>
 <h2 id="starting-broker">Starting broker</h2>
-<p>First we want to run KUKSA.val databroker</p>
-<pre tabindex="0"><code>docker run -it --rm --net=host ghcr.io/eclipse/kuksa.val/databroker:master --insecure
+<p>First we want to run latest released version of Kuksa Databroker</p>
+<pre tabindex="0"><code>docker run -it --rm --net=host ghcr.io/eclipse-kuksa/kuksa-databroker:latest --insecure
 </code></pre><h2 id="reading-and-writing-vss-data-via-cli">Reading and Writing VSS data via CLI</h2>
 <p>You can interact with the VSS datapoints using the cli clients. The first option is databroker-cli.</p>
 <p>This is, how you start it:</p>
-<pre tabindex="0"><code>docker run -it --rm --net=host ghcr.io/eclipse/kuksa.val/databroker-cli:master
+<pre tabindex="0"><code>docker run -it --rm --net=host ghcr.io/eclipse-kuksa/kuksa-databroker-cli:latest
 </code></pre><p>Here is how you can use it:</p>
-<pre tabindex="0"><code>client&gt; get Vehicle.Speed
--&gt; Vehicle.Speed: ( NotAvailable )
-client&gt; feed Vehicle.Speed 200
--&gt; Ok
-client&gt; get Vehicle.Speed
--&gt; Vehicle.Speed: 200.00
-client&gt; quit
+<pre tabindex="0"><code>kuksa.val.v1 &gt; get Vehicle.Speed
+[get]  OK  
+Vehicle.Speed: NotAvailable
+kuksa.val.v1 &gt; publish Vehicle.Speed 200
+[publish]  OK  
+kuksa.val.v1 &gt; get Vehicle.Speed
+[get]  OK  
+Vehicle.Speed: 200.00 km/h
+kuksa.val.v1 &gt; quit
 Bye bye!
 </code></pre><p>An alternative is the kuksa-client CLI (based on our Python client library).</p>
 <p>Here is how you start it:</p>
-<pre tabindex="0"><code>docker run -it --rm --net=host ghcr.io/eclipse-kuksa/kuksa-python-sdk/kuksa-client:main
+<pre tabindex="0"><code>docker run -it --rm --net=host ghcr.io/eclipse-kuksa/kuksa-python-sdk/kuksa-client:latest
 </code></pre><p>Here is how you can use it:</p>
 <pre tabindex="0"><code>Test Client&gt; getValue Vehicle.Speed
 {
@@ -287,19 +291,20 @@ Bye bye!
 Test Client&gt; setValue Vehicle.Speed 200
 OK
 
-Test Client&gt; getValue Vehicle.Speed
+Test Client&gt; getValue Vehicle.Speed    
 {
     &#34;path&#34;: &#34;Vehicle.Speed&#34;,
     &#34;value&#34;: {
         &#34;value&#34;: 200.0,
-        &#34;timestamp&#34;: &#34;2023-01-16T12:43:57.305350+00:00&#34;
+        &#34;timestamp&#34;: &#34;2024-11-13T14:29:37.156154+00:00&#34;
     }
 }
 
 Test Client&gt; quit
-gRPC channel disconnected.
-</code></pre><h2 id="reading-and-writing-vss-data-with-code">Reading and Writing VSS data with code</h2>
-<p>To realize your ideas with KUKSA.val you need to write programs that interact with its API. The easiest way to achieve this is using our Python library.</p>
+2024-11-13 14:29:50,087 INFO kuksa_client.cli_backend.grpc: gRPC channel disconnected.
+</code></pre><p>It is also possible to install the kuksa-client using <a href="https://pypi.org/project/kuksa-client/">PyPI</a></p>
+<h2 id="reading-and-writing-vss-data-with-code">Reading and Writing VSS data with code</h2>
+<p>To realize your ideas with Kuksa you need to write programs that interact with its API. The easiest way to achieve this is using our Python library.</p>
 <h3 id="generating-data">Generating data</h3>
 <p>Create a file <code>speed_provider.py</code> with the following content</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">from</span> kuksa_client.grpc <span style="color:#f92672">import</span> VSSClient
@@ -330,43 +335,51 @@ gRPC channel disconnected.
 </span></span><span style="display:flex;"><span>        print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Received updated speed: </span><span style="color:#e6db74">{</span>speed<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
 </span></span></code></pre></div><p>Do a <code>pip install kuksa-client</code> and start with</p>
 <pre tabindex="0"><code>python ./speed_subscriber.py
+</code></pre><p>If you now run <code>speed_provider.py</code> and <code>speed_subscriber.py</code> in parallel you should get updated speed values in the subscriber.</p>
+<pre tabindex="0"><code>Received updated speed: 0.0
+Received updated speed: 1.0
+Received updated speed: 2.0
+Received updated speed: 3.0
+Received updated speed: 4.0
+Received updated speed: 5.0
+...
 </code></pre><h2 id="faq--notes">FAQ &amp; Notes</h2>
 <p>Frequently anticipated questions and tips.</p>
 <h3 id="this-is-not-working-on-os-x">This is not working on OS X</h3>
 <p>Unfortunately OS X has a bug that does not allow you to use the Databroker default port 55555. To change when starting the server:</p>
-<pre tabindex="0"><code>docker run -it --rm --net=host ghcr.io/eclipse/kuksa.val/databroker:master  --port 55556 --insecure
+<pre tabindex="0"><code>docker run -it --rm --net=host ghcr.io/eclipse-kuksa/kuksa-databroker:latest --port 55556 --insecure
 </code></pre><p>Using the databroker-cli</p>
-<pre tabindex="0"><code>docker run -it --rm --net=host -e KUKSA_DATA_BROKER_PORT=55556 ghcr.io/eclipse/kuksa.val/databroker-cli:master
+<pre tabindex="0"><code>docker run -it --rm --net=host -e KUKSA_DATA_BROKER_PORT=55556 ghcr.io/eclipse-kuksa/kuksa-databroker-cli:latest
 </code></pre><p>Using kuksa-client CLI</p>
-<pre tabindex="0"><code>docker run -it --rm --net=host ghcr.io/eclipse-kuksa/kuksa-python-sdk/kuksa-client:main grpc://127.0.0.1:55556
+<pre tabindex="0"><code>docker run -it --rm --net=host ghcr.io/eclipse-kuksa/kuksa-python-sdk/kuksa-client:latest grpc://127.0.0.1:55556
 </code></pre><h3 id="docker-desktop-host-networking-not-supported">Docker desktop: Host networking not supported</h3>
 <p>The examples above all used docker&rsquo;s <code>--net=host</code> option. That is quite convenient for development, as basically your containers &ldquo;share&rdquo; your hosts networking and there is no need for any port publishing.</p>
 <p>However when using Docker Desktop on Mac OS or Windows, <a href="https://docs.docker.com/network/host/">host networking is not supported</a>.</p>
 <p>One alternative is using a Docker distribution, that does support it even on Mac OS or Windows. <a href="https://rancherdesktop.io">Rancher Desktop</a> is an alternative that does.</p>
 <p>With Docker Desktop you can still forward ports, so this should work:</p>
-<pre tabindex="0"><code>docker run -it --rm  --publish 55556:55556 ghcr.io/eclipse/kuksa.val/databroker:master  --port 55556 --insecure
+<pre tabindex="0"><code>docker run -it --rm --publish 55556:55556 ghcr.io/eclipse-kuksa/kuksa-databroker:latest  --port 55556 --insecure
 </code></pre><p>From your host computer you can now reach databroker at <code>127.0.0.1:55556</code>. To connect from another container, you need to use your computers IP address (<strong>not</strong> 127.0.0.1), i.e. to use the client</p>
-<pre tabindex="0"><code>docker run -it --rm  -e KUKSA_DATA_BROKER_PORT=55556 -e KUKSA_DATA_BROKER_ADDR=&lt;YOUR_IP&gt; ghcr.io/eclipse/kuksa.val/databroker-cli:master
+<pre tabindex="0"><code>docker run -it --rm  -e KUKSA_DATA_BROKER_PORT=55556 -e KUKSA_DATA_BROKER_ADDR=&lt;YOUR_IP&gt; ghcr.io/eclipse-kuksa/kuksa-databroker-cli:latest
 </code></pre><p>Recent versions of the databroker-cli also support command line arguments, so you can also write</p>
-<pre tabindex="0"><code>docker run -it --rm   ghcr.io/eclipse/kuksa.val/databroker-cli:master  --server http://&lt;YOUR_IP&gt;:55556
-</code></pre><h3 id="feedset-why-is-my-data-not-updated">feed/set: Why is my data not updated?</h3>
+<pre tabindex="0"><code>docker run -it --rm  ghcr.io/eclipse-kuksa/kuksa-databroker-cli:latest  --server http://&lt;YOUR_IP&gt;:55556
+</code></pre><h3 id="publishset-why-is-my-data-not-updated">publish/set: Why is my data not updated?</h3>
 <p>Some VSS points are &ldquo;sensors&rdquo;, e.g. Vehicle.Speed. You can read/get Vehicle speed, but we are not expecting to be able to influence it via VSS.
-Historically components, that gather the actual vehicle speed from some sensors/busses in a vehicle and providing a VSS representation to kuksa.val have been called <code>feeders</code>. Hence, to update the current speed in the Rust-cli, you use</p>
-<pre tabindex="0"><code>feed Vehicle.Speed 200
+Historically components, that gather the actual vehicle speed from some sensors/busses in a vehicle and providing a VSS representation to Kuksa have been called <code>feeders</code>. Hence, to update the current speed in the Rust-cli, you use</p>
+<pre tabindex="0"><code>publish Vehicle.Speed 200
 </code></pre><p>while in the Python-cli you use</p>
 <pre tabindex="0"><code>set Vehicle.Speed 200
 </code></pre><p>The other thing, that VSS provides you are &ldquo;actuators&rdquo; <code>Vehicle.Body.Trunk.Rear.IsOpen</code>. The most important thing to remember about actuators: Every actuators is also a sensor, so everything written on top applies as well!
 The second-most important thing is: For VSS actuatorss, it is expected that you might be able to influence the state of the real Vehicle by writing to them. So while being used as a sensor, you will get the current position of the Window in the example, you might also want to set the <em>desired</em> position.</p>
 <p>You express this in the databroker-cli as</p>
-<pre tabindex="0"><code>set Vehicle.Body.Trunk.Rear.IsOpen true
+<pre tabindex="0"><code>actuate Vehicle.Body.Trunk.Rear.IsOpen true
 </code></pre><p>In kuksa-client cli you do</p>
-<pre tabindex="0"><code>Test Client&gt; setValue -a  targetValue Vehicle.Body.Trunk.Rear.IsOpen True
+<pre tabindex="0"><code>Test Client&gt; setTargetValue Vehicle.Body.Trunk.Rear.IsOpen True
 </code></pre><p>In the code examples above you would do</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>client<span style="color:#f92672">.</span>set_target_values({
 </span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#39;Vehicle.Body.Trunk.Rear.IsOpen&#39;</span>: Datapoint(<span style="color:#66d9ef">True</span>),
 </span></span><span style="display:flex;"><span>    })
 </span></span></code></pre></div><h3 id="all-i-see-is-python-shouldnt-this-be-high-performance">All I see is Python, shouldn&rsquo;t this be high-performance?</h3>
-<p>Our Python library makes it easy to interact with databroker. While this is often sufficient for many applications, you are not limited by it: Databroker&rsquo;s native interface is based on GRPC, a high-performance GRPC framework. GRPC enables you to generate bindings for <em>any</em> language. Check the <a href="https://grpc.io">GRPC website</a> and take a look at the <a href="https://github.com/eclipse/kuksa.val/tree/master/proto/kuksa/val/v1">databroker interface definitions</a>.</p>
+<p>Our Python library makes it easy to interact with Databroker. While this is often sufficient for many applications, you are not limited by it: Databroker&rsquo;s native interface is based on gRPC, a high-performance GRPC framework. gRPC enables you to generate bindings for <em>any</em> language. Check the <a href="https://grpc.io">gRPC website</a> and take a look at the <a href="https://github.com/eclipse-kuksa/kuksa-databroker/tree/main/proto">Databroker interface definitions</a>.</p>
 
                         </div>
 

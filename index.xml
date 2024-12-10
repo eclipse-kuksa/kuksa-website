@@ -230,7 +230,7 @@
       <link>https://eclipse-kuksa.github.io/kuksa-website/quickstart/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://eclipse-kuksa.github.io/kuksa-website/quickstart/</guid>
-      <description>KUKSA.val Quickstart The quickest possible way to get KUKSA.val up and running&#xA;Note: The examples in this document do not use TLS or access control.&#xA;Starting broker First we want to run KUKSA.val databroker&#xA;docker run -it --rm --net=host ghcr.io/eclipse/kuksa.val/databroker:master --insecure Reading and Writing VSS data via CLI You can interact with the VSS datapoints using the cli clients. The first option is databroker-cli.&#xA;This is, how you start it:</description>
+      <description>Kuksa Quickstart The quickest possible way to get Kuksa up and running&#xA;Note: The examples in this document do not use TLS or access control. They use the latest released version and use default settings as far as possible. More details on how you can configure the components is available in the GitHub Repositories!&#xA;Starting broker First we want to run latest released version of Kuksa Databroker&#xA;docker run -it --rm --net=host ghcr.</description>
     </item>
   </channel>
 </rss>
